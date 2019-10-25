@@ -1,0 +1,257 @@
+.about-company {
+  padding-bottom: 12.813rem;
+}
+
+.about .box {
+  padding: 3.375rem 3.125rem 3.7rem;
+}
+
+.about .margin-top__minus_195 {
+  margin-top: -12.2rem;
+}
+
+.about__dates-item {
+  max-width: rem(770);
+  margin: 12.3rem auto 0;
+  display: flex;
+  position: relative;
+  h2 {
+    color: white;
+    font-size: 12.5rem;
+    font-weight: 400;
+    line-height: 14.688rem;
+    position: absolute;
+    top: -9rem;
+  }
+  h4 {
+    color: #000;
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 2.875rem;
+    position: relative;
+    z-index: 1
+    //margin-top: 9rem;
+    //margin-left: -8em;
+  }
+  .date_left {
+    left: 0
+  }
+  .date_right {
+    right: 0
+  }
+}
+
+.about__country {
+  margin-top: 19.6rem;
+}
+
+.list {
+  li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: rem(14);
+    &:before {
+      content: "";
+      display: block;
+      width: rem(6);
+      height: rem(6);
+      background-color: #000;
+      border-radius: 50%;
+      margin-right: rem(19);
+    }
+  }
+}
+
+.about-page {
+  padding-bottom: 12.813rem;
+}
+
+.about__top-photo {
+  height: 100vh;
+  background-color: #b4b4b4;
+}
+
+.about__video {
+  position: relative;
+  z-index: 2
+}
+
+.about__video-content {
+  margin-bottom: 4.3rem
+}
+
+.video {
+  width: 72.75rem;
+  height: 40.375rem;
+  background-color: #a2a1a1;
+}
+
+.about__video-text {
+  p {
+    margin-top: 1rem
+  }
+}
+
+.about__history {
+  margin-top: 8.3rem;
+  .box {
+    padding-right: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      margin-top: 1.2rem;
+    }
+  }
+}
+
+.about__history-title {
+  margin-bottom: 4rem
+}
+.about__history-box{
+  position: relative;
+  z-index: 1;
+}
+.about__history-photo {
+  width: 80rem;
+  height: 50.625rem;
+  background-color: #b4b4b4;
+  margin-top: -9.5rem;
+}
+
+.about__country-content {
+  margin-top: -12.3rem;
+}
+
+.about__history-content {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 26rem;
+  margin-top: 12rem;
+  h3 {
+    color: white;
+    font-size: 33.75rem;
+    font-weight: 400;
+    line-height: 8.4rem;
+  }
+  h5 {
+    color: black;
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 2.875rem;
+    margin: auto;
+  }
+  .width-per_50 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    &:first-child{
+      h3{
+        margin-top: -7rem;
+      }
+    }
+    h5 {
+      position: absolute;
+      top: 2rem;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.dove__svg {
+  width: 17.625rem;
+  height: 18.313rem;
+  fill: white;
+}
+
+.about__tastes {
+  margin-top: 15.6rem
+}
+
+.about__tastes-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.6rem;
+}
+
+.about__tastes-wrapper {
+  margin-top: 11.4em
+}
+
+.about__tastes-title {
+  padding-top: 1.3rem;
+  width: 19.063rem;
+  border-top: 0.188rem solid #303030;
+}
+
+.about__tastes-photo {
+  width: 64.375rem;
+  height: 50.625rem;
+  background-color: #b4b4b4;
+}
+
+.about__tastes-product {
+
+  margin-top: 3.8rem;
+}
+
+.about__tastes-product .swiper-wrapper {
+  //flex-wrap: wrap;
+  //justify-content: center;
+  justify-content: space-between;
+}
+
+.about__tastes-item {
+  width: 8.313rem;
+  text-align: center;
+  p {
+    color: black;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+  }
+}
+
+.about__tastes-image {
+  width: 8.313rem;
+  height: 11.625rem;
+  position: relative;
+  margin-bottom: 1.7rem;
+  margin: auto;
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    //background: url("../images/products/banki_shadow.png") no-repeat center / contain;
+    left: -1.55em;
+    bottom: -3em;
+    width: 9.2rem;
+    height: 9.75rem;
+  }
+}
+
+.about__cheese-photo {
+  width: 80rem;
+  height: 50.625rem;
+  margin-top: 4.1em
+}
+
+.about__cheese {
+  margin-top: 9.2rem;
+  h5 {
+    margin-top: 1.6rem
+  }
+  .box {
+    width: 49.688rem;
+    height: auto;
+    //padding-bottom: 0
+  }
+}

@@ -1,0 +1,8058 @@
+html {
+
+  .desktop__hide {
+    display: none
+  }
+
+  .mobile__hide {
+    display: block
+  }
+
+  @media (max-height: 910px) {
+    .menu-content {
+      margin-bottom: 1rem
+    }
+
+    .menu-list {
+      margin-top: 1rem;
+    }
+
+    .menu-list a {
+      line-height: 3rem
+    }
+  }
+
+  @media (max-height: 800px) {
+    .menu-content {
+      margin-bottom: 1rem
+    }
+
+    .menu-list {
+      margin-top: 1rem;
+    }
+
+    .menu-list a {
+      line-height: 2rem
+    }
+  }
+
+  @media (min-width: 1921px) {
+    .wrapper {
+      max-width: 90.625rem;
+      margin: 0 auto
+    }
+
+    .index__top .wrapper {
+      margin: 0 auto !important
+    }
+
+    .production h5 br {
+      display: none
+    }
+
+    .recipes-5 .recipes__circle-photo {
+      margin-right: 5rem
+    }
+  }
+
+  @media (min-width: 1066px) and (max-width: 1580px) {
+    .wrapper {
+      padding: 0 3.125rem;
+      margin: 0 3.125rem
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1065px) {
+    .wrapper {
+      padding: 0 1.875rem;
+      margin: 0 1.875rem
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    menu {
+      width: 11.875rem
+    }
+
+    main {
+      padding-left: 11.875rem
+    }
+
+    .contacts-top {
+      margin-bottom: 8.4rem
+    }
+
+    .contacts:before {
+      height: 22rem;
+      left: 0
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1297px) {
+    .btn__detail {
+      width: 8.5rem;
+      height: 3.6rem
+    }
+  }
+
+  @media screen and (max-width: 1439px) {
+    .btn__svg {
+      display: none
+    }
+
+    .btn-small__svg {
+      display: block;
+      width: 1rem;
+      height: .9rem;
+      margin-left: .5rem
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 1439px) {
+    article h1 {
+      font-size: 2.813rem;
+      line-height: 3.75rem
+    }
+
+    article h2 {
+      font-size: 2.813rem;
+      line-height: 3.75rem
+    }
+
+    article h3 {
+      font-size: 2.375rem;
+      line-height: 3.125rem
+    }
+
+    article h4 {
+      font-size: 1.375rem;
+      line-height: 2rem
+    }
+
+    article h5 {
+      font-size: 1.125rem;
+      line-height: 2.063rem
+    }
+
+    article p {
+      font-size: .875rem;
+      line-height: 1.5rem
+    }
+
+    article small {
+      font-size: .875rem
+    }
+  }
+
+  @media (max-width: 640px) {
+    article{
+      h1{
+        &.line-height_5{
+          line-height: 2.625rem
+        }
+        font-size: 2.125rem;
+        line-height: 2.625rem
+      }
+    }
+    article h2 {
+      font-size: 2.125rem;
+      line-height: 2.625rem
+    }
+
+    article h3 {
+      font-size: 1.875rem;
+      line-height: 2.5rem
+    }
+
+    article h4 {
+      font-size: 1.375rem
+    }
+
+    article h5 {
+      font-size: 1.125rem;
+      line-height: 1.875rem
+    }
+
+    article p {
+      font-size: .875rem;
+      line-height: 1.5rem
+    }
+
+    article small {
+      font-size: .875rem
+    }
+  }
+
+  @media (max-width: 1919px) {
+    .right_zero {
+      padding-right: 0;
+      margin-right: 0
+    }
+
+    .left_zero {
+      padding-left: 0;
+      margin-left: 0
+    }
+
+    .padding-right_zero {
+      padding-right: 0
+    }
+
+    .padding-left_zero {
+      padding-left: 0
+    }
+
+    .padding-bottom_zero {
+      padding-bottom: 0 !important
+    }
+
+    .padding-right_50 {
+      padding-right: 3.125rem
+    }
+
+    .padding-left_50 {
+      padding-left: 3.125rem
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+    .padding-left_zero-mobile {
+      padding-left: 0 !important
+    }
+  }
+
+  @media (min-width: 1280px) and (max-width: 1440px) {
+    .index__photo {
+      height: 43.75rem
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 1279px) {
+    .box-middle__vertical {
+      width: 29.625rem
+    }
+
+    .box {
+      padding-left: 1.875rem;
+      padding-right: 1.875rem;
+      padding-bottom: 3.75rem
+    }
+
+    .index__photo {
+      height: 31.25rem
+    }
+
+    .padding-right_zero-mobile {
+      padding-right: 0
+    }
+
+    .padding-left_zero-mobile {
+      padding-right: 0
+    }
+  }
+
+  @media screen and (max-width: 740px) and (orientation: landscape) {
+    .menu-header, .menu-mobile__wrapper {
+      display: none
+    }
+
+    .rotate-device {
+      display: flex
+    }
+
+    main {
+      //display: none
+    }
+  }
+
+  @media (min-width: 1440px) and (max-width: 1919px) {
+    .menu-list a {
+      font-size: 1.125rem;
+      line-height: 2.875rem
+    }
+
+    .menu-content {
+      text-align: center;
+      margin-bottom: 3.4rem
+    }
+
+    .contacts {
+      padding-top: 8rem
+    }
+
+    .logo__desktop__hd {
+      display: block;
+      width: 11.25rem
+    }
+
+    .photo__milk {
+      width: 73.188rem;
+      height: 55.875rem;
+      position: absolute;
+      right: -36.3rem;
+      top: -5.7rem;
+      z-index: 3
+    }
+
+    .photo__lavender {
+      width: 67rem;
+      height: 56.125rem;
+      right: -30em;
+      top: -7rem
+    }
+
+    .index__recipe .box {
+      padding-right: 12rem
+    }
+
+    .index__recipe h5 {
+      max-width: 25.5rem
+    }
+
+    .index__recipe p {
+      max-width: 27rem
+    }
+
+    .index__region {
+      margin-top: 28.2rem;
+    }
+
+    .index__region .box {
+      bottom: 0
+    }
+
+    .index__region article {
+      max-width: 26rem
+    }
+
+    .index__region article h5 {
+      margin-top: 1.3rem
+    }
+
+    .index__region article p {
+      max-width: 24rem
+    }
+
+    .index__top-photo article {
+      bottom: 4.1rem
+    }
+
+    .index__production {
+      margin-top: 30.3rem;
+    }
+
+    .index__production article {
+      max-width: 33.8rem
+    }
+
+    .index__photo {
+      height: 43.75rem;
+      margin-left: 6.25rem
+    }
+
+    .index__recipe {
+      margin-top: 20.8rem
+    }
+
+    .index__news {
+      margin-top: 13.1rem
+    }
+
+    .index__tastes {
+      margin-top: 10.3rem
+    }
+
+    .index__tastes-content {
+      margin: 6.5em auto 12.188rem
+    }
+
+    .tastes__top .swiper-button-prev {
+      left: 6.2rem
+    }
+
+    .tastes__top .swiper-button-next {
+      right: 6.2rem
+    }
+
+    .tastes-slider__left {
+      width: 50%
+    }
+
+    .tastes-slider__right {
+      width: 51%;
+      padding-left: 2.3rem
+    }
+
+    .index__recipe-almete {
+      margin-top: 21.4rem;
+    }
+
+    .index__recipe-almete .box-short {
+      position: absolute;
+      top: -3.8rem;
+      left: 0
+    }
+
+    .tastes__bottom-photo {
+      width: 5.9rem;
+      height: 8rem;
+    }
+
+    .tastes__bottom-photo:before {
+      width: 5.7rem;
+      height: 4.3rem;
+      left: -1rem;
+      bottom: -.6rem
+    }
+
+    .tastes__bottom-item {
+      height: 6.6rem;
+    }
+
+    .tastes__bottom-item:after {
+      bottom: -3.75em;
+      width: 9.5rem;
+      height: 4.75rem
+    }
+
+    .tastes__bottom-item.active:after {
+      transform: translate(-5.8rem, -.85rem) scale(1)
+    }
+
+    .box-large {
+      width: 45.625rem
+    }
+
+    .box-middle__vertical {
+      width: 40.75rem
+    }
+
+    .news-photo__small {
+      height: 18rem
+    }
+
+    .news-item {
+      max-width: 18rem
+    }
+
+    .main-footer_margin {
+      margin-top: 15rem;
+      margin-bottom: 8.7em
+    }
+
+    h5 br {
+      display: none
+    }
+
+    p br {
+      display: none
+    }
+
+    .recipes h6 {
+      margin-bottom: 2rem
+    }
+
+    .recipes .box {
+      width: 40.625rem;
+      padding: 0 3.125rem .9rem
+    }
+
+    .recipes-1 {
+      padding-top: 13rem;
+    }
+
+    .recipes-1 .box-middle {
+      width: 40.5rem
+    }
+
+    .recipes-1 h5 {
+      max-width: 30rem;
+      margin-top: 2.2rem
+    }
+
+    .recipes-1 p {
+      max-width: 26rem;
+      margin-top: 1.8rem
+    }
+
+    .recipes-1__photo {
+      width: 16.938rem;
+      height: 17.938rem;
+      left: 32rem;
+      bottom: -10.5rem
+    }
+
+    .recipes-2 {
+      margin-top: 20.3rem;
+    }
+
+    .recipes-3 {
+      margin-top: 37.8rem
+    }
+
+    .recipes-4 {
+      margin-top: 85rem
+    }
+
+    .recipes-4__photo {
+      width: 22.938rem;
+      height: 25.063rem;
+      bottom: -21rem;
+      right: -1.2rem
+    }
+
+    .recipes__circle {
+      width: 37.5rem;
+      height: 37.5rem
+    }
+
+    .recipes .recipes__circle-photo {
+      width: 22.5rem
+    }
+
+    .recipes__circle__left .recipes__title {
+      bottom: 7rem;
+      right: -20rem;
+      max-width: 26rem
+    }
+
+    .recipes__circle__right .recipes__title {
+      bottom: 9.4rem;
+      left: -19rem;
+      max-width: 26rem
+    }
+
+    .recipes-5 {
+      margin-top: 55rem
+    }
+
+    .recipes-6 {
+      margin-top: 5.9rem;
+    }
+
+    .recipes-6 .recipes__circle-photo {
+      width: 26rem
+    }
+
+    .about__top .wrapper {
+      padding-left: 3.125rem !important
+    }
+
+    .about__top .box {
+      margin-top: -9.4rem;
+      width: 35.625rem
+    }
+
+    .video {
+      width: 51.875rem;
+      height: 28.75rem
+    }
+
+    .popup__video .b-popup__content {
+      width: 70rem;
+      height: 39.375rem
+    }
+
+    .popup__video .close {
+      right: -5rem;
+      top: -5rem
+    }
+
+    .about.about__video {
+      margin-top: -4rem
+    }
+
+    .about__history {
+      margin-top: 6.6rem;
+    }
+
+    .about__history article {
+      max-width: 80%
+    }
+
+    .about__history-photo {
+      width: 60rem;
+      height: 43.75rem
+    }
+
+    .about__3 {
+      margin-top: -2.6rem;
+    }
+
+    .about__3 .box {
+      width: 43.75rem;
+      height: auto
+    }
+
+    .about__3-content {
+      margin-top: -17.6rem
+    }
+
+    .about__dates {
+      margin-top: 9.8rem;
+    }
+
+    .about__dates article {
+      max-width: 37rem
+    }
+
+    .about__dates-item {
+      margin: 12.3rem auto 0;
+    }
+
+    .about__dates-item:nth-child(2) {
+      margin-top: 12.5rem
+    }
+
+    .about__country {
+      margin-top: 15.6rem;
+    }
+
+    .about__country .width_860 {
+      max-width: 60%
+    }
+
+    .about__country-photo {
+      margin-top: 6.2rem
+    }
+
+    .about__country-content {
+      margin-top: -17.4rem;
+    }
+
+    .about__country-content .box {
+      width: 43.75rem
+    }
+
+    .about__history-content {
+      margin-left: 0;
+      height: auto;
+    }
+
+    .about__history-content .width-per_50 h5 {
+      max-width: 29rem;
+      width: 100%
+    }
+
+    .about__history-content .width-per_50:first-child h3 {
+      position: relative;
+      top: -1.2rem
+    }
+
+    .about__history-content .width-per_50:first-child h5 {
+      top: -1.3rem
+    }
+
+    .about__history-content .width-per_50:last-child svg {
+      position: relative;
+      top: -.8rem
+    }
+
+    .about__history-content .width-per_50:last-child h5 {
+      top: -1.2rem
+    }
+
+    .about-company .about__top .box {
+      margin-top: -9.4rem
+    }
+
+    .about-company .about__video article {
+      width: 100%;
+      max-width: 44rem
+    }
+
+    .about-company .about__history {
+      margin-top: 9.8rem;
+    }
+
+    .about-company .about__history .box {
+      width: 43.75rem;
+      top: 1.8rem
+    }
+
+    .about-company .about__history article {
+      max-width: 36rem
+    }
+
+    .about-company .about__tastes {
+      margin-top: 11.2rem;
+    }
+
+    .about-company .about__tastes br {
+      display: block
+    }
+
+    .about__tastes-photo {
+      width: 55%;
+      height: 36.875rem
+    }
+
+    .about__tastes-wrapper {
+      margin-top: 5.7rem;
+    }
+
+    .about__tastes-wrapper article:first-child {
+      max-width: 30rem
+    }
+
+    .about__tastes-image {
+      width: 7.688rem;
+      height: 9.188rem;
+    }
+
+    .about__tastes-image:after {
+      left: -.55em;
+      bottom: -.4em;
+      width: 7rem;
+      height: 3.55rem
+    }
+
+    .about__tastes-item p {
+      line-height: 1.5rem
+    }
+
+    .about__cheese {
+      margin-top: 12.6rem;
+    }
+
+    .about__cheese .box {
+      width: 43.75rem;
+      margin-top: -3rem
+    }
+
+    .about__cheese article {
+      padding-right: 5rem
+    }
+
+    .about__cheese p {
+      margin-top: 1rem
+    }
+
+    .about__cheese-photo {
+      width: 60rem;
+      height: 43.75rem;
+      margin-top: 3.2em
+    }
+
+    .production .production__icon {
+      margin-top: -17rem
+    }
+
+    .production .wrapper {
+      padding: 0 3.125rem
+    }
+
+    .production-page h1 {
+      max-width: 38rem;
+      margin-bottom: 4.5rem;
+    }
+
+    .production-page h1 br {
+      display: none
+    }
+
+    .production-page .width-712 {
+      max-width: 40rem
+    }
+
+    .production__icon {
+      width: 31.25rem;
+      height: 29.438rem
+    }
+
+    .production__wrapper {
+      padding-bottom: 9rem;
+    }
+
+    .production__wrapper:after {
+      width: 114.688rem;
+      bottom: -15.3em
+    }
+
+    .production__progress {
+      margin-top: 7rem;
+    }
+
+    .production__progress h1 {
+      margin-bottom: 1.5rem
+    }
+
+    .production__progress-box {
+      width: 50.938rem;
+      margin-top: -4.1rem;
+    }
+
+    .production__progress-box article {
+      max-width: 31rem
+    }
+
+    .production__progress-photo {
+      width: 36.85rem;
+      height: 46.175rem;
+      left: 31.4em;
+      bottom: -21em
+    }
+
+    .production__quality {
+      padding-top: 13.9rem
+    }
+
+    .production__quality-photo {
+      width: 50.313rem;
+      height: 72.688rem
+    }
+
+    .production__quality-box, .production__best-box {
+      height: auto;
+      width: 53rem
+    }
+
+    .production__best-photo {
+      width: 28.25rem;
+      height: 23.5rem;
+      right: -3.8rem;
+      bottom: -18.9em
+    }
+
+    .production__natural {
+      margin-top: 23rem;
+    }
+
+    .production__natural:before {
+      width: 91.3rem;
+      height: 97.25rem;
+      right: 0;
+      top: -16.8em
+    }
+
+    .production__best {
+      margin-top: 15rem
+    }
+
+    .production__last {
+      margin-top: 14rem
+    }
+
+    .wrapper__big {
+      margin: 0 3.125rem;
+      width: auto;
+      top: 3rem
+    }
+
+    .geography__top-item {
+      width: 41%
+    }
+
+    .geography__right__item-two .margin-left__minus_80 {
+      margin-left: -1.9rem
+    }
+
+    .geography__right {
+      margin-right: -.8rem
+    }
+
+    .geography__top_margin {
+      margin-top: 1.4rem
+    }
+
+    .geography__left {
+      width: 50%
+    }
+
+    .geography__popup {
+      bottom: 2rem
+    }
+
+    .geography__pin-one .geography__popup {
+      left: 42%
+    }
+
+    .geography__pin-item h3 {
+      font-size: 2.25rem;
+      line-height: 3rem
+    }
+
+    .pin {
+      margin-bottom: 1.6rem
+    }
+
+    .contacts-top {
+      margin-bottom: 8.8rem
+    }
+
+    .contacts-info p {
+      width: 90%
+    }
+
+    .content__inner p br {
+      display: block
+    }
+
+    .news-all-page .news-photo {
+      height: 23rem
+    }
+
+    .news-line__1 {
+      margin-top: 7.5rem
+    }
+
+    .news-page .news-photo {
+      height: 41.25rem
+    }
+
+    .news-line__2 {
+      margin-top: 5.6rem;
+    }
+
+    .news-line__2 .width_710 {
+      max-width: 32rem
+    }
+
+    .news-title_margin {
+      margin-top: 2.7rem;
+      max-width: 50rem
+    }
+
+    .news-content__photo {
+      width: 43.75rem;
+      height: 28.75rem
+    }
+
+    .news-line__2_margin {
+      margin-top: 5.9rem
+    }
+
+    .news-line__3 {
+      margin-top: 3.5rem
+    }
+
+    .width_935 {
+      max-width: 44.4375rem
+    }
+
+    .news-line__3_second-text {
+      margin-top: 2.6rem;
+    }
+
+    .news-line__3_second-text .width_640:last-child {
+      position: relative
+    }
+
+    .news-line__4 {
+      margin-top: 6.8rem
+    }
+
+    .news-slider {
+      height: 43.65rem
+    }
+
+    .news-line__5 .width_1015 {
+      max-width: 44.4375rem
+    }
+
+    .news__other {
+      margin-top: 13.9rem
+    }
+
+    .news__other_content {
+      margin-top: 2.6rem
+    }
+  }
+
+  @media (min-width: 1280px) and (max-width: 1439px) {
+    .menu-content {
+      margin-bottom: 2.4rem
+    }
+
+    .menu-list {
+      margin-top: .9rem;
+    }
+
+    .menu-list a {
+      font-size: 1rem;
+      line-height: 2.375rem
+    }
+
+    .menu-header__item p {
+      font-size: .75rem;
+      line-height: 2rem
+    }
+
+    .socials {
+      margin-bottom: 1.4rem
+    }
+
+    .menu-footer .footer-title {
+      text-align: center;
+      margin-bottom: .4rem
+    }
+
+    .contacts {
+      padding-top: 8rem
+    }
+
+    .logo__desktop_mini {
+      display: block;
+      width: 8.5rem
+    }
+
+    .index__photo {
+      margin-left: 3.125rem
+    }
+
+    .index__production {
+      margin-top: 22.6rem;
+    }
+
+    .index__production .pos-top.pos-top_35 {
+      top: -2.3rem
+    }
+
+    .index__production-wrapper {
+      padding-left: 0
+    }
+
+    .index__recipe {
+      margin-top: 17.4rem;
+    }
+
+    .index__recipe .pos-top_35 {
+      top: -2.6rem;
+      max-width: 21rem
+    }
+
+    .index__recipe p {
+      margin-top: .8rem
+    }
+
+    .index__recipe .wrapper {
+      padding-left: 0
+    }
+
+    .index__top .width-750 {
+      max-width: 38.875rem
+    }
+
+    .index__top-photo {
+      height: 40.625rem;
+      margin-bottom: 3rem;
+    }
+
+    .index__top-photo article {
+      bottom: 3.1em
+    }
+
+    .index__region {
+      margin-top: 25.1rem;
+    }
+
+    .index__region .pos__bottom-200 {
+      bottom: 7.5em
+    }
+
+    .index__region .wrapper {
+      margin-top:0
+    }
+
+    .index__region .pos-top {
+      top: -2.5rem;
+    }
+
+    .index__region .pos-top h5 {
+      margin-top: 1.8rem;
+      max-width: 22rem
+    }
+
+    .index__region .pos-top p {
+      margin-top: .8rem;
+      max-width: 25rem
+    }
+
+    .index__tastes {
+      margin-top: 14.7rem;
+      height: 58.988rem;
+    }
+
+    .index__tastes .pos-top.pos-top_35 {
+      top: -2.4rem
+    }
+
+    .box-large {
+      width: 37.375rem
+    }
+
+    .box-middle {
+      width: 33.75rem
+    }
+
+    .box-middle__vertical {
+      width: 30.938rem
+    }
+
+    .photo__lavender {
+      width: 78rem;
+      height: 55.125rem;
+      right: -40.2em;
+      top: -7.2em
+    }
+
+    .photo__milk {
+      width: 63.188rem;
+      height: 57.875rem;
+      right: -24.4rem;
+      top: -7.5rem
+    }
+
+    .index__recipe-almete {
+      margin-top: 19.4rem;
+    }
+
+    .index__recipe-almete .box {
+      top: -3.8rem
+    }
+
+    .main-footer_margin {
+      margin-top: 8.7rem;
+      margin-bottom: 7.5em
+    }
+
+    .tastes-item:before {
+      width: 6.1rem;
+      height: 6.1rem
+    }
+
+    .tastes-item:after {
+      width: 8.7rem;
+      height: 8.7rem
+    }
+
+    .index__tastes-content {
+      width: 35.5rem;
+      height: 35.5rem;
+      margin: 5.9em auto 12.188rem
+    }
+
+    .taste-drag {
+      padding: 1.5rem;
+      width: 10rem;
+      height: 10rem
+    }
+
+    .taste-milk__img {
+      margin-top: .8em;
+      margin-left: .8em
+    }
+
+    .tastes-center {
+      width: 22.6rem;
+      height: 22.6rem
+    }
+
+    .tastes-center__wrapper {
+      width: 10.9375rem;
+      height: 15.1875rem;
+    }
+
+    .tastes-center__wrapper:after {
+      left: -2.1em;
+      bottom: -4.9em;
+      width: 12rem;
+      height: 14.75rem
+    }
+
+    .tastes__title h3 {
+      font-size: 1.625rem;
+      line-height: 2.5rem
+    }
+
+    .taste-ogurec {
+      top: 4.7em;
+      left: -4.3em
+    }
+
+    .taste-cheese {
+      top: -4.3em;
+      right: 4.5em
+    }
+
+    .taste-zelen {
+      top: -4.3em;
+      left: 4.7em
+    }
+
+    .taste-milk {
+      top: 18.6em;
+      left: -4.4em
+    }
+
+    .taste-garlic {
+      top: 5.2em;
+      right: -4.9em
+    }
+
+    .taste-tomato {
+      bottom: -4.7em;
+      left: 4.6em
+    }
+
+    .taste-mushroom {
+      top: 18.5em;
+      right: -4.9em
+    }
+
+    .tastes__title {
+      top: 29.2em;
+      right: -.2em;
+      width: 20rem
+    }
+
+    .news-item {
+      max-width: 17rem
+    }
+
+    .news-photo__small {
+      height: 17rem
+    }
+
+    .index__news {
+      margin-top: 15.9rem;
+    }
+
+    .index__news .btn__detail {
+      margin-top: 8.1rem;
+      width: 9rem
+    }
+
+    .index__news-content {
+      margin-top: 5.1rem
+    }
+
+    .news-text {
+      margin-top: 2.75rem
+    }
+
+    h5 br {
+      display: none
+    }
+
+    p br {
+      display: none
+    }
+
+    .recipes-page {
+      height: auto
+    }
+
+    .recipes h6 {
+      margin-bottom: 2.2rem
+    }
+
+    .recipes .box {
+      width: 31.875rem;
+      padding: 0 1.875rem .2rem
+    }
+
+    article h6 {
+      font-size: 4.375rem;
+      line-height: 4.75rem
+    }
+
+    .recipes-1 {
+      padding-top: 14.8rem;
+    }
+
+    .recipes-1 .pos-top.pos-top_35 {
+      top: -2.7rem
+    }
+
+    .recipes-1 .box-middle {
+      width: 31.25rem
+    }
+
+    .recipes-1 h1 {
+      margin-bottom: 1.4rem !important
+    }
+
+    .recipes-1 h5 {
+      max-width: 30rem;
+      margin-top: 0
+    }
+
+    .recipes-1 p {
+      max-width: 18rem;
+      margin-top: 1.4rem
+    }
+
+    .recipes-1__photo {
+      width: 14.875rem;
+      height: 15.75rem;
+      left: 23.7rem;
+      bottom: -5.9rem
+    }
+
+    .recipes-2 {
+      margin-top: 14.3rem
+    }
+
+    .recipes-3 {
+      margin-top: 34.2rem;
+    }
+
+    .recipes-3 article {
+      max-width: 22rem
+    }
+
+    .recipes-4 {
+      margin-top: 45.5rem
+    }
+
+    .recipes__circle {
+      width: 31.25rem;
+      height: 31.25rem
+    }
+
+    .recipes .recipes__circle-photo {
+      width: 18.938rem
+    }
+
+    .recipes__circle__left {
+      margin-left: 3.125rem;
+    }
+
+    .recipes__circle__left .recipes__title {
+      bottom: 6.5rem;
+      right: -16.5rem;
+      max-width: 21.938rem
+    }
+
+    .recipes__circle__right {
+      margin-right: 3.125rem;
+    }
+
+    .recipes__circle__right .recipes__title {
+      bottom: 8.2rem;
+      left: -15.5rem;
+      max-width: 21.938rem
+    }
+
+    .recipes-4__photo {
+      width: 20.188rem;
+      height: 22.063rem;
+      bottom: -22rem;
+      right: 0
+    }
+
+    .recipes-5 {
+      margin-top: 23.7rem
+    }
+
+    .recipes__title h3 {
+      font-size: 2.25rem;
+      line-height: 3rem
+    }
+
+    .recipes__title p {
+      font-size: .875rem;
+      font-weight: 400;
+      line-height: 1.5rem
+    }
+
+    .recipes-6 {
+      margin-top: 7rem;
+    }
+
+    .recipes-6 .recipes__circle-photo {
+      width: 21rem
+    }
+
+    .box h1 {
+      margin-bottom: 1.9rem
+    }
+
+    .about .box {
+      padding: 3.4625rem 3.125rem 3.7rem
+    }
+
+    .about.about__video {
+      margin-top: -4rem
+    }
+
+    .about__top .box {
+      padding-bottom: 6rem
+    }
+
+    .popup__video .b-popup__content {
+      width: 56rem;
+      height: 31.5rem
+    }
+
+    .popup__video .close {
+      right: -5rem;
+      top: -5rem
+    }
+
+    .video__play {
+      width: 4.375rem;
+      height: 4.375rem;
+    }
+
+    .video__play .play__svg {
+      height: 1.375rem
+    }
+
+    .about-page .pos-top.pos-top_35 {
+      top: -2.5rem
+    }
+
+    .about__top .pos-top {
+      max-width: 22rem
+    }
+
+    .about__top .wrapper {
+      padding-left: 3.125rem !important
+    }
+
+    .about__top .box {
+      margin-top: -7.4rem;
+      width: 27.813rem
+    }
+
+    .video {
+      width: 48.5rem;
+      height: 26.875rem
+    }
+
+    .about__video-content {
+      margin-top: 1rem
+    }
+
+    .about__history {
+      margin-top: 7.8rem;
+    }
+
+    .about__history article {
+      max-width: 43rem;
+    }
+
+    .about__history article h5 {
+      max-width: 38.8rem
+    }
+
+    .about__history article p {
+      max-width: 36rem
+    }
+
+    .about__history-photo {
+      width: 55.625rem;
+      height: 43.75rem
+    }
+
+    .about__3 {
+      margin-top: -2.6rem;
+    }
+
+    .about__3 .box {
+      width: 34.438rem
+    }
+
+    .about__3-content {
+      margin-top: -9.9rem
+    }
+
+    .about__dates {
+      margin-top: 9.1rem;
+    }
+
+    .about__dates .width_580 {
+      max-width: 38.25rem
+    }
+
+    .about__dates article {
+      max-width: 37rem
+    }
+
+    .about__dates-item {
+      max-width: 46rem;
+      margin: 10.6rem auto 0;
+    }
+
+    .about__dates-item h4 {
+      font-size: 1.5rem;
+      line-height: 2.5rem
+    }
+
+    .about__dates-item:nth-child(2) {
+      margin-top: 12rem
+    }
+
+    .about__dates-item:nth-child(4) {
+      margin-top: 10.2rem
+    }
+
+    .about__dates-item:nth-child(5) {
+      margin-top: 12.4rem
+    }
+
+    .about__dates-item:nth-child(6) {
+      margin-top: 9.8rem
+    }
+
+    .about__dates-item:nth-child(7) {
+      margin-top: 8.4rem
+    }
+
+    .about__dates-item:nth-child(8) {
+      margin-top: 12.3rem
+    }
+
+    .about__country {
+      margin-top: 9.3rem;
+    }
+
+    .about__country .width_860 {
+      max-width: 32rem
+    }
+
+    .about__country .small-box__line {
+      margin-top: .6rem;
+      max-width: 16rem
+    }
+
+    .about__country .list {
+      margin-top: 1.8rem
+    }
+
+    .about__country-photo {
+      margin-top: -1.2rem
+    }
+
+    .about__country-content {
+      margin-top: -9.9rem;
+    }
+
+    .about__country-content .box {
+      width: 34.438rem
+    }
+
+    .about-company .pos-top.pos-top_35 {
+      top: -2.5rem
+    }
+
+    .about-company .about__video article {
+      width: 100%;
+      max-width: 41rem
+    }
+
+    .about-company .about__top .box {
+      margin-top: -7.4rem
+    }
+
+    .about-company .about__history {
+      margin-top: 9.1rem;
+    }
+
+    .about-company .about__history .box {
+      width: 36.313rem;
+      top: 1.8rem
+    }
+
+    .about-company .about__history article {
+      max-width: 28.6rem
+    }
+
+    .about-company .about__history h5 {
+      bottom: auto;
+      max-width: 20rem;
+      width: 100%
+    }
+
+    .about-company .about__tastes {
+      margin-top: 8rem;
+    }
+
+    .about-company .about__tastes br {
+      display: block
+    }
+
+    .about-company .about__tastes .width_305 {
+      max-width: 16.0625rem
+    }
+
+    .about__tastes-photo {
+      width: 39.688rem;
+      height: 34.375rem
+    }
+
+    .about__tastes-wrapper {
+      margin-top: 9.2rem;
+    }
+
+    .about__tastes-wrapper article:first-child {
+      max-width: 30rem
+    }
+
+    .about__tastes-image {
+      width: 5.3125rem;
+      height: 7.5rem;
+      margin-bottom: .6rem;
+    }
+
+    .about__tastes-image:after {
+      left: -1.25em;
+      bottom: -.1em;
+      width: 6.4rem;
+      height: 2.75rem
+    }
+
+    .about__tastes-item {
+      width: 6.013rem;
+    }
+
+    .about__tastes-item p {
+      font-size: .875rem;
+      line-height: 1.25rem
+    }
+
+    .about__cheese {
+      margin-top: 8.3rem;
+    }
+
+    .about__cheese .box {
+      width: 34.375rem
+    }
+
+    .about__cheese article {
+      max-width: 52rem
+    }
+
+    .about__cheese p {
+      margin-top: 1rem
+    }
+
+    .about__cheese-photo {
+      width: 55.625rem;
+      height: 43.75rem;
+      margin-top: 3.2em
+    }
+
+    .about__history-content {
+      margin-left: 0;
+      justify-content: space-between;
+      height: auto;
+    }
+
+    .about__history-content .width-per_50:first-child h3 {
+      position: relative;
+      top: -1.5rem
+    }
+
+    .about__history-content .width-per_50:last-child svg {
+      position: relative;
+      top: -1rem
+    }
+
+    .about__history-content h5 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 2.5rem
+    }
+
+    .about__tastes-content {
+      margin-top: 3.6rem
+    }
+
+    .production .production__icon {
+      margin-top: -17rem
+    }
+
+    .production-page h1 {
+      max-width: 29rem;
+      margin-bottom: 1.5rem;
+      font-size: 4.375rem;
+      font-weight: 400;
+      line-height: 4.75rem;
+    }
+
+    .production-page h1 br {
+      display: none
+    }
+
+    .production-page .width-712 {
+      max-width: 34rem
+    }
+
+    .production__icon {
+      width: 24.188rem;
+      height: 22.813rem
+    }
+
+    .production__wrapper {
+      padding-bottom: 18rem;
+    }
+
+    .production__wrapper:before {
+      height: 45.25rem
+    }
+
+    .production__wrapper:after {
+      width: 114.688rem;
+      bottom: -15.3em
+    }
+
+    .production__progress-box {
+      width: 43rem;
+      margin-top: 3.9rem;
+    }
+
+    .production__progress-box h1 {
+      font-size: 2.813rem;
+      font-weight: 700;
+      line-height: 3.75rem
+    }
+
+    .production__progress-box article {
+      max-width: 90%
+    }
+
+    .production__progress-box .pos-top.pos-top_35 {
+      top: -2.4rem
+    }
+
+    .production__progress-photo {
+      width: 32.25rem;
+      height: 39.375rem;
+      left: 25.4em;
+      bottom: -22.7em
+    }
+
+    .production__quality {
+      padding-top: 20.9rem
+    }
+
+    .production__quality-box, .production__best-box {
+      height: auto;
+      width: 50.5rem;
+      padding-left: 5.525rem;
+    }
+
+    .production__quality-box .pos-top.pos-top_35, .production__best-box .pos-top.pos-top_35 {
+      top: -3.4rem;
+    }
+
+    .production__quality-box .pos-top.pos-top_35 p, .production__best-box .pos-top.pos-top_35 p {
+      margin-top: .9rem
+    }
+
+    .production__quality-box .padding-left_193, .production__best-box .padding-left_193 {
+      padding-left: 6rem
+    }
+
+    .production__quality-photo {
+      width: 45rem
+    }
+
+    .production__best-photo {
+      width: 26.85rem;
+      height: 22.5rem;
+      right: -6.2rem;
+      bottom: -17.5em
+    }
+
+    .production__natural-inner {
+      margin-top: 2.3rem;
+      max-width: 35rem
+    }
+
+    .production__natural {
+      margin-top: 17rem;
+    }
+
+    .production__natural:before {
+      width: 80.5rem;
+      height: 102.25rem;
+      right: 0;
+      top: -20.6em
+    }
+
+    .production__best {
+      margin-top: 18rem;
+    }
+
+    .production__best .width-712 {
+      max-width: 35.7rem
+    }
+
+    .production__best .pos-top {
+      top: -3.2rem
+    }
+
+    .production__best-inner {
+      margin-top: 1.9rem;
+      max-width: 36rem
+    }
+
+    .production__last {
+      margin-top: 17rem
+    }
+
+    .production__last-inner {
+      margin-top: 1.8rem;
+      max-width: 34.3rem;
+    }
+
+    .production__last-inner p {
+      margin-top: .7rem
+    }
+
+    .wrapper__big {
+      margin: 0 3.125rem;
+      width: auto;
+      top: 5rem;
+      left: 11.875rem
+    }
+
+    .geography__top-item {
+      width: 40%
+    }
+
+    .geography__right__item h2 {
+      font-size: 5.625rem;
+      font-weight: 400;
+      line-height: 1.875rem
+    }
+
+    .geography__right__item h3 {
+      font-size: 1.875rem;
+      font-weight: 400;
+      line-height: 1.875rem
+    }
+
+    .geography__right {
+      margin-right: -.8rem
+    }
+
+    .geography__top_margin {
+      margin-top: 1.4rem
+    }
+
+    .geography__left {
+      width: 50%
+    }
+
+    .geography__popup {
+      bottom: 1rem;
+    }
+
+    .geography__popup .pos-top.pos-top_35 {
+      top: -2.3rem
+    }
+
+    .geography__pin-one .geography__popup {
+      left: 42%
+    }
+
+    .geography__pin-item h3 {
+      font-size: 1.625rem;
+      font-weight: 400;
+      line-height: 2.125rem
+    }
+
+    .pin {
+      margin-bottom: 1.4rem;
+      width: 2.188rem;
+      height: 2.925rem
+    }
+
+    .pin-illustration {
+      left: -5.45rem
+    }
+
+    .geography__box {
+      width: 17.5rem;
+      height: 9.575rem;
+      margin-right: 1.3rem
+    }
+
+    .geography_content-one {
+      margin-top: 3.1rem
+    }
+
+    .geography__right__item-one .box {
+      padding-left: 1.825rem
+    }
+
+    .geography__right__item-one article {
+      max-width: 12rem
+    }
+
+    .geography__right__item-one h3 {
+      position: relative;
+      left: -1.1rem;
+      top: 3.8rem
+    }
+
+    .geography__right__item-one h2 {
+      position: relative;
+      left: -1.3rem;
+      top: 1.7rem
+    }
+
+    .geography__right__item-two {
+      margin-top: -.7rem;
+    }
+
+    .geography__right__item-two br {
+      display: block
+    }
+
+    .geography__right__item-two .margin-left__minus_80 {
+      margin-left: -1.4rem
+    }
+
+    .geography__right__item-two .width_195 {
+      margin-left: 1.1rem;
+      max-width: 12rem;
+      position: relative;
+      top: -.3rem
+    }
+
+    .geography__right__item-two h3 {
+      position: relative;
+      left: 0;
+      top: 2.1rem
+    }
+
+    .box__geography {
+      width: 36.875rem
+    }
+
+    .tastes-page .swiper-button-next {
+      right: 7.325rem
+    }
+
+    .tastes-page .swiper-button-prev {
+      left: 6.225rem
+    }
+
+    .tastes-page .btn__detail {
+      top: -.9rem
+    }
+
+    .tastes-slider__left {
+      width: 35.6rem;
+      margin-left: 2.1rem
+    }
+
+    .tastes-slider__text {
+      width: 16.088rem;
+      margin-top: 1.7rem
+    }
+
+    .tastes-slider__right {
+      width: 39rem;
+      padding-left: 3.4rem
+    }
+
+    .tastes__top h3 {
+      font-size: 2.375rem;
+      font-weight: 700;
+      line-height: 2.75rem
+    }
+
+    .tastes__bottom-item {
+      width: 6.2rem;
+      height: 6.0875rem;
+    }
+
+    .tastes__bottom-item.active:after {
+      transform: translate(-56%, 0) scale(1)
+    }
+
+    .tastes__bottom-item.active .tastes__bottom-photo {
+      transform: scale(1.2) translate(-.1rem, -.65rem)
+    }
+
+    .tastes__bottom-item:hover .tastes__bottom-photo {
+      transform: scale(1.2) translate(-.1rem, -.65rem)
+    }
+
+    .tastes__bottom-item:after {
+      width: 8.375rem;
+      height: 4.188rem;
+      bottom: -2.75em
+    }
+
+    .tastes__bottom-photo {
+      width: 5.5rem;
+      height: 7.6875rem;
+    }
+
+    .tastes__bottom-photo:before {
+      width: 6rem;
+      height: 6.925rem;
+      left: -1rem;
+      bottom: -2.2rem
+    }
+
+    .news-all-page .news-photo {
+      height: 20.6rem
+    }
+
+    .news-all__content {
+      margin-top: 4.8rem
+    }
+
+    .news-line__1 {
+      margin-top: 8.2rem
+    }
+
+    .news-page .btn__detail {
+      margin-top: 8.2rem
+    }
+
+    .news-page .news-photo {
+      margin-top: 5rem;
+      height: 36.813rem
+    }
+
+    .width_600 {
+      max-width: 29.5rem
+    }
+
+    .news-line__2 {
+      margin-top: 3.8rem;
+    }
+
+    .news-line__2 .width_710 {
+      max-width: 32rem
+    }
+
+    .news-title_margin {
+      margin-top: 1.5rem;
+      max-width: 39.1rem
+    }
+
+    .news-content__photo {
+      width: 37.25rem;
+      height: 24.438rem
+    }
+
+    .news-line__2_margin {
+      margin-top: 5.9rem
+    }
+
+    .news-line__3 {
+      margin-top: 2.3rem
+    }
+
+    .width_935 {
+      max-width: 44.4375rem
+    }
+
+    .news-line__3_second-text {
+      margin-top: 1.9rem;
+    }
+
+    .news-line__3_second-text .width_640:last-child {
+      position: relative
+    }
+
+    .news-line__3_margin {
+      max-width: 38.3375rem;
+      margin-top: .5rem
+    }
+
+    .news-line__4 {
+      margin-top: 6.8rem
+    }
+
+    .news-slider {
+      height: 39.063rem
+    }
+
+    .news-line__5 {
+      margin-top: 2.3rem;
+    }
+
+    .news-line__5 .width_580 {
+      max-width: 28.45rem
+    }
+
+    .news-line__5 .width_1015 {
+      max-width: 45.4375rem
+    }
+
+    .news__other {
+      margin-top: 11.6rem
+    }
+
+    .news__wrapper .pos-top.pos-top_35 {
+      top: -2.4rem
+    }
+
+    .news-title h3 {
+      font-size: 1.625rem;
+      font-weight: 400;
+      line-height: 2.125rem
+    }
+
+    .news-title p {
+      font-size: .875rem;
+      font-weight: 400;
+      line-height: 1.5rem
+    }
+
+    .contacts:before {
+      height: 23.1rem;
+      left: -7.1rem;
+      top: 0
+    }
+
+    .contacts-top {
+      margin-top: 2.5rem;
+      margin-bottom: 7rem;
+    }
+
+    .contacts-top p {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 2rem
+    }
+
+    .contacts-top h4 {
+      font-size: 2.375rem;
+      font-weight: 400;
+      line-height: 3.125rem
+    }
+
+    .block-feedback__subject {
+      margin-top: 3.4rem
+    }
+
+    .form__group span {
+      font-size: 1rem
+    }
+
+    .block-feedback__subject label {
+      font-size: 1rem
+    }
+
+    .contacts-info p {
+      width: 93%;
+      font-size: .875rem;
+      font-weight: 400;
+      line-height: 1.5rem
+    }
+
+    .contacts .btn__detail {
+      margin-top: 4.8rem
+    }
+
+    .content__inner p br {
+      display: block
+    }
+
+    .b-popup__content {
+      width: 41.313rem;
+      height: 25.938rem
+    }
+
+    .icon-popup .dove-ok__svg {
+      width: 22.75rem;
+      height: 16.875rem
+    }
+
+    .icon-popup .dove-error__svg {
+      width: 16.938rem;
+      height: 16.875rem
+    }
+  }
+
+  @media (min-width: 1020px) and (max-width: 1279px) {
+    menu {
+      width: 11.875rem
+    }
+
+    main {
+      padding-left: 11.875rem
+    }
+
+    .menu-content {
+      text-align: center;
+      margin-bottom: 2.1rem
+    }
+
+    .menu-list {
+      margin-top: 1.1rem;
+    }
+
+    .menu-list a {
+      font-size: 1rem;
+      line-height: 2.25rem
+    }
+
+    .socials {
+      margin-bottom: 1em
+    }
+
+    .menu-header__item p {
+      font-size: .75rem;
+      line-height: 2rem
+    }
+
+    .contacts {
+      padding-top: 5.5rem
+    }
+
+    .logo__desktop_mini {
+      display: block;
+      width: 8.5rem
+    }
+
+    .contacts-top {
+      display: block
+    }
+
+    .index .pos-top.pos-top_35 {
+      top: -2.3rem
+    }
+
+    .index__top {
+      padding-left: 1.875rem !important;
+    }
+
+    .index__top article {
+      max-width: 35.3rem
+    }
+
+    .index__top-photo {
+      height: 40.625rem;
+      margin-bottom: 2.3rem;
+    }
+
+    .index__top-photo article {
+      bottom: 2.5em
+    }
+
+    .index__recipe {
+      margin-top: 14.4rem;
+    }
+
+    .index__recipe h5 {
+      max-width: 24rem
+    }
+
+    .index__recipe p {
+      margin-top: .7rem;
+      max-width: 21rem
+    }
+
+    .index__region {
+      margin-top: 14rem;
+    }
+
+    .index__region .padding-right_zero-mobile {
+      padding-right: 1.875rem
+    }
+
+    .index__region .wrapper {
+      margin-top: 0
+    }
+
+    .index__region h5 {
+      margin-top: 1.7rem;
+      max-width: 21.8rem
+    }
+
+    .index__region p {
+      max-width: 22.9rem;
+      margin-top: .8rem
+    }
+
+    .index__region .pos-top.pos-top_35 {
+      top: -2.4rem
+    }
+
+    .index__production {
+      margin-top: 25.2rem;
+    }
+
+    .index__production .box {
+      width: 28.75rem;
+      padding-right: 1rem
+    }
+
+    .index__tastes {
+      height: 52.375rem;
+      margin-top: 0
+    }
+
+    .index__recipe-almete {
+      margin-top: 19.6rem;
+    }
+
+    .index__recipe-almete .pos-top.pos-top_35 {
+      top: -3.7rem
+    }
+
+    .index__recipe-almete .box {
+      top: -9.2rem;
+      width: 18.75rem
+    }
+
+    .pos__bottom-200 {
+      bottom: 6.5rem
+    }
+
+    .margin-left_120 {
+      margin-left: 4.4rem
+    }
+
+    .box-bottom__minus_240 {
+      bottom: -11.5rem
+    }
+
+    .margin-left_50 {
+      margin-left: 1.875rem
+    }
+
+    .box-large {
+      width: 30rem
+    }
+
+    .box {
+      padding-bottom: 3.75rem
+    }
+
+    .index__news {
+      margin-top: 9.5rem;
+    }
+
+    .index__news .btn__detail {
+      margin-top: 3.3rem
+    }
+
+    .news-photo__small {
+      height: 13rem
+    }
+
+    .index__news-content {
+      margin-top: 2.3rem
+    }
+
+    .news-item {
+      max-width: 13rem
+    }
+
+    .photo__lavender {
+      width: 42rem;
+      height: 43.125rem;
+      right: -17em;
+      top: 3em
+    }
+
+    .photo__milk {
+      width: 51.188rem;
+      height: 40.875rem;
+      right: -25.6rem;
+      top: 2.3rem
+    }
+
+    .drag-start {
+      transform: scale(.7) !important
+    }
+
+    .tastes-item:before {
+      width: 5.188rem;
+      height: 5.188rem
+    }
+
+    .tastes-item:after {
+      width: 7.313rem;
+      height: 7.313rem
+    }
+
+    .index__tastes-content {
+      width: 29.813rem;
+      height: 29.75rem;
+      margin: 2em auto 0
+    }
+
+    .taste-drag {
+      padding: 2rem;
+      width: 10rem;
+      height: 10rem
+    }
+
+    .taste-milk__img {
+      margin-top: .8em;
+      margin-left: .6em
+    }
+
+    .tastes-center {
+      width: 19rem;
+      height: 19rem
+    }
+
+    .tastes-center__wrapper {
+      width: 8.9375rem;
+      height: 12.6875rem;
+    }
+
+    .tastes-center__wrapper:after {
+      left: -1.8em;
+      bottom: -5.2em;
+      width: 10rem;
+      height: 14.75rem
+    }
+
+    .tastes__title h3 {
+      font-size: 1.625rem;
+      line-height: 2.5rem
+    }
+
+    .taste-ogurec {
+      top: 2.9em;
+      left: -4.6em
+    }
+
+    .taste-cheese {
+      top: -4.7em;
+      right: 2.7em;
+    }
+
+    .taste-cheese .taste-drag {
+      width: 5.063rem;
+      height: 5.563rem;
+      padding: 0
+    }
+
+    .taste-zelen {
+      top: -4.7em;
+      left: 3em
+    }
+
+    .taste-milk {
+      top: 14.5em;
+      left: -4.6em
+    }
+
+    .taste-garlic {
+      top: 3.3em;
+      right: -5.1em;
+    }
+
+    .taste-garlic .taste-drag {
+      padding: 1rem;
+      top: 1.8rem;
+      left: .5rem
+    }
+
+    .taste-tomato {
+      bottom: -4.9em;
+      left: 2.9em
+    }
+
+    .taste-mushroom {
+      top: 14.5em;
+      right: -5.1em;
+    }
+
+    .taste-mushroom .taste-drag {
+      padding: 0;
+      width: 4.125rem;
+      height: 4.563rem
+    }
+
+    .tastes__title {
+      top: 25.2rem;
+      right: -3.6rem;
+      width: 20rem;
+      padding: 1em 0 0 3.063rem;
+    }
+
+    .tastes__title h3 {
+      margin-bottom: .7rem
+    }
+
+    .main-footer_margin {
+      margin-top: 8.2rem;
+      margin-bottom: 6.7em
+    }
+
+    .main-footer h1 {
+      font-size: 2.813rem;
+      font-weight: 400;
+      line-height: 5rem
+    }
+
+    h5 br {
+      display: none
+    }
+
+    p br {
+      display: none
+    }
+
+    .recipes-page {
+      height: auto
+    }
+
+    .recipes h6 {
+      margin-bottom: 1.1rem
+    }
+
+    .recipes .box {
+      width: 28.75rem;
+      padding: 0 1.875rem .2rem
+    }
+
+    article h6 {
+      font-size: 4.375rem;
+      line-height: 4.75rem
+    }
+
+    .recipes-1 {
+      padding-top: 6rem;
+    }
+
+    .recipes-1 .box-middle {
+      width: 26.813rem;
+      height: 27.438rem
+    }
+
+    .recipes-1 h1 {
+      position: relative;
+      top: .5rem
+    }
+
+    .recipes-1 h5 {
+      max-width: 30rem;
+      margin-top: 1.8rem
+    }
+
+    .recipes-1 p {
+      max-width: 16rem;
+      margin-top: .8rem
+    }
+
+    .recipes-1__photo {
+      width: 12.125rem;
+      height: 12.813rem;
+      left: 19em;
+      bottom: -4.2rem
+    }
+
+    .recipes-2 {
+      margin-top: 9.4rem;
+    }
+
+    .recipes-2 p {
+      margin-top: .6rem;
+      max-width: 24.2rem
+    }
+
+    .recipes-2 .wrapper {
+      padding-right: 0
+    }
+
+    .recipes-3 {
+      margin-top: 26.5rem;
+    }
+
+    .recipes-3 h6 {
+      margin-left: -9rem
+    }
+
+    .recipes-3 article {
+      max-width: 22rem
+    }
+
+    .recipes-4 {
+      margin-top: 37.6rem;
+    }
+
+    .recipes-4 .wrapper {
+      padding-right: 0
+    }
+
+    .recipes__circle {
+      width: 24.375rem;
+      height: 24.375rem
+    }
+
+    .recipes .recipes__circle-photo {
+      width: 13rem
+    }
+
+    .recipes__circle__left {
+      margin-left: 1.875rem;
+    }
+
+    .recipes__circle__left .recipes__title {
+      bottom: 3.2rem;
+      right: -14.5rem;
+      max-width: 19.938rem
+    }
+
+    .recipes__circle__right {
+      margin-right: 1.875rem;
+    }
+
+    .recipes__circle__right .recipes__title {
+      bottom: 5.2rem;
+      left: -16.2rem;
+      max-width: 20.938rem
+    }
+
+    .recipes-4__photo {
+      width: 16.438rem;
+      height: 17.938rem;
+      bottom: -13.7rem;
+      right: -.8rem
+    }
+
+    .recipes-5 {
+      margin-top: 27rem
+    }
+
+    .recipes__title h3 {
+      font-size: 2.25rem;
+      line-height: 3rem
+    }
+
+    .recipes__title p {
+      font-size: .875rem;
+      font-weight: 400;
+      line-height: 1.5rem
+    }
+
+    .recipes-6 {
+      margin-top: 5.2rem;
+    }
+
+    .recipes-6 .recipes__circle-photo {
+      width: 16rem
+    }
+
+    .about .box {
+      padding: 2.9rem 3.125rem 3.2rem
+    }
+
+    .about.about__top .pos-top.pos-top_35 {
+      margin-top: -5.6rem
+    }
+
+    .about.about__video {
+      margin-top: -6.5rem
+    }
+
+    .about__top .box {
+      padding-bottom: 6rem
+    }
+
+    .popup__video .b-popup__content {
+      width: 56rem;
+      height: 31.5rem
+    }
+
+    .popup__video .close {
+      right: 0;
+      top: -5rem
+    }
+
+    .video__play {
+      width: 4.375rem;
+      height: 4.375rem;
+    }
+
+    .video__play .play__svg {
+      height: 1.375rem
+    }
+
+    .about-page .pos-top.pos-top_35 {
+      top: -2.5rem
+    }
+
+    .about-page .about__video .width-per_75 {
+      width: 84%
+    }
+
+    .about__top .pos-top {
+      max-width: 22rem
+    }
+
+    .about__top .wrapper {
+      padding-left: 1.875rem !important
+    }
+
+    .about__top .box {
+      margin-top: -7rem;
+      width: 24.063rem
+    }
+
+    .video {
+      width: 41.438rem;
+      height: 23rem
+    }
+
+    .about__video-content {
+      margin-top: 4rem
+    }
+
+    .about__history {
+      margin-top: 6.3rem;
+    }
+
+    .about__history article {
+      max-width: 43rem;
+    }
+
+    .about__history article h5 {
+      max-width: 38.8rem
+    }
+
+    .about__history article p {
+      max-width: 36rem
+    }
+
+    .about__history-photo {
+      width: 41.875rem;
+      height: 31.25rem
+    }
+
+    .about__3 {
+      margin-top: -2.6rem;
+    }
+
+    .about__3 .box {
+      width: 31.063rem;
+      height: auto
+    }
+
+    .about__3-content {
+      margin-top: -5.2rem
+    }
+
+    .about__dates {
+      margin-top: 7.2rem;
+    }
+
+    .about__dates .width_580 {
+      max-width: 38.25rem
+    }
+
+    .about__dates article {
+      max-width: 30rem
+    }
+
+    .about__dates-item {
+      max-width: 40rem;
+      margin: 10.6rem auto 0;
+    }
+
+    .about__dates-item br {
+      display: none
+    }
+
+    .about__dates-item .width_650 {
+      max-width: 32.625rem
+    }
+
+    .about__dates-item h4 {
+      font-size: 1.5rem;
+      line-height: 2.5rem
+    }
+
+    .about__dates-item:nth-child(2) {
+      margin-top: 10.1rem;
+      margin-left: 2.1rem;
+    }
+
+    .about__dates-item:nth-child(2) h4 {
+      max-width: 29.325rem;
+      right: .3rem
+    }
+
+    .about__dates-item:nth-child(3) {
+      margin: 11.1rem auto 0;
+    }
+
+    .about__dates-item:nth-child(3) h4 {
+      max-width: 24rem
+    }
+
+    .about__dates-item:nth-child(4) {
+      margin-top: 10.9rem;
+    }
+
+    .about__dates-item:nth-child(4) h4 {
+      max-width: 29.9rem
+    }
+
+    .about__dates-item:nth-child(5) {
+      margin-top: 13rem;
+    }
+
+    .about__dates-item:nth-child(5) h4 {
+      max-width: 28.4rem;
+      margin-left: .6rem
+    }
+
+    .about__dates-item:nth-child(6) {
+      margin-top: 10.5rem;
+    }
+
+    .about__dates-item:nth-child(6) h4 {
+      max-width: 27.5rem;
+      margin-right: 2.4rem
+    }
+
+    .about__dates-item:nth-child(7) {
+      margin-top: 8.4rem;
+    }
+
+    .about__dates-item:nth-child(7) h4 {
+      max-width: 28.4rem;
+      margin-left: .6rem
+    }
+
+    .about__dates-item:nth-child(8) {
+      margin-top: 12.9rem;
+    }
+
+    .about__dates-item:nth-child(8) h4 {
+      max-width: 27.5rem;
+      margin-right: 2.4rem
+    }
+
+    .about__country {
+      margin-top: 11.5rem;
+    }
+
+    .about__country .b-flex_between {
+      margin-top: 2.6rem
+    }
+
+    .about__country .width_860 {
+      max-width: 25.8rem
+    }
+
+    .about__country .small-box__line {
+      margin-top: .6rem;
+      max-width: 16rem
+    }
+
+    .about__country .list {
+      margin-top: 1.8rem;
+    }
+
+    .about__country .list p {
+      max-width: 21.7rem
+    }
+
+    .about__country-photo {
+      margin-top: -3rem
+    }
+
+    .about__country-content {
+      margin-top: -16.5rem;
+    }
+
+    .about__country-content p {
+      position: relative
+    }
+
+    .about__country-content .box {
+      width: 31.563rem
+    }
+
+    .about-company .pos-top.pos-top_35 {
+      top: -2.5rem
+    }
+
+    .about-company .about__top .box {
+      margin-top: -7rem
+    }
+
+    .about-company .about__video article {
+      width: 100%;
+      max-width: 41rem;
+    }
+
+    .about-company .about__video article p {
+      max-width: 38rem
+    }
+
+    .about-company .about__history {
+      margin-top: 6.3rem;
+    }
+
+    .about-company .about__history .about__history-photo {
+      margin-top: -9.1rem
+    }
+
+    .about-company .about__history .box {
+      width: 33.75rem;
+      top: 1.8rem
+    }
+
+    .about-company .about__history article {
+      max-width: 28.6rem;
+    }
+
+    .about-company .about__history h5 {
+      max-width: 28.1rem;
+      bottom: auto;
+      position: relative
+    }
+
+    .about-company .about__tastes {
+      margin-top: 12.9rem;
+    }
+
+    .about-company .about__tastes br {
+      display: block
+    }
+
+    .about-company .about__tastes .padding-left_zero {
+      padding-right: 1.875rem
+    }
+
+    .about-company .about__tastes .width_305 {
+      max-width: 16.0625rem
+    }
+
+    .about__tastes-photo {
+      width: 60%;
+      height: 21.813rem
+    }
+
+    .about__tastes-wrapper {
+      margin-top: 7.1rem;
+    }
+
+    .about__tastes-wrapper article:first-child {
+      max-width: 30rem
+    }
+
+    .about__tastes-image {
+      width: 4.113rem;
+      height: auto;
+      margin-bottom: .3rem;
+    }
+
+    .about__tastes-image:after {
+      left: -1.25em;
+      bottom: .2em;
+      width: 5.7rem;
+      height: 2.05rem
+    }
+
+    .about__tastes-product {
+      margin-top: 2.3rem
+    }
+
+    .about__tastes-item {
+      width: 6.013rem;
+    }
+
+    .about__tastes-item p {
+      font-size: .875rem;
+      line-height: 1.25rem
+    }
+
+    .about__cheese {
+      margin-top: 7.6rem;
+    }
+
+    .about__cheese .box {
+      width: 31.563rem;
+      margin-top: 0;
+    }
+
+    .about__cheese .box h5 {
+      max-width: 26.5rem
+    }
+
+    .about__cheese .box p {
+      margin-top: 1rem;
+      position: relative
+    }
+
+    .about__cheese article {
+      max-width: 40rem
+    }
+
+    .about__cheese-photo {
+      width: 41.875rem;
+      height: 31.25rem;
+      margin-top: 2.9em
+    }
+
+    .about__history-content {
+      margin-left: 0;
+      display: block;
+      height: auto;
+    }
+
+    .about__history-content .width-per_50 {
+      width: 100%;
+      display: block;
+    }
+
+    .about__history-content .width-per_50:first-child h3 {
+      position: relative;
+      top: 0
+    }
+
+    .about__history-content .width-per_50:first-child h5 {
+      top: -2.1rem
+    }
+
+    .about__history-content .width-per_50:last-child h5 {
+      top: -.6rem
+    }
+
+    .about__history-content .width-per_50:last-child svg {
+      position: relative;
+      top: 11.7rem;
+      width: 16.125rem;
+      height: 17.513rem
+    }
+
+    .about__history-content h5 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 2.5rem
+    }
+
+    .about__tastes-content {
+      margin-top: 3.6rem
+    }
+
+    .production p br {
+      display: block
+    }
+
+    .production .production__icon {
+      margin-top: -8rem
+    }
+
+    .production-page h1 {
+      max-width: 29rem;
+      margin-bottom: 1.5rem;
+      font-size: 4.375rem;
+      font-weight: 400;
+      line-height: 4.75rem;
+    }
+
+    .production-page h1 br {
+      display: none
+    }
+
+    .production-page .width-712 {
+      max-width: 30.9rem
+    }
+
+    .production__icon {
+      width: 24.188rem;
+      height: 22.813rem
+    }
+
+    .production__wrapper {
+      padding-bottom: 9rem;
+    }
+
+    .production__wrapper:before {
+      height: 35.95rem;
+      left: -6.8rem
+    }
+
+    .production__wrapper:after {
+      width: 49.188rem;
+      bottom: -9.5em;
+      left: -3.6rem;
+      height: 28rem
+    }
+
+    .production__progress-box {
+      width: 33.938rem;
+      margin-top: 3.6rem;
+    }
+
+    .production__progress-box .pos-top.pos-top_35 {
+      top: -2.5rem
+    }
+
+    .production__progress-box h1 {
+      font-size: 2.813rem;
+      font-weight: 700;
+      line-height: 3.75rem
+    }
+
+    .production__progress-box article {
+      max-width: 90%
+    }
+
+    .production__progress-photo {
+      width: 23.175rem;
+      height: 28.5rem;
+      left: 25.1em;
+      bottom: -9.4em
+    }
+
+    .production__quality {
+      padding-top: 11.8rem
+    }
+
+    .production__quality-box, .production__best-box {
+      height: auto;
+      width: 41.25rem;
+      padding-left: 5.525rem;
+    }
+
+    .production__quality-box .pos-top.pos-top_35, .production__best-box .pos-top.pos-top_35 {
+      top: -3.4rem;
+    }
+
+    .production__quality-box .pos-top.pos-top_35 p, .production__best-box .pos-top.pos-top_35 p {
+      margin-top: .9rem
+    }
+
+    .production__quality-box .padding-left_193, .production__best-box .padding-left_193 {
+      padding-left: 3.6rem
+    }
+
+    .production__quality-photo {
+      height: 40em;
+      left: -8rem
+    }
+
+    .production__best-photo {
+      width: 19.05rem;
+      height: 17rem;
+      right: -4.7rem;
+      bottom: -12.3em
+    }
+
+    .production__natural-inner {
+      margin-top: 3.1rem;
+      max-width: 32.4rem
+    }
+
+    .production__natural {
+      margin-top: 17rem;
+    }
+
+    .production__natural:before {
+      width: 59.8rem;
+      height: 61.95rem;
+      right: 0;
+      top: -1.7em
+    }
+
+    .production__best {
+      margin-top: 18.8rem;
+    }
+
+    .production__best .pos-top {
+      top: -2.9rem
+    }
+
+    .production__best .width-712 {
+      max-width: 33.3rem
+    }
+
+    .production__best-inner {
+      margin-top: 3.3rem;
+      max-width: 36rem
+    }
+
+    .production__last {
+      margin-top: 19rem
+    }
+
+    .production__last-inner {
+      margin-top: 4.2rem;
+      max-width: 33rem;
+    }
+
+    .production__last-inner p {
+      margin-top: .7rem
+    }
+
+    .wrapper__big {
+      margin: 0 1.875rem;
+      padding: 0 1.875rem;
+      width: auto;
+      top: 1rem;
+      left: 0
+    }
+
+    .geography__top-item {
+      width: 42%
+    }
+
+    .geography__right__item h2 {
+      font-size: 5.625rem;
+      font-weight: 400;
+      line-height: 1.875rem
+    }
+
+    .geography__right__item h3 {
+      font-size: 1.875rem;
+      font-weight: 400;
+      line-height: 1.875rem
+    }
+
+    .geography__right {
+      margin-right: -.8rem
+    }
+
+    .geography__top_margin {
+      margin-top: 1.4rem
+    }
+
+    .geography__left {
+      width: 57%
+    }
+
+    .illustration__one {
+      width: 11.063rem
+    }
+
+    .illustration__two {
+      width: 12.263rem;
+      height: 7.788rem
+    }
+
+    .illustration__three {
+      width: 12.263rem;
+      height: 9.688rem
+    }
+
+    .geography__popup {
+      bottom: 1rem;
+    }
+
+    .geography__popup .pos-top.pos-top_35 {
+      top: -2.3rem
+    }
+
+    .geography__pin-one .pin__wrapper {
+      top: 65.7%;
+      margin-left: 34%
+    }
+
+    .geography__pin-one .geography__popup {
+      left: 51%
+    }
+
+    .geography__pin-two .pin__wrapper {
+      top: 53.5%;
+      margin-left: 50.5%
+    }
+
+    .geography__pin-three .pin__wrapper {
+      top: 55.2%;
+      margin-left: 74.9%
+    }
+
+    .geography__pin-item h3 {
+      font-size: 1.25rem;
+      font-weight: 400;
+      line-height: 1.75rem
+    }
+
+    .pin {
+      margin-bottom: .8rem;
+      width: 1.788rem;
+      height: 2.425rem
+    }
+
+    .geography__box {
+      width: 17.5rem;
+      height: 9.575rem;
+      margin-right: 1.3rem
+    }
+
+    .geography__photo {
+      width: 25rem;
+      height: 16.688rem;
+      margin-top: -4.5rem
+    }
+
+    .geography_content-one {
+      margin-top: 3.4rem
+    }
+
+    .geography__right__item-one .box {
+      padding-left: 1.825rem
+    }
+
+    .geography__right__item-one article {
+      max-width: 12rem
+    }
+
+    .geography__right__item-one h3 {
+      position: relative;
+      left: -1.1rem;
+      top: 3.8rem
+    }
+
+    .geography__right__item-one h2 {
+      position: relative;
+      left: -2.9rem;
+      top: 1.7rem
+    }
+
+    .geography__right__item-two {
+      margin-top: -2.7rem;
+    }
+
+    .geography__right__item-two br {
+      display: block
+    }
+
+    .geography__right__item-two .margin-left__minus_80 {
+      margin-left: -1.2rem
+    }
+
+    .geography__right__item-two .width_195 {
+      margin-left: 1rem;
+      max-width: 12rem;
+      position: relative;
+      top: -.3rem
+    }
+
+    .geography__right__item-two h3 {
+      position: relative;
+      left: 0;
+      top: 2.1rem
+    }
+
+    .box__geography {
+      width: 31rem
+    }
+
+    .tastes-page .swiper-button-next {
+      right: 3.725rem
+    }
+
+    .tastes-page .swiper-button-prev {
+      left: 3.725rem
+    }
+
+    .tastes-page .btn__detail {
+      top: -.9rem
+    }
+
+    .tastes-slider__left {
+      width: 52%;
+      margin-left: -2.8rem
+    }
+
+    .tastes-slider__text {
+      width: 13.288rem;
+      margin-top: 1.2rem
+    }
+
+    .tastes-slider__right {
+      width: 41%;
+      padding-left: 1rem;
+      margin-top: 1.1rem
+    }
+
+    .tastes__top h3 {
+      font-size: 2.125rem;
+      font-weight: 700;
+      line-height: 2.5rem
+    }
+
+    .tastes__bottom-item {
+      width: 4.375rem;
+      height: auto;
+      margin-top: 3rem;
+    }
+
+    .tastes__bottom-item.active:after {
+      transform: translate(-52%, 0) scale(1)
+    }
+
+    .tastes__bottom-item.active .tastes__bottom-photo {
+      transform: scale(1.2) translate(-.1rem, -.65rem)
+    }
+
+    .tastes__bottom-item:hover .tastes__bottom-photo {
+      transform: scale(1.2) translate(-.1rem, -.65rem)
+    }
+
+    .tastes__bottom-item:after {
+      width: 6.625rem;
+      height: 3.313rem;
+      bottom: -.65em
+    }
+
+    .tastes__bottom-photo {
+      width: 100%;
+      height: auto;
+    }
+
+    .tastes__bottom-photo:before {
+      width: 4.9rem;
+      height: 4.325rem;
+      left: -.9rem;
+      bottom: -.8rem
+    }
+
+    .news-all-page {
+      padding-top: 5.6rem;
+    }
+
+    .news-all-page .news-item {
+      width: 48%
+    }
+
+    .news-all-page .news-photo {
+      height: 16rem
+    }
+
+    .news-all-page .news-text {
+      padding-left: 1.875rem;
+    }
+
+    .news-all-page .news-text h4 {
+      font-size: 1.625rem;
+      font-weight: 700;
+      line-height: 2.125rem
+    }
+
+    .news-all-page .news-text p {
+      font-size: .875rem;
+      font-weight: 400;
+      line-height: 1.5rem
+    }
+
+    .gutter-sizer {
+      width: 4%
+    }
+
+    .news-all__content {
+      margin-top: 3.8rem
+    }
+
+    .news-line__1 {
+      margin-top: 5.8rem
+    }
+
+    .news-page .btn__detail {
+      margin-top: 3.2rem;
+      width: 9rem
+    }
+
+    .news-page .news-photo {
+      margin-top: 3.7rem;
+      height: 28.688rem
+    }
+
+    .width_600 {
+      max-width: 29.5rem
+    }
+
+    .news-line__2 {
+      margin-top: 2.6rem;
+    }
+
+    .news-line__2 .width_710 {
+      max-width: 32rem
+    }
+
+    .news-line__2 .small-box__line {
+      max-width: 15.4rem
+    }
+
+    .news-title_margin {
+      margin-top: 1.5rem;
+      max-width: 39.1rem
+    }
+
+    .news-content__photo {
+      width: 28rem;
+      height: 18.375rem
+    }
+
+    .news-line__2_margin {
+      margin-top: 6.5rem
+    }
+
+    .news-line__3 {
+      margin-top: 2.3rem
+    }
+
+    .width_935 {
+      max-width: 44.4375rem
+    }
+
+    .news-line__3_second-text {
+      margin-top: 1.9rem;
+    }
+
+    .news-line__3_second-text .width_640:last-child {
+      position: relative
+    }
+
+    .news-line__3_margin {
+      max-width: 38.3375rem;
+      margin-top: .5rem
+    }
+
+    .news-line__4 {
+      margin-top: 6.5rem
+    }
+
+    .news-slider {
+      height: 30.438rem;
+    }
+
+    .news-slider .wrapper {
+      margin: 1.875rem
+    }
+
+    .news-line__5 {
+      margin-top: 2.3rem;
+    }
+
+    .news-line__5 .width_580 {
+      max-width: 28.45rem
+    }
+
+    .news-line__5 .width_1015 {
+      max-width: 45.4375rem
+    }
+
+    .news__other {
+      margin-top: 12.3rem
+    }
+
+    .news__wrapper .pos-top.pos-top_35 {
+      top: -2.4rem
+    }
+
+    .news-title h3 {
+      font-size: 1.625rem;
+      font-weight: 400;
+      line-height: 2.125rem
+    }
+
+    .news-title p {
+      font-size: .875rem;
+      font-weight: 400;
+      line-height: 1.5rem
+    }
+
+    .contacts:before {
+      height: 18.3rem;
+      left: -6.7rem;
+      top: 0
+    }
+
+    .contacts-top__left {
+      margin-right: 5rem
+    }
+
+    .contacts-top {
+      display: flex;
+      margin-top: 1.8rem;
+      margin-bottom: 7.7rem;
+    }
+
+    .contacts-top p {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 2rem
+    }
+
+    .contacts-top h4 {
+      font-size: 2.375rem;
+      font-weight: 400;
+      line-height: 3.125rem
+    }
+
+    .form__item {
+      margin-top: 2.7rem
+    }
+
+    .block-feedback__subject {
+      margin-top: 2.5rem
+    }
+
+    .form__group input, .select-style input, .textarea input {
+      height: 1.9rem
+    }
+
+    .form__group span, .select-style span, .textarea span {
+      font-size: 1rem;
+      font-weight: 400
+    }
+
+    .form__group input.active-input ~ span {
+      transform: translate(-.3em, -1rem) scale(.8)
+    }
+
+    .contacts-info {
+      margin-top: 1.6rem;
+    }
+
+    .contacts-info p {
+      width: 82%;
+      font-size: .875rem;
+      font-weight: 400;
+      line-height: 1.5rem
+    }
+
+    .textarea {
+      margin-top: 3.9rem
+    }
+
+    .contacts .btn__detail {
+      margin-top: 4.8rem
+    }
+
+    .content__inner p br {
+      display: block
+    }
+
+    .b-popup__content {
+      width: 41.313rem;
+      height: 25.938rem
+    }
+
+    .icon-popup .dove-ok__svg {
+      width: 22.75rem;
+      height: 16.875rem
+    }
+
+    .icon-popup .dove-error__svg {
+      width: 16.938rem;
+      height: 16.875rem
+    }
+  }
+
+  @media (max-width: 1019px) {
+    .about__tastes-product .swiper-wrapper {
+      justify-content: initial;
+    }
+    main {
+      margin: 3.125rem 0 0 0;
+      padding: 0
+    }
+
+    .pos-top.pos-top_35 {
+      top: -2.4rem
+    }
+
+    .wrapper {
+      padding: 0 1.875rem;
+      margin: 0 2.75rem
+    }
+
+    .menu-desktop {
+      display: none
+    }
+
+    .menu-mobile {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3.125rem;
+      width: 100%;
+      z-index: 70;
+    }
+
+    .menu-mobile.active .menu-mobile__wrapper {
+      transform: translate(0, 0)
+    }
+
+    .menu-mobile .wrapper {
+      height: 100%;
+      padding: 0;
+    }
+
+    .menu-content {
+      padding-top: 5rem;
+    }
+
+    .menu-content h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 2rem
+    }
+
+    .menu-content a {
+      font-size: 1.875rem;
+      line-height: 4.375rem
+    }
+
+    .mobile-close {
+      position: absolute;
+      top: 1.25rem;
+      right: 0;
+      width: .75rem;
+      height: .75rem;
+      fill: #000;
+      cursor: pointer;
+      display: flex
+    }
+
+    .menu-mobile__nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3.125rem;
+      width: 100%;
+      z-index: 20
+    }
+
+    .logo__768 {
+      display: block
+    }
+
+    .menu-mobile__wrapper {
+      background-color: #fff;
+      transform: translate(0, -150%);
+      transition: transform 500ms ease;
+      position: fixed;
+      z-index: 30;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0
+    }
+
+    .menu-header__right {
+      display: flex;
+      align-items: center
+    }
+
+    .menu-recipe {
+      display: flex
+    }
+
+    .menu-header {
+      height: 100%;
+      padding: 0;
+      justify-content: space-between;
+      align-items: center
+    }
+
+    .menu-list {
+      margin-top: 4rem
+    }
+
+    .menu-header__item {
+      border-bottom: 0;
+      cursor: pointer;
+      width: auto;
+      margin-right: 1.25rem;
+    }
+
+    .menu-header__item.active {
+      border: none
+    }
+
+    .menu-header__item:last-child {
+      margin-right: 0
+    }
+
+    .menu-header__item svg {
+      fill: #000;
+      margin: 0
+    }
+
+    .menu-footer {
+      margin-top: 5rem
+    }
+
+    .menu__logo {
+      width: 7.125rem;
+      height: 6.413rem;
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: -3.6rem;
+      margin: auto
+    }
+
+    .socials {
+      margin-bottom: 1.5rem
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 1019px) {
+    .contacts {
+      padding-top: 2.5rem;
+      padding-bottom: 4rem;
+    }
+
+    .contacts .btn__detail {
+      margin-top: 4.8rem
+    }
+
+    .contacts:before {
+      height: 17rem;
+      left: -8rem;
+      right: -7rem;
+      top: 0
+    }
+
+    .contacts-top {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1.4rem;
+      margin-bottom: 4.4rem;
+    }
+
+    .contacts-top h4 {
+      font-size: 2.375rem
+    }
+
+    .block-feedback__subject {
+      margin-top: 2.4rem
+    }
+
+    .contacts-top__left {
+      margin: 0
+    }
+
+    .form__item {
+      margin-top: 1.7rem
+    }
+
+    .form__group span {
+      font-size: 1rem
+    }
+
+    .form__group input.active-input ~ span {
+      transform: translate(-.3em, -1.5rem) scale(.8)
+    }
+
+    .textarea {
+      margin-top: 3.7rem
+    }
+
+    .placeholder {
+      font-size: 1rem
+    }
+
+    .contacts-info {
+      margin-top: 1.7rem;
+    }
+
+    .contacts-info p {
+      width: 100%;
+      font-size: .875rem;
+      font-weight: 400;
+      line-height: 1.5rem
+    }
+
+    .content__inner p br {
+      display: block
+    }
+
+    .b-popup__content {
+      max-width: 38.75rem;
+      width: 100%;
+      height: 24.313rem
+    }
+
+    .icon-popup .dove-ok__svg {
+      width: 22.75rem;
+      height: 16.875rem
+    }
+
+    .icon-popup .dove-error__svg {
+      width: 16.938rem;
+      height: 16.875rem
+    }
+
+    .btn__detail {
+      width: 8.5rem;
+      height: 3.6rem
+    }
+
+    .width-750 {
+      max-width: 35.875rem
+    }
+
+    .margin-left_50 {
+      margin-left: 1.5625rem
+    }
+
+    .pos__bottom-200 {
+      bottom: 9.4rem
+    }
+
+    .margin-left_120 {
+      margin-left: 4.375rem
+    }
+
+    .index__region {
+      margin-top: 18rem;
+    }
+
+    .index__region .wrapper {
+      margin-top: 23rem
+    }
+
+    .index__region article {
+      max-width: 25rem
+    }
+
+    .index__region h5 {
+      margin-top: 1.7rem
+    }
+
+    .photo__mountains {
+      height: 26.375rem;
+    }
+
+    .photo__mountains img {
+      height: 100%;
+      object-fit: cover
+    }
+
+    .photo__cloud {
+      height: 14.313rem;
+      top: -4rem;
+    }
+
+    .photo__cloud img {
+      height: 100%;
+      object-fit: cover
+    }
+
+    .index__recipe {
+      margin-top: 12.7rem;
+    }
+
+    .index__recipe br {
+      display: none
+    }
+
+    .index__recipe .box {
+      padding-right: 2rem
+    }
+
+    .padding-right_zero-mobile {
+      padding-right: 0
+    }
+
+    .index__top-photo {
+      height: 40.625rem;
+      margin-bottom: 2rem;
+      margin-left: 1.875rem;
+    }
+
+    .index__top-photo article {
+      bottom: 2.5em
+    }
+
+    .index__top-margin {
+      margin-left: 3.4375rem
+    }
+
+    .index__production {
+      margin-top: 23.9rem;
+    }
+
+    .index__production .pos-top.pos-top_35 {
+      top: -2.1rem
+    }
+
+    .index__production h5 {
+      max-width: 22rem
+    }
+
+    .box-large {
+      width: 30rem
+    }
+
+    .news-photo__small {
+      height: 17.938rem
+    }
+
+    .news-item {
+      max-width: 17.938rem;
+      flex-shrink: 1;
+    }
+
+    .news-item:nth-child(2) {
+      margin-right: 0
+    }
+
+    .news-item:last-child {
+      display: none
+    }
+
+    .photo__lavender {
+      width: 63rem;
+      height: 38.125rem;
+      right: -45em;
+      top: 7rem
+    }
+
+    .photo__milk {
+      width: 63.188rem;
+      height: 39.875rem;
+      right: -45.6rem;
+      top: 9.3rem
+    }
+
+    .box-middle {
+      width: 28.75rem
+    }
+
+    .box p {
+      margin-top: 1rem
+    }
+
+    .drag-start {
+      transform: scale(.7) !important
+    }
+
+    .tastes-item {
+      width: 11rem;
+      height: 11rem;
+    }
+
+    .tastes-item:before {
+      width: 5.188rem;
+      height: 5.188rem
+    }
+
+    .tastes-item:after {
+      width: 7.313rem;
+      height: 7.313rem
+    }
+
+    .index__tastes {
+      margin-top: 0;
+      height: 52.2rem
+    }
+
+    .index__tastes-content {
+      width: 29.813rem;
+      height: 29.75rem;
+      margin: 3.5em auto 0
+    }
+
+    .taste-drag {
+      padding: 3rem
+    }
+
+    .taste-milk__img {
+      margin-top: 1em;
+      margin-left: .4em
+    }
+
+    .taste-ogurec__img {
+      margin-top: .5em;
+      margin-left: .6em
+    }
+
+    .drag-info__wrapper {
+      display: none
+    }
+
+    .tastes-center {
+      width: 19rem;
+      height: 19rem
+    }
+
+    .tastes-center__wrapper {
+      width: 8.9375rem;
+      height: 12.6875rem;
+    }
+
+    .tastes-center__wrapper:after {
+      left: -1.8em;
+      bottom: -5.1em;
+      width: 10rem;
+      height: 14.75rem
+    }
+
+    .tastes__title h3 {
+      font-size: 1.625rem;
+      line-height: 2.5rem;
+      margin-bottom: .8rem
+    }
+
+    .taste-ogurec {
+      top: 2.9em;
+      left: -4.6em
+    }
+
+    .taste-cheese {
+      top: -4.7em;
+      right: 2.7em
+    }
+
+    .taste-zelen {
+      top: -4.7em;
+      left: 3em
+    }
+
+    .taste-milk {
+      top: 14.5em;
+      left: -4.6em
+    }
+
+    .taste-garlic {
+      top: 3.3em;
+      right: -5.1em;
+    }
+
+    .taste-garlic .taste-drag {
+      top: 0;
+      left: 0
+    }
+
+    .taste-garlic img {
+      height: auto;
+      width: 7.125rem
+    }
+
+    .taste-tomato {
+      bottom: -4.9em;
+      left: 2.9em
+    }
+
+    .taste-mushroom {
+      top: 14.5em;
+      right: -5.1em
+    }
+
+    .tastes__title {
+      top: 25.2rem;
+      right: -3.6rem;
+      width: 20rem;
+      padding: 1em 0 0 3.063rem
+    }
+
+    .index__recipe-almete {
+      margin-top: 21rem;
+    }
+
+    .index__recipe-almete .box-short {
+      top: -9.2rem;
+    }
+
+    .index__recipe-almete .box-short p {
+      margin-top: 1.5rem
+    }
+
+    .index__recipe-almete .pos-top.pos-top_35 {
+      top: -2.9rem
+    }
+
+    h5 br {
+      display: none
+    }
+
+    .box-short {
+      width: 18.75rem
+    }
+
+    .index__news {
+      margin-top: 9.3rem;
+    }
+
+    .index__news .btn__detail {
+      margin-top: 2.2rem
+    }
+
+    .index__news-content {
+      margin-top: 2.5rem
+    }
+
+    .news-text {
+      margin-top: 1.4rem;
+    }
+
+    .news-text h4 {
+      margin-bottom: .2rem
+    }
+
+    .main-footer {
+      padding-left: 1.5625rem;
+    }
+
+    .main-footer h1 {
+      margin-right: 4.5rem
+    }
+
+    .main-footer_margin {
+      margin-top: 7.5rem
+    }
+
+    h5 br {
+      display: none
+    }
+
+    p br {
+      display: none
+    }
+
+    .recipes-page {
+      margin: 0;
+      padding-top: 3.1rem
+    }
+
+    .recipes h6 {
+      margin-bottom: 1.1rem
+    }
+
+    .recipes .box {
+      padding-right: 2rem;
+      padding-bottom: 0
+    }
+
+    article h6 {
+      font-size: 4.375rem;
+      line-height: 4.75rem
+    }
+
+    .recipes-1 {
+      padding-top: 5.8rem;
+    }
+
+    .recipes-1 .box-middle {
+      width: 26.813rem;
+      height: 27.438rem
+    }
+
+    .recipes-1 h5 {
+      max-width: 29rem;
+      margin-top: 0
+    }
+
+    .recipes-1 p {
+      max-width: 16rem;
+      margin-top: .8rem
+    }
+
+    .recipes-1__photo {
+      width: 12.125rem;
+      height: 12.813rem;
+      left: 17.2em;
+      bottom: -4.2rem
+    }
+
+    .recipes-2 {
+      margin-top: 9.5rem;
+    }
+
+    .recipes-2 p {
+      max-width: 24rem
+    }
+
+    .recipes-2 .pos-top.pos-top_35 {
+      top: -3.4rem
+    }
+
+    .recipes-2 .wrapper {
+      padding-right: 0
+    }
+
+    .recipes-2 .box-middle {
+      width: 28.875rem
+    }
+
+    .recipes-3 {
+      margin-top: 26.5rem;
+    }
+
+    .recipes-3 .pos-top.pos-top_35 {
+      top: -3.2rem
+    }
+
+    .recipes-3 article {
+      max-width: 22rem
+    }
+
+    .recipes-3 h6 {
+      margin-left: -9rem
+    }
+
+    .recipes-3 .box-middle {
+      width: 27.125rem
+    }
+
+    .recipes-4 {
+      margin-top: 36rem;
+    }
+
+    .recipes-4 .pos-top.pos-top_35 {
+      top: -2.8rem
+    }
+
+    .recipes-4 .wrapper {
+      padding-right: 0
+    }
+
+    .recipes-4 .box-middle {
+      width: 24.25rem
+    }
+
+    .recipes-4__photo {
+      width: 16.438rem;
+      height: 17.938rem;
+      bottom: -14.7rem;
+      right: -2rem
+    }
+
+    .recipes__circle {
+      width: 24.375rem;
+      height: 24.375rem
+    }
+
+    .recipes .recipes__circle-photo {
+      width: 12rem
+    }
+
+    .recipes__circle__left {
+      margin-left: 0;
+    }
+
+    .recipes__circle__left .recipes__title {
+      bottom: 3.2rem;
+      right: -14.2rem;
+      max-width: 19.538rem
+    }
+
+    .recipes__circle__right {
+      margin-right: 0;
+    }
+
+    .recipes__circle__right .recipes__title {
+      bottom: 5.2rem;
+      left: -14.4rem;
+      max-width: 20.938rem
+    }
+
+    .recipes__circle__right p {
+      max-width: 18.9rem
+    }
+
+    .recipes-5 {
+      margin-top: 20.5rem
+    }
+
+    .recipes__title h3 {
+      font-size: 2.25rem;
+      line-height: 3rem
+    }
+
+    .recipes__title p {
+      font-size: .875rem;
+      font-weight: 400;
+      line-height: 1.5rem
+    }
+
+    .recipes-6 {
+      margin-top: 5rem;
+    }
+
+    .recipes-6 .recipes__circle-photo {
+      width: 14rem
+    }
+
+    .popup__video .b-popup__content {
+      width: 35.1rem;
+      height: 19.8rem
+    }
+
+    .popup__video .close {
+      right: 0;
+      top: -5rem
+    }
+
+    .video__play {
+      width: 4.375rem;
+      height: 4.375rem;
+    }
+
+    .video__play .play__svg {
+      height: 1.375rem
+    }
+
+    .about.about__video {
+      margin-top: -1rem
+    }
+
+    .about-page .pos-top.pos-top_35 {
+      top: -2.5rem
+    }
+
+    .about-page .about__history-photo {
+      width: 40.625rem;
+      height: 31.25rem
+    }
+
+    .about-page .about__video .padding-right_zero {
+      padding-right: 1.875rem !important
+    }
+
+    .about-page .about__video .width-per_75 {
+      width: 100%
+    }
+
+    .about__top .pos-top {
+      max-width: 22rem
+    }
+
+    .about__top .wrapper {
+      padding-left: 1.875rem !important
+    }
+
+    .about__top .box {
+      margin-top: -10.1rem;
+      width: 24.063rem;
+      padding-bottom: 3.7rem
+    }
+
+    .video {
+      width: 35.75rem;
+      height: 23rem
+    }
+
+    .about__video-content {
+      margin-bottom: 5rem
+    }
+
+    .about__history {
+      margin-top: 6.3rem;
+    }
+
+    .about__history article {
+      max-width: 43rem;
+    }
+
+    .about__history article h5 {
+      margin-top: 2.7rem;
+      max-width: 38.8rem
+    }
+
+    .about__history article p {
+      max-width: 36rem
+    }
+
+    .about__history-photo {
+      width: 36.25rem;
+      height: 31.25rem
+    }
+
+    .about__3 {
+      margin-top: -2.6rem;
+    }
+
+    .about__3 .box {
+      width: 31.063rem;
+      height: auto;
+      padding-top: 2.4rem;
+      padding-bottom: 2.4rem
+    }
+
+    .about__3-content {
+      margin-top: -5.2rem
+    }
+
+    .about__dates {
+      margin-top: 7.2rem;
+    }
+
+    .about__dates .width_580 {
+      max-width: 38.25rem
+    }
+
+    .about__dates article {
+      max-width: 30rem
+    }
+
+    .about__dates-item {
+      max-width: 40rem;
+      margin: 10.6rem auto 0;
+    }
+
+    .about__dates-item br {
+      display: none
+    }
+
+    .about__dates-item .width_650 {
+      max-width: 32.625rem
+    }
+
+    .about__dates-item h4 {
+      font-size: 1.5rem;
+      line-height: 2.5rem
+    }
+
+    .about__dates-item:nth-child(2) {
+      margin-top: 10.1rem;
+      margin-left: 2.1rem;
+    }
+
+    .about__dates-item:nth-child(2) h4 {
+      max-width: 29.325rem;
+      right: .3rem
+    }
+
+    .about__dates-item:nth-child(3) {
+      margin: 11.1rem auto 0;
+    }
+
+    .about__dates-item:nth-child(3) h4 {
+      max-width: 24rem
+    }
+
+    .about__dates-item:nth-child(4) {
+      margin-top: 10.9rem;
+    }
+
+    .about__dates-item:nth-child(4) h4 {
+      max-width: 29.9rem
+    }
+
+    .about__dates-item:nth-child(5) {
+      margin-top: 13rem;
+    }
+
+    .about__dates-item:nth-child(5) h4 {
+      max-width: 28.4rem;
+      margin-left: .6rem
+    }
+
+    .about__dates-item:nth-child(6) {
+      margin-top: 10.5rem;
+    }
+
+    .about__dates-item:nth-child(6) h4 {
+      max-width: 27.5rem;
+      margin-right: 2.4rem
+    }
+
+    .about__dates-item:nth-child(7) {
+      margin-top: 8.4rem;
+    }
+
+    .about__dates-item:nth-child(7) h4 {
+      max-width: 28.4rem;
+      margin-left: .6rem
+    }
+
+    .about__dates-item:nth-child(8) {
+      margin-top: 12.9rem;
+    }
+
+    .about__dates-item:nth-child(8) h4 {
+      max-width: 27.5rem;
+      margin-right: 2.4rem
+    }
+
+    .about__country {
+      margin-top: 11.5rem;
+    }
+
+    .about__country .wrapper {
+      padding-right: 0
+    }
+
+    .about__country .b-flex_between {
+      margin-top: 2.6rem
+    }
+
+    .about__country .width_860 {
+      max-width: 22.8rem
+    }
+
+    .about__country .small-box__line {
+      margin-top: .6rem;
+      max-width: 16rem
+    }
+
+    .about__country .list {
+      margin-top: 1.8rem;
+    }
+
+    .about__country .list p {
+      max-width: 21.7rem
+    }
+
+    .about__country-photo {
+      margin-top: -2rem
+    }
+
+    .about__country-content {
+      margin-top: -16.5rem;
+    }
+
+    .about__country-content p {
+      position: relative;
+      top: -1.1rem
+    }
+
+    .about__country-content article {
+      max-width: 28rem
+    }
+
+    .about__country-content .box {
+      width: 31.563rem;
+      height: auto
+    }
+
+    .about__top-photo {
+      height: 37.5rem
+    }
+
+    .about-company .pos-top.pos-top_35 {
+      top: -2.5rem
+    }
+
+    .about-company .about__top .box {
+      margin-top: -7rem
+    }
+
+    .about-company .about__video article {
+      width: 100%;
+      max-width: 41rem;
+    }
+
+    .about-company .about__video article p {
+      max-width: 38rem
+    }
+
+    .about-company .about__history {
+      margin-top: 6.3rem;
+    }
+
+    .about-company .about__history .about__history-photo {
+      margin-top: -9.1rem
+    }
+
+    .about-company .about__history .box {
+      width: 33.75rem;
+      height: auto;
+      margin-top: 2.6rem
+    }
+
+    .about-company .about__history article {
+      max-width: 28.6rem;
+    }
+
+    .about-company .about__history article p {
+      margin-top: -.5rem
+    }
+
+    .about-company .about__history h5 {
+      max-width: 28.1rem;
+      top: -1.7rem;
+      bottom: auto;
+      position: relative
+    }
+
+    .about-company .about__tastes {
+      margin-top: 12.9rem;
+    }
+
+    .about-company .about__tastes .padding-left_zero {
+      padding-right: 1.875rem
+    }
+
+    .about-company .about__tastes .width_305 {
+      max-width: 16.0625rem
+    }
+
+    .about__tastes-photo {
+      width: 50%;
+      height: 17.875rem
+    }
+
+    .about__tastes-wrapper {
+      margin-top: 10.5rem;
+      text-align: center;
+    }
+
+    .about__tastes-wrapper article:first-child {
+      max-width: 25rem;
+      margin: auto
+    }
+
+    .about__tastes-image {
+      width: 7rem;
+      height: auto;
+      margin-bottom: .3rem;
+    }
+
+    .about__tastes-image:after {
+      left: -1.25em;
+      bottom: .2em;
+      width: 5.7rem;
+      height: 2.05rem
+    }
+
+    .about__tastes-product {
+      max-width: 27.3375rem;
+      margin: 3.2rem auto 0;
+    }
+
+    .about__tastes-product .swiper-wrapper {
+      //flex-wrap: wrap;
+      //justify-content: center
+    }
+
+    .about__tastes-item {
+      margin-bottom: 2.3rem;
+      width: 6.713rem;
+    }
+
+    .about__tastes-item p {
+      font-size: .875rem;
+      line-height: 1.25rem
+    }
+
+    .about__cheese {
+      margin-top: 6.8rem;
+    }
+
+    .about__cheese h5 {
+      margin-top: 1.2rem
+    }
+
+    .about__cheese .box {
+      width: 31.563rem;
+      height: 18.063rem;
+    }
+
+    .about__cheese .box p {
+      top: .2rem;
+      position: relative
+    }
+
+    .about__cheese article {
+      max-width: 38rem
+    }
+
+    .about__cheese-photo {
+      width: 100%;
+      height: 31.25rem;
+      margin-top: 3.6em
+    }
+
+    .about__history-content {
+      margin-left: 0;
+      margin-top: 11.5rem;
+      display: block;
+      height: auto;
+    }
+
+    .about__history-content .width-per_50 {
+      width: 100%;
+      display: block;
+    }
+
+    .about__history-content .width-per_50:first-child h3 {
+      position: relative;
+      top: 0
+    }
+
+    .about__history-content .width-per_50:first-child h5 {
+      top: -2.1rem
+    }
+
+    .about__history-content .width-per_50:last-child h5 {
+      top: -.6rem
+    }
+
+    .about__history-content .width-per_50:last-child svg {
+      position: relative;
+      top: 11.7rem;
+      width: 16.125rem;
+      height: 17.513rem
+    }
+
+    .about__history-content h5 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 2.5rem
+    }
+
+    .about__tastes-content {
+      margin-top: 3.6rem
+    }
+
+    .production .box {
+      padding-bottom: 0;
+    }
+
+    .production .production__icon {
+      margin-top: -12rem
+    }
+
+    .production-page h1 {
+      max-width: 29rem;
+      margin-bottom: 1.5rem;
+      font-size: 4.375rem;
+      font-weight: 400;
+      line-height: 4.75rem;
+    }
+
+    .production-page h1 br {
+      display: none
+    }
+
+    .production-page .width-712 {
+      max-width: 30.9rem
+    }
+
+    .production__wrapper {
+      padding-bottom: 6rem;
+    }
+
+    .production__wrapper:before {
+      height: 35.95rem;
+      left: -6.8rem
+    }
+
+    .production__wrapper:after {
+      width: 49.188rem;
+      bottom: -3.4rem;
+      left: -3.6rem;
+      height: 16rem
+    }
+
+    .production__icon {
+      width: 14.688rem;
+      height: 13.688rem
+    }
+
+    .production__progress {
+      margin-top: 11rem
+    }
+
+    .production__progress-box {
+      width: auto;
+      padding-right: 1.875rem;
+      margin-top: -19.5rem;
+    }
+
+    .production__progress-box .pos-top.pos-top_35 {
+      top: -2.5rem
+    }
+
+    .production__progress-box h5 {
+      max-width: 21.1rem
+    }
+
+    .production__progress-box h1 {
+      font-size: 2.813rem;
+      font-weight: 700;
+      line-height: 3.75rem
+    }
+
+    .production__progress-box article {
+      max-width: 24.7rem
+    }
+
+    .production__progress-photo {
+      width: 22.95rem;
+      height: 28.788rem;
+      left: 21.5em;
+      bottom: -12em
+    }
+
+    .production__quality {
+      padding-top: 0;
+      margin-top: -3rem
+    }
+
+    .production__quality-box, .production__best-box {
+      width: 37.563rem;
+      height: auto;
+      padding-left: 5.525rem;
+    }
+
+    .production__quality-box .margin-top_58, .production__best-box .margin-top_58 {
+      margin-top: 2.5rem;
+      max-width: 27.6rem
+    }
+
+    .production__quality-box h1, .production__best-box h1 {
+      margin-left: -1.2rem
+    }
+
+    .production__quality-box .pos-top.pos-top_35, .production__best-box .pos-top.pos-top_35 {
+      top: -3.1rem;
+    }
+
+    .production__quality-box .pos-top.pos-top_35 p, .production__best-box .pos-top.pos-top_35 p {
+      margin-top: .9rem
+    }
+
+    .production__quality-box .padding-left_193, .production__best-box .padding-left_193 {
+      padding-left: 3.6rem
+    }
+
+    .production__quality-photo {
+      width: 24rem;
+      height: 22.688rem;
+      left: -5rem;
+      top: -13.1rem
+    }
+
+    .production__best-photo {
+      width: 19.05rem;
+      height: 17rem;
+      right: -5.4rem;
+      bottom: -12.5em
+    }
+
+    .production__natural-inner {
+      margin-top: 3.1rem;
+      max-width: 27.4rem
+    }
+
+    .production__natural {
+      margin-top: 14rem;
+    }
+
+    .production__natural:before {
+      content: "";
+      position: absolute;
+      height: 14rem;
+      width: 15rem;
+      background: url("/assets/img/mobile/04_production_3_01.jpg") no-repeat center left/contain;
+      top: -5.1rem;
+      left: 0
+    }
+
+    .production__natural:after {
+      content: "";
+      position: absolute;
+      height: 14rem;
+      width: 15rem;
+      background: url("/assets/img/mobile/04_production_3_02.jpg") no-repeat center right/contain;
+      top: -7.1rem;
+      right: 0
+    }
+
+    .production__best {
+      margin-top: 14rem;
+    }
+
+    .production__best .pos-top {
+      top: -2.9rem
+    }
+
+    .production__best .width-712 {
+      max-width: 27.3rem
+    }
+
+    .production__best-inner {
+      margin-top: 2.3rem;
+      max-width: 36rem
+    }
+
+    .production__last {
+      margin-top: 23.2rem
+    }
+
+    .production__last-inner {
+      margin-top: 4.2rem;
+      max-width: 27.9rem;
+    }
+
+    .production__last-inner p {
+      margin-top: .7rem
+    }
+
+    .wrapper__big {
+      margin: 0 1.125rem;
+      padding: 0 0;
+      width: auto;
+      position: relative;
+      left: auto;
+      top: auto;
+      z-index: 5
+    }
+
+    .geography-page__bg {
+      display: none
+    }
+
+    .geography-page {
+      height: auto;
+      padding: 0;
+      background: transparent;
+      position: relative;
+    }
+
+    .geography-page:after {
+      content: "";
+      display: block;
+      position: absolute;
+      background: url("/assets/img/map_new.jpg") no-repeat center bottom/cover;
+      height: 40rem;
+      width: 100%;
+      top: 0;
+      left: 0
+    }
+
+    .geography__top {
+      margin-top: 7rem;
+      justify-content: space-around
+    }
+
+    .geography__top-item {
+      width: 43%
+    }
+
+    .geography__right__item h2 {
+      font-size: 5.625rem;
+      font-weight: 400;
+      line-height: 1.875rem
+    }
+
+    .geography__right__item h3 {
+      font-size: 1.875rem;
+      font-weight: 400;
+      line-height: 1.875rem
+    }
+
+    .geography__right {
+      margin-right: -.8rem
+    }
+
+    .geography__top_margin {
+      margin-top: 1.4rem
+    }
+
+    .geography__left {
+      width: 53%
+    }
+
+    .geography__pin {
+      margin-top: 21.5rem;
+      margin-left: -1rem;
+      padding-bottom: 5rem
+    }
+
+    .pin-illustration {
+      position: relative;
+      left: -1rem;
+      top: auto;
+      margin-bottom: 2rem;
+      padding-left: 3.125rem;
+      height: auto;
+      width: 9.5rem
+    }
+
+    .illustration__one {
+      margin-bottom: .8rem;
+      width: 14.6rem;
+      left: -1.9rem
+    }
+
+    .illustration__two {
+      height: auto
+    }
+
+    .illustration__three {
+      margin-bottom: 3.1rem;
+      height: auto
+    }
+
+    .geography__pin-two {
+      margin-top: 21rem;
+    }
+
+    .geography__pin-three {
+      margin-top: 23.2rem;
+    }
+
+    .geography__pin-item {
+      position: relative;
+      top: auto;
+      right: auto;
+      left: auto;
+      margin: 4.5rem 1.875rem 4rem;
+      padding: 0 1.875rem;
+    }
+
+    .geography__pin-item h3 {
+      display: none
+    }
+
+    .geography__pin-item .pin__wrapper {
+      transform: translate(0, 0);
+      top: auto;
+      margin: 0;
+      position: relative
+    }
+
+    .geography__pin-item .close {
+      display: none
+    }
+
+    .geography__pin-item .pin {
+      display: none
+    }
+
+    .geography__pin-item .geography__popup {
+      opacity: 1;
+      pointer-events: all;
+      position: relative;
+      transform: translate(0, 0);
+      top: auto;
+      right: auto;
+      left: auto;
+      width: 100%;
+      bottom: auto
+    }
+
+    .geography__pin-item .box {
+      padding-bottom: 0
+    }
+
+    .geography__pin-item p {
+      margin-top: .6rem
+    }
+
+    .geography__pin-item h3 {
+      font-size: 1.25rem;
+      font-weight: 400;
+      line-height: 1.75rem
+    }
+
+    .pin {
+      margin-bottom: .8rem;
+      width: 1.788rem;
+      height: 2.425rem
+    }
+
+    .geography__box {
+      width: 13.7rem;
+      height: 9.775rem;
+      margin-right: 1.5rem
+    }
+
+    .geography__photo {
+      width: 35rem;
+      height: 25rem;
+      margin-top: -5.4rem;
+      margin-right: -2rem;
+      z-index: 0
+    }
+
+    .geography_content-one {
+      margin-top: 3.4rem
+    }
+
+    .geography__right__item-one .box {
+      padding-left: 1.825rem;
+      top: -4.1rem
+    }
+
+    .geography__right__item-one article {
+      max-width: 10rem
+    }
+
+    .geography__right__item-one h3 {
+      position: relative;
+      left: 0;
+      top: 2.8rem
+    }
+
+    .geography__right__item-one h2 {
+      position: relative;
+      left: -.9rem;
+      top: 1.7rem;
+      white-space: nowrap
+    }
+
+    .geography__right__item-two {
+      margin-top: -1.3rem;
+    }
+
+    .geography__right__item-two br {
+      display: block
+    }
+
+    .geography__right__item-two .box {
+      top: .6rem;
+      height: auto;
+      display: block;
+      padding: 0 0 0 1.875rem !important
+    }
+
+    .geography__right__item-two .margin-left__minus_80 {
+      margin-left: -3.7rem;
+      margin-top: 1.3rem;
+      display: flex
+    }
+
+    .geography__right__item-two .width_195 {
+      margin-left: -.3rem;
+      max-width: 12rem;
+      position: relative;
+      top: -.7rem
+    }
+
+    .geography__right__item-two h3 {
+      position: relative;
+      left: .9rem;
+      top: -.9rem
+    }
+
+    .box__geography {
+      width: 28.125rem;
+      position: relative;
+      z-index: 3
+    }
+
+    .tastes-page {
+      height: 100%;
+      position: absolute;
+      top: 3.125rem;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      overflow: hidden;
+      margin: 0;
+    }
+
+    .tastes-page .swiper-pagination {
+      bottom: 5rem
+    }
+
+    .tastes-page .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 0 7px
+    }
+
+    .tastes-page .btn__detail {
+      display: none
+    }
+
+    .tastes-page .swiper-button-next {
+      right: 3.725rem
+    }
+
+    .tastes-page .swiper-button-prev {
+      left: 3.725rem
+    }
+
+    .tastes-page .btn__detail {
+      top: -.9rem
+    }
+
+    .tastes-slider__left {
+      width: 100%;
+      max-height: 43.75rem
+    }
+
+    .tastes-slider__photo {
+      height: 100%;
+      width: 100%;
+    }
+
+    .tastes-slider__photo img {
+      position: relative;
+      left: -3rem
+    }
+
+    .tastes-slider__text {
+      max-width: 19rem;
+      width: 100%;
+      margin-top: 1.2rem;
+    }
+
+    .tastes-slider__text .line {
+      display: none
+    }
+
+    .tastes-slider__right {
+      width: 100%;
+      max-width: 95%;
+      padding: 0 1.5625rem;
+      left: 0;
+      margin-top: 0;
+      position: absolute;
+      top: 3rem
+    }
+
+    .tastes__top {
+      height: 100%;
+    }
+
+    .tastes__top .swiper-button-next, .tastes__top .swiper-button-prev {
+      display: none
+    }
+
+    .tastes__top .swiper-slide {
+      flex-direction: column-reverse
+    }
+
+    .tastes__top h3 {
+      font-size: 2.125rem;
+      font-weight: 700;
+      line-height: 2.5rem
+    }
+
+    .tastes__bottom {
+      display: none;
+      height: 0
+    }
+
+    .tastes__bottom-photo {
+      width: 100%;
+      height: auto;
+    }
+
+    .tastes__bottom-photo:before {
+      width: 4.3rem;
+      height: 3.825rem;
+      left: -.6rem;
+      bottom: -.8rem
+    }
+
+    .news-all-page {
+      padding-top: 3.5rem;
+      padding-bottom: 3rem;
+    }
+
+    .news-all-page .wrapper {
+      padding: 0 .5rem !important
+    }
+
+    .news-all-page .news-item {
+      width: 47%
+    }
+
+    .news-all-page .news-photo {
+      height: 14rem
+    }
+
+    .news-all-page .news-text {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .news-all-page .news-text h4 {
+      max-width: 100%;
+      font-size: 1.375rem;
+      line-height: 2rem
+    }
+
+    .news-all-page .news-text p {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.875rem
+    }
+
+    .news-all-page .gutter-sizer {
+      width: 3%
+    }
+
+    .news-all__content {
+      margin-top: 3.8rem
+    }
+
+    .news-line__1 {
+      margin-top: 5.8rem
+    }
+
+    .news-page .btn__detail {
+      margin-top: 3.2rem;
+      width: 9rem
+    }
+
+    .news-page .news-photo {
+      margin-top: 3.7rem;
+      height: 28.688rem
+    }
+
+    .width_600 {
+      max-width: 29.5rem
+    }
+
+    .news-line__2 {
+      margin-top: 2.6rem;
+    }
+
+    .news-line__2 .width_710 {
+      max-width: 32rem
+    }
+
+    .news-line__2 .small-box__line {
+      max-width: 15.4rem
+    }
+
+    .news-title_margin {
+      margin-top: 1.5rem;
+      max-width: 39.1rem
+    }
+
+    .news-content__photo {
+      width: 22rem;
+      height: 18.375rem
+    }
+
+    .news-line__2_margin {
+      margin-top: 6.5rem
+    }
+
+    .news-line__3 {
+      margin-top: 2.3rem
+    }
+
+    .width_935 {
+      max-width: 44.4375rem
+    }
+
+    .news-line__3_second-text {
+      margin-top: 1.9rem;
+    }
+
+    .news-line__3_second-text .width_640:last-child {
+      position: relative
+    }
+
+    .news-line__3_margin {
+      max-width: 38.3375rem;
+      margin-top: .5rem
+    }
+
+    .news-line__4 {
+      margin-top: 6.5rem
+    }
+
+    .news-slider {
+      height: 30.438rem;
+    }
+
+    .news-slider .wrapper {
+      margin: 1.875rem
+    }
+
+    .news-line__5 {
+      margin-top: 2.3rem;
+    }
+
+    .news-line__5 .width_580 {
+      max-width: 28.45rem
+    }
+
+    .news-line__5 .width_1015 {
+      max-width: 45.4375rem
+    }
+
+    .news__other {
+      margin-top: 12.3rem
+    }
+
+    .news__other_content {
+      margin-top: -.7rem
+    }
+
+    .news-title h3 {
+      font-size: 1.625rem;
+      font-weight: 400;
+      line-height: 2.125rem
+    }
+
+    .news-title p {
+      font-size: .875rem;
+      font-weight: 400;
+      line-height: 1.5rem
+    }
+
+    article .line-height_2-2 {
+      line-height: 2.063rem
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 750px) {
+    .contacts-top {
+      display: block
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 764px) {
+    .production .production__icon {
+      margin-top: -9rem;
+      margin-left: 10rem
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 700px) {
+    .photo__lavender {
+      width: 59rem;
+      height: 31.125rem;
+      right: -45em;
+      top: 7rem
+    }
+
+    .photo__milk {
+      width: 60.188rem;
+      height: 35.875rem;
+      right: -45.6rem;
+      top: 9.3rem
+    }
+
+    .index__recipe .box {
+      padding-right: 5rem
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .tastes-center__img{
+      width: 8.3rem;
+      height: 11.75rem;
+    }
+    h5 br {
+      display: none
+    }
+
+    p br {
+      display: none
+    }
+
+    .mobile__hide {
+      display: none
+    }
+
+    .desktop__hide {
+      display: block
+    }
+
+    article h1 {
+      font-size: 2.125rem
+    }
+
+    .wrapper {
+      padding: 0 .5rem;
+      margin: 0 1.125rem
+    }
+
+    .menu-open {
+      overflow: hidden
+    }
+
+    .menu-header {
+      justify-content: space-between;
+      align-items: center
+    }
+
+    .menu-header__right {
+      display: flex;
+      align-items: center
+    }
+
+    .menu-recipe {
+      display: flex
+    }
+
+    .logo__768 {
+      display: none
+    }
+
+    .logo__desktop_mini {
+      display: block;
+      width: 4.875rem;
+      height: 3.813rem
+    }
+
+    .menu-list {
+      margin-top: 1.5rem
+    }
+
+    .logo__320 {
+      display: block
+    }
+
+    .menu__logo {
+      width: 6rem;
+      height: 5rem;
+      bottom: -2.3rem
+    }
+
+    .mobile-close {
+      position: fixed;
+      top: 1.25rem;
+      right: 1.25rem
+    }
+
+    .menu-mobile.active .menu-mobile__wrapper {
+      bottom: 0
+    }
+
+    .menu-mobile .menu-content {
+      padding-top: 2rem;
+    }
+
+    .menu-mobile .menu-content h2 {
+      font-size: 1.75rem
+    }
+
+    .menu-mobile .menu-list a {
+      font-size: 1.125rem;
+      line-height: 2.25rem
+    }
+
+    .menu-mobile__wrapper {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .menu-mobile__wrapper .wrapper {
+      height: auto
+    }
+
+    .menu-footer {
+      margin-top: 2rem
+    }
+
+    .contacts-top {
+      display: block;
+      margin-bottom: 6rem;
+      margin-top: 1.4rem;
+    }
+
+    .contacts-top p {
+      font-size: .875rem;
+      line-height: 2rem
+    }
+
+    .contacts-top h4 {
+      font-size: 1.875rem;
+      line-height: 2.225rem
+    }
+
+    .contacts-top a {
+      display: inline-block;
+      border-bottom: none
+    }
+
+    .textarea {
+      margin-top: 2.9rem
+    }
+
+    .block-feedback__subject {
+      margin-top: 2.4875rem
+    }
+
+    .cs-select .ui-selectmenu-button.ui-button {
+      height: 3.1rem
+    }
+
+    .form__group {
+      margin-top: 1.8rem;
+    }
+
+    .form__group span {
+      font-size: 1rem
+    }
+
+    .form__group input {
+      padding: 0;
+      transition: font-size 500ms ease-in
+    }
+
+    .form__group input.active-input ~ span {
+      transform: translate(0, -1.6rem) scale(1);
+      font-size: .7rem
+    }
+
+    .placeholder {
+      font-size: 1rem
+    }
+
+    .form__item {
+      display: block;
+      margin: 0;
+    }
+
+    .chevron__svg {
+      right: 1rem
+    }
+
+    .form__item_29, .form__item_46 {
+      width: 100%
+    }
+
+    .contacts {
+      padding-top: 3.7rem;
+      padding-bottom: 4rem;
+    }
+
+    .contacts:before {
+      height: 11rem;
+      left: 0;
+      right: 0;
+      top: -3rem;
+      background: url("/assets/img/mobile/10_contacts_big.jpg") no-repeat bottom center/cover
+    }
+
+    .contacts .btn__detail {
+      margin-top: 3rem !important
+    }
+
+    .contacts-info {
+      margin-top: 1.6rem;
+    }
+
+    .contacts-info p {
+      width: 100%;
+      font-size: .875rem;
+      font-weight: 400;
+      line-height: 1.5rem
+    }
+
+    .contacts-top__left {
+      margin: 0
+    }
+
+    .close {
+      width: 2.375rem;
+      height: 2.375rem;
+      right: .875rem;
+      top: .875rem
+    }
+
+    .close-svg {
+      width: .688rem;
+      height: .75rem
+    }
+
+    .recipes br {
+      display: block
+    }
+
+    br {
+      display: none
+    }
+
+    h2 br {
+      display: block
+    }
+
+    .b-popup__content {
+      max-width: 17.8rem;
+      width: 100%;
+      height: 20.75rem;
+      padding: 0 2.1rem;
+      margin-bottom: 9rem
+    }
+
+    .icon-popup .dove-ok__svg {
+      width: 14.563rem;
+      height: 10.813rem
+    }
+
+    .icon-popup .dove-error__svg {
+      width: 10.813rem;
+      height: 10.813rem
+    }
+
+    .btn__detail {
+      width: 6.913rem;
+      height: 2.3rem;
+      font-size: .75rem;
+      margin-top: 1rem !important
+    }
+
+    .margin-left_50 {
+      margin-left: 1.5625rem
+    }
+
+    .zero__mobile {
+      margin: 0;
+      padding: 0
+    }
+
+    .index h5 br {
+      display: block
+    }
+
+    .index__top .padding-left_zero-mobile {
+      padding-left: .5rem !important
+    }
+
+    .width-750 {
+      max-width: 94%
+    }
+
+    .index__top-photo {
+      height: 24.063rem;
+      margin-bottom: 2.7rem;
+    }
+
+    .index__top-photo br {
+      display: block
+    }
+
+    .index__top-photo article {
+      bottom: 3rem;
+      padding-right: 1rem
+    }
+
+    .index__top-margin {
+      margin-left: 0
+    }
+
+    .index__photo {
+      margin-left: 0;
+      height: 25rem
+    }
+
+    .index__production {
+      margin-top: 3.6rem;
+    }
+
+    .index__production .padding-left_zero-mobile {
+      padding-left: .5rem !important
+    }
+
+    .index__production h5 {
+      margin-top: 1rem;
+    }
+
+    .index__production h5 br {
+      display: none
+    }
+
+    .index__production-wrapper .box {
+      position: relative;
+      bottom: -5rem
+    }
+
+    .box-middle__vertical {
+      width: 100%
+    }
+
+    .box-middle {
+      width: 100%
+    }
+
+    .box-large {
+      width: 100%
+    }
+
+    .box {
+      padding-left: 1.5625rem;
+      padding-bottom: 1.875rem;
+      padding-right: .9375rem
+    }
+
+    .index__recipe {
+      background-color: #d7e4f4;
+      margin-top: 12rem;
+    }
+
+    .index__recipe h5 {
+      max-width: 20rem;
+    }
+
+    .index__recipe h5 br {
+      display: none
+    }
+
+    .index__recipe .box_blue {
+      padding-left: 0;
+      padding-right: 0;
+      background-color: transparent
+    }
+
+    .pos-top.pos-top_35 {
+      top: -1.6rem
+    }
+
+    .photo__milk {
+      width: 19.5rem;
+      height: 26.75rem;
+      right: -9rem;
+      bottom: -12em;
+      top: auto
+    }
+
+    .photo__cloud {
+      height: auto
+    }
+
+    .photo__mountains {
+      height: 15.625rem;
+      background: url("/assets/img/mobile/01_start_mountains.png") no-repeat center top/cover
+    }
+
+    .index__region {
+      margin-top: 10.3rem;
+    }
+
+    .index__region h5 {
+      margin-top: 1.8rem;
+    }
+
+    .index__region h5 br {
+      display: none
+    }
+
+    .index__region p {
+      max-width: 97%
+    }
+
+    .index__region .wrapper {
+      margin-top: 0
+    }
+
+    .index__region .box {
+      position: relative;
+      bottom: 0;
+      margin-top: -11.5625rem
+    }
+
+    .index__region .margin-top__minus_210 {
+      margin-top: -2rem
+    }
+
+    .index__tastes {
+      margin-top: 8.8rem;
+      height: auto;
+      padding-bottom: 3.5rem;
+    }
+
+    .index__tastes h2 {
+      max-width: 320px;
+    }
+
+    .index__tastes h2 br {
+      display: none
+    }
+
+    .tastes__title {
+      top: 25.2rem;
+      right: 0;
+      padding: 1em 0 0 3.063rem;
+      position: absolute;
+      bottom: auto;
+      left: 4rem;
+      background: transparent;
+      width: auto;
+    }
+
+    .tastes__title h3 {
+      font-size: 1.125rem;
+      line-height: 1.5rem
+    }
+
+    .index__recipe-almete {
+      margin-top: 19.5rem;
+    }
+
+    .index__recipe-almete .box-short {
+      top: -11.8rem;
+      margin-left: 0;
+      width: 14.375rem;
+    }
+
+    .index__recipe-almete .box-short h6 {
+      max-width: 8rem;
+      margin-top: 0
+    }
+
+    .title__recipe-almete h1 {
+      font-size: 8.438rem
+    }
+
+    .news-photo__small {
+      width: 100%;
+      height: 16.875rem;
+      margin: auto
+    }
+
+    .news-item {
+      max-width: 100%;
+      margin-right: 5rem
+    }
+
+    .news-text {
+      margin-top: 1.15rem;
+    }
+
+    .news-text h4, .news-text p {
+      margin: 0;
+      max-width: 100%
+    }
+
+    .news-text h4 {
+      margin-bottom: .625rem
+    }
+
+    .index__news {
+      margin-top: 6.7rem;
+    }
+
+    .index__news .btn__detail {
+      margin-top: 3rem !important;
+      width: 7.313rem
+    }
+    .photo__milk {
+      width: 19.5rem;
+      height: 26.75rem;
+      right: -9rem;
+      bottom: -12em;
+      top: auto;
+    }
+    .index__news .swiper-pagination {
+      margin-top: 0;
+      width: 100%;
+      position: relative
+    }
+
+    .index__news-content {
+      margin-top: 2.1rem
+    }
+
+    .news-content .swiper-wrapper {
+      justify-content: normal
+    }
+
+    .swiper-pagination-bullet {
+      margin: 0 .25rem
+    }
+
+    .main-footer article {
+      display: block
+    }
+
+    .main-footer_margin {
+      margin-top: 5.2rem;
+      margin-bottom: 3.7em;
+    }
+
+    .main-footer_margin p {
+      margin-top: 2rem
+    }
+
+    .drag-start {
+      transform: scale(.7) !important
+    }
+
+    .tastes-item {
+      width: 5rem;
+      height: 5rem;
+    }
+
+    .tastes-item:before {
+      width: 4.5rem;
+      height: 4.5rem
+    }
+
+    .tastes-item:after {
+      width: 4.5rem;
+      height: 4.5rem
+    }
+
+    .index__tastes-content {
+      width: 22.5rem;
+      height: 22.5rem;
+      margin: 4em 0 12.188rem;
+      position: relative;
+      left: -7.5rem
+    }
+
+    .taste-drag {
+      width: 4.5rem;
+      height: 4.5rem;
+      padding: .5rem
+    }
+
+    .taste-garlic__img {
+      margin-top: 1.1rem;
+      margin-left: .2rem
+    }
+
+    .tastes-center {
+      width: 22.5rem;
+      height: 22.5rem
+    }
+
+    .tastes-center__wrapper {
+      width: 8.9375rem;
+      height: 12.6875rem;
+    }
+
+    .tastes-center__wrapper:after {
+      left: -1.8em;
+      bottom: -5.2em;
+      width: 10rem;
+      height: 14.75rem
+    }
+
+    .taste-ogurec {
+      top: 19.8em;
+      left: 7em
+    }
+
+    .taste-cheese {
+      top: 15em;
+      right: -1em
+    }
+
+    .taste-zelen {
+      top: 2.2em;
+      left: 18.4em
+    }
+
+    .taste-milk {
+      top: -2.5em;
+      left: 7.1em
+    }
+
+    .taste-garlic {
+      top: 8.6em;
+      right: -2em;
+    }
+
+    .taste-garlic img {
+      height: auto
+    }
+
+    .taste-garlic .taste-drag {
+      top: auto;
+      left: auto
+    }
+
+    .taste-tomato {
+      bottom: -1.2em;
+      left: 13.3em
+    }
+
+    .taste-mushroom {
+      top: -1.7em;
+      right: 4em
+    }
+
+    .taste-milk__img {
+      margin-top: .2em;
+      margin-left: .3em
+    }
+
+    .drag-info__wrapper {
+      display: none
+    }
+
+    .tastes__title br {
+      display: block
+    }
+
+    h5 br {
+      display: none
+    }
+
+    p br {
+      display: none
+    }
+
+    .recipes-page {
+      height: auto;
+      padding-bottom: 11rem;
+      margin: 0;
+      background: url("/assets/img/mobile/05_recipy_1500_bg.jpg") no-repeat center/cover
+    }
+
+    .recipes {
+      position: relative;
+      transition: transform 500ms ease;
+    }
+
+    .recipes .tastes-br {
+      display: block
+    }
+
+    .recipes h6 {
+      margin-bottom: 1.5rem
+    }
+
+    .recipes .box {
+      padding-right: 1.2rem;
+      padding-left: 1.2rem;
+      margin-left: 1.5rem
+    }
+
+    article h6 {
+      font-size: 2.5rem;
+      font-weight: 400;
+      line-height: 3rem
+    }
+
+    .recipes-1 .box-middle {
+      width: 100%;
+      height: auto;
+      margin-left: 0
+    }
+
+    .recipes-1 h1 {
+      margin-bottom: 2rem
+    }
+
+    .recipes-1 h5 {
+      margin-top: 0
+    }
+
+    .recipes-1 p {
+      max-width: 90%;
+      margin-top: .8rem
+    }
+
+    .recipes-1__photo {
+      width: 10.813rem;
+      height: 10.938rem;
+      right: -3em;
+      bottom: -9rem;
+      left: auto
+    }
+
+    .recipes-2 .box-middle {
+      width: 100%;
+      height: auto
+    }
+
+    .recipes-2 h6 {
+      max-width: 11rem;
+      margin-left: -3.2rem
+    }
+
+    .recipes-2 p {
+      margin-top: 1rem
+    }
+
+    .recipes-3 {
+      padding-left: 0;
+    }
+
+    .recipes-3 .wrapper {
+      display: flex;
+      justify-content: flex-end
+    }
+
+    .recipes-3 article {
+      max-width: 22rem
+    }
+
+    .recipes-3 h6 {
+      max-width: 11rem;
+      margin-left: -3rem
+    }
+
+    .recipes-3 .box-middle {
+      width: 100%;
+      height: auto
+    }
+
+    .recipes-4 h6 {
+      max-width: 90%;
+      margin-left: -3.2rem
+    }
+
+    .recipes-4 ul {
+      margin-top: 1.1rem;
+      margin-left: 1.7875rem
+    }
+
+    .recipes-4 .wrapper {
+      padding-right: .5rem !important;
+      margin-right: 1.125rem
+    }
+
+    .recipes-4 .box-middle {
+      width: 100%;
+      height: auto
+    }
+
+    .recipes-4__photo {
+      width: 16.438rem;
+      height: 17.938rem;
+      bottom: -14.7rem;
+      right: -2rem;
+      display: none
+    }
+
+    .recipes__circle {
+      width: 100%;
+      height: auto;
+      background: transparent;
+    }
+
+    .recipes__circle:before {
+      content: "";
+      display: block;
+      position: absolute;
+      border-radius: 50%;
+      background-color: #fff;
+      width: 19.438rem;
+      height: 19.438rem;
+      left: -8.8rem;
+      top: 0
+    }
+
+    .recipes__circle .recipes__title {
+      position: relative;
+      bottom: auto;
+      margin-top: 9rem;
+      max-width: 95%
+    }
+
+    .recipes .recipes__circle-photo {
+      width: 9.8rem;
+      height: 12.125rem;
+      position: absolute;
+      top: -1.8rem;
+      left: 0
+    }
+
+    .recipes__circle__left {
+      margin-left: 0;
+    }
+
+    .recipes__circle__left .recipes__title {
+      left: 0
+    }
+
+    .recipes__circle__right {
+      margin-right: 0;
+    }
+
+    .recipes__circle__right .recipes__title {
+      left: 0
+    }
+
+    .recipes-5 {
+      margin-top: 14.5em;
+    }
+
+    .recipes__title h3 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      line-height: 1.25rem;
+      margin-bottom: 1rem
+    }
+
+    .recipes__title p {
+      font-size: .875rem;
+      font-weight: 400;
+      line-height: 1.5rem
+    }
+
+    .recipes-6 {
+      margin-top: 12.4em;
+    }
+
+    .recipes-6 .recipes__circle-photo {
+      width: 11.2rem
+    }
+
+    .popup__video .b-popup__content {
+      width: 35rem;
+      height: 10rem
+    }
+
+    .popup__video .close {
+      right: 0;
+      top: -5rem
+    }
+
+    .video__play {
+      width: 4.375rem;
+      height: 4.375rem;
+    }
+
+    .video__play .play__svg {
+      height: 1.375rem
+    }
+
+    .about.about__top .pos-top.pos-top_35 {
+      margin-top: -3.4rem
+    }
+
+    .about .wrapper.padding-left_zero.padding-right_zero {
+      margin: 0
+    }
+
+    .about .box {
+      padding: 1.875rem 1.5rem 2.2rem 1.5rem !important
+    }
+
+    .about-page {
+      padding-bottom: 4.625rem;
+    }
+
+    .about-page .about__video {
+      margin-top: -2.8rem;
+    }
+
+    .about-page .about__video article {
+      width: 100%;
+      max-width: 95%;
+      margin: 0 1.125rem;
+      padding: 0 .5rem;
+    }
+
+    .about-page .about__video article p {
+      max-width: 38rem
+    }
+
+    .about-page .about__video .padding-right_zero {
+      padding-right: 0 !important
+    }
+
+    .about-page .about__video .width-per_75 {
+      width: 100%
+    }
+
+    .about-page .about__history-photo {
+      margin-top: 5rem
+    }
+
+    .about__top {
+      position: relative;
+      z-index: 5;
+    }
+
+    .about__top h1 br {
+      display: block
+    }
+
+    .about__top .pos-top {
+      max-width: 22rem
+    }
+
+    .about__top .wrapper {
+      padding-left: .5rem !important
+    }
+
+    .about__top .box {
+      margin-top: -5rem;
+      width: 100%;
+      height: auto
+    }
+
+    .video {
+      width: 100%;
+      height: 15rem
+    }
+
+    .about h5 {
+      margin-top: 2.1rem
+    }
+
+    .about__video-content {
+      margin-bottom: 5rem
+    }
+
+    .about__history {
+      margin-top: 5.8rem;
+    }
+
+    .about__history article {
+      max-width: 43rem;
+    }
+
+    .about__history article h3 {
+      font-size: 1.7rem
+    }
+
+    .about__history article h5 {
+      margin-top: 1.2rem;
+      max-width: 38.8rem
+    }
+
+    .about__history article p {
+      max-width: 36rem
+    }
+
+    .about__history-photo {
+      width: 100%;
+      height: 25rem
+    }
+
+    .about__3 {
+      margin-top: -2.6rem;
+    }
+
+    .about__3 h5 {
+      max-width: 95%
+    }
+
+    .about__3 p {
+      max-width: 95%
+    }
+
+    .about__3 .box {
+      width: 31.063rem;
+      height: auto
+    }
+
+    .about__3-content {
+      margin-top: -8.4rem;
+      padding: 1.5625rem
+    }
+
+    .about__dates {
+      margin-top: 3.5rem;
+    }
+
+    .about__dates .width_580 {
+      max-width: 80%
+    }
+
+    .about__dates h5 {
+      margin-top: 1.8rem
+    }
+
+    .about__dates article {
+      max-width: 30rem
+    }
+
+    .about__dates-item {
+      max-width: 400px;
+      margin: 10.6rem auto 0;
+    }
+
+    .about__dates-item br {
+      display: none
+    }
+
+    .about__dates-item .width_650 {
+      max-width: 80%
+    }
+
+    .about__dates-item h2 {
+      font-size: 6.875rem;
+      font-weight: 400;
+      line-height: 14.688rem
+    }
+
+    .about__dates-item h4 {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.875rem;
+      max-width: 80%
+    }
+
+    .about__dates-item:nth-child(2) {
+      margin-top: 9.1rem;
+    }
+
+    .about__dates-item:nth-child(2) h4 {
+      top: -1rem
+    }
+
+    .about__dates-item:nth-child(3) {
+      margin: 5.8rem auto 0;
+    }
+
+    .about__dates-item:nth-child(3) h4 {
+      right: 0;
+      top: -1.3rem
+    }
+
+    .about__dates-item:nth-child(4) {
+      margin-top: 6.7rem;
+    }
+
+    .about__dates-item:nth-child(5) {
+      margin-top: 5.5rem;
+    }
+
+    .about__dates-item:nth-child(5) h4 {
+      margin-left: .6rem;
+      top: -1.3rem
+    }
+
+    .about__dates-item:nth-child(6) {
+      margin-top: 6.9rem;
+    }
+
+    .about__dates-item:nth-child(6) h4 {
+      margin-left: .6rem;
+      top: -1.3rem
+    }
+
+    .about__dates-item:nth-child(7) {
+      margin-top: 5.2rem;
+    }
+
+    .about__dates-item:nth-child(7) h4 {
+      margin-left: .6rem;
+      top: -1.3rem
+    }
+
+    .about__dates-item:nth-child(8) {
+      margin-top: 5.9rem;
+    }
+
+    .about__dates-item:nth-child(8) h4 {
+      margin-right: 2.4rem;
+      left: 3.5rem;
+      top: -1.3rem
+    }
+
+    .about__country {
+      margin-top: 2.5rem;
+    }
+
+    .about__country .wrapper {
+      padding-right: 0
+    }
+
+    .about__country .b-flex_between {
+      margin-top: 2.6rem;
+      display: block
+    }
+
+    .about__country .width_860 {
+      max-width: 100%
+    }
+
+    .about__country .small-box__line {
+      margin-top: 4.5rem;
+      max-width: 88%
+    }
+
+    .about__country .list {
+      margin-top: .4rem;
+    }
+
+    .about__country .list li {
+      margin-bottom: .6rem;
+      margin-left: 0
+    }
+
+    .about__country .list p {
+      max-width: 90%
+    }
+
+    .about__country .list ul {
+      margin-top: .6rem
+    }
+
+    .about__country-photo {
+      margin-top: 0;
+    }
+
+    .about__country-photo .about__history-photo {
+      margin-top: 2rem
+    }
+
+    .about__country-photo .wrapper {
+      margin: 0;
+      padding: 0
+    }
+
+    .about__country-content {
+      margin-top: -4.4rem;
+    }
+
+    .about__country-content .wrapper {
+      padding: 0 .5rem !important
+    }
+
+    .about__country-content p {
+      position: relative
+    }
+
+    .about__country-content article {
+      max-width: 28rem
+    }
+
+    .about__country-content .box {
+      width: 100%;
+      height: auto
+    }
+
+    .about__history-img {
+      margin: 0;
+      padding: 0
+    }
+
+    .about__history-box {
+      padding-left: .5rem !important
+    }
+
+    .about__top-photo {
+      height: 24.063rem
+    }
+
+    .about__video .wrapper {
+      margin: 0;
+      padding: 0
+    }
+
+    .about-company {
+      padding-bottom: 2.6875rem;
+    }
+
+    .about-company .pos-top.pos-top_35 {
+      top: -1.6rem
+    }
+
+    .about-company .about__top .box {
+      margin-top: -5.2rem
+    }
+
+    .about-company .about__video {
+      margin-top: -3.2rem;
+    }
+
+    .about-company .about__video article {
+      width: 100%;
+      max-width: 95%;
+      margin: 0 1.125rem;
+      padding: 0 .5rem;
+    }
+
+    .about-company .about__video article p {
+      max-width: 100%
+    }
+
+    .about-company .about__history {
+      margin-top: 3.8rem;
+    }
+
+    .about-company .about__history .about__history-photo {
+      margin-top: -7.1rem
+    }
+
+    .about-company .about__history .box {
+      width: 100%;
+      height: auto;
+      margin-top: 2.6rem
+    }
+
+    .about-company .about__history article {
+      max-width: 28.6rem
+    }
+
+    .about-company .about__history h5 {
+      max-width: 28.1rem;
+      top: 0;
+      bottom: auto;
+      margin-top: 0;
+      position: relative
+    }
+
+    .about-company .about__tastes {
+      margin-top: -1.7rem;
+    }
+
+    .about-company .about__tastes .padding-left_zero {
+      padding-right: 1.875rem
+    }
+
+    .about-company .about__tastes .wrapper.padding-left_zero {
+      padding: 0;
+      margin: 0
+    }
+
+    .about-company .about__tastes .width_305 {
+      max-width: 90%;
+      margin: 0 1.5625rem
+    }
+
+    .about__tastes-photo {
+      width: 100%;
+      height: 21.813rem;
+      margin-bottom: 4rem
+    }
+
+    .about__tastes-wrapper {
+      margin: 3.5rem 0;
+      padding: 0;
+    }
+
+    .about__tastes-wrapper article {
+      max-width: 25rem;
+      padding: 0 1.875rem
+    }
+
+    .about__tastes-image {
+      width: 10.3125rem;
+      height: auto;
+      margin-bottom: 1.4rem;
+    }
+
+    .about__tastes-image:after {
+      left: -2.35em;
+      bottom: -.1em;
+      width: 12rem;
+      height: 5.15rem
+    }
+
+    .about__tastes-product {
+      max-width: 100%;
+      margin: 2.8rem auto 0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .about__tastes-product .swiper-pagination-bullets {
+      bottom: 0 !important
+    }
+
+    .about__tastes-item {
+      margin-bottom: 2.9rem;
+      width: 100%;
+    }
+
+    .about__tastes-item p {
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.438rem;
+      text-transform: uppercase;
+      max-width: 15rem;
+      margin: auto;
+      font-family: 'Myriad Pro'
+    }
+
+    .about__cheese {
+      margin-top: 5.5rem;
+    }
+
+    .about__cheese h5 {
+      margin-top: 1.2rem
+    }
+
+    .about__cheese .box {
+      width: 100%;
+      height: auto;
+      margin-top: 10.7rem;
+    }
+
+    .about__cheese .box article {
+      top: 0
+    }
+
+    .about__cheese .box h5 {
+      margin-top: 0
+    }
+
+    .about__cheese .box p {
+      top: -.8rem;
+      position: relative
+    }
+
+    .about__cheese article {
+      max-width: 36rem
+    }
+
+    .about__cheese-photo {
+      width: 100%;
+      height: 25rem;
+      margin-top: 1.9em
+    }
+
+    .about__cheese-wrapper {
+      margin: 0;
+      padding: 0
+    }
+
+    .about__cheese-wrap__content {
+      padding-right: .5rem !important
+    }
+
+    .about__history-content {
+      margin-left: 0;
+      margin-top: 3.5rem;
+      display: block;
+      height: auto;
+    }
+
+    .about__history-content .width-per_50 {
+      width: 100%;
+      display: block;
+    }
+
+    .about__history-content .width-per_50:first-child h3 {
+      position: relative;
+      top: 0;
+      font-size: 20.688rem;
+      font-weight: 400;
+      line-height: 9rem
+    }
+
+    .about__history-content .width-per_50:first-child h5 {
+      top: -4.6rem;
+      max-width: 14rem
+    }
+
+    .about__history-content .width-per_50:last-child h5 {
+      top: -9.6rem;
+      max-width: 13rem
+    }
+
+    .about__history-content .width-per_50:last-child svg {
+      position: relative;
+      top: 1rem;
+      width: 12.125rem;
+      height: 13.513rem
+    }
+
+    .about__history-content h5 {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.75rem
+    }
+
+    .about__tastes-content {
+      margin-top: 2.3rem;
+      display: block
+    }
+
+    .production .production__icon {
+      margin-top: 0
+    }
+
+    .production .box h5 br {
+      display: block
+    }
+
+    .production .wrapper {
+      padding: 0 .5rem
+    }
+
+    .production-page h1 {
+      max-width: 29rem;
+      margin-bottom: 1.5rem;
+      font-size: 4.375rem;
+      font-weight: 400;
+      line-height: 4.75rem;
+    }
+
+    .production-page h1 br {
+      display: block
+    }
+
+    .production-page .width-712 {
+      max-width: 30.9rem
+    }
+
+    .production__wrapper {
+      padding-bottom: 7rem;
+    }
+
+    .production__wrapper:before {
+      width: 100%;
+      height: 15.938rem;
+      right: 0;
+      left: auto;
+      background: url("/assets/img/mobile/04_production_1.jpg") no-repeat center right/contain;
+      top: -3.1rem
+    }
+
+    .production__wrapper:after {
+      width: 100%;
+      bottom: -.4rem;
+      left: 0;
+      height: 10.875rem;
+      background: url("/assets/img/mobile/04_production_5.jpg") no-repeat center left/contain
+    }
+
+    .production__icon {
+      width: 16rem;
+      height: 17.063rem;
+      margin: auto
+    }
+
+    .production__progress {
+      height: auto;
+      margin-top: 31rem;
+    }
+
+    .production__progress h5 br {
+      display: block
+    }
+
+    .production__progress:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 22.063rem;
+      left: 0;
+      background: url("/assets/img/mobile/04_production_2.jpg") no-repeat center left/contain;
+      top: -8.1rem
+    }
+
+    .production__progress-box {
+      width: 100%;
+      margin-top: -25.7rem;
+    }
+
+    .production__progress-box .pos-top.pos-top_35 {
+      top: -1.7rem
+    }
+
+    .production__progress-box h5 {
+      max-width: 21.1rem
+    }
+
+    .production__progress-box h1 {
+      font-size: 2.125rem;
+      font-weight: 700;
+      line-height: 2.625rem
+    }
+
+    .production__progress-box article {
+      max-width: 24.7rem
+    }
+
+    .production__progress-photo {
+      width: 13.075rem;
+      height: 15.625rem;
+      right: -5rem;
+      bottom: -11em;
+      left: auto
+    }
+
+    .production__quality {
+      padding-top: 0;
+      margin-top: 11.4rem;
+    }
+
+    .production__quality .production__icon {
+      margin-top: -10rem
+    }
+
+    .production__quality .production__quality-box {
+      padding-bottom: 7rem
+    }
+
+    .production__quality-box, .production__best-box {
+      width: 100%;
+      height: auto;
+      padding: 1.5625rem;
+    }
+
+    .production__quality-box .margin-top_58, .production__best-box .margin-top_58 {
+      margin-top: 1.7rem;
+      max-width: 500px;
+      width: 100%
+    }
+
+    .production__quality-box h1, .production__best-box h1 {
+      font-size: 2.5rem;
+      font-weight: 400;
+      line-height: 3rem;
+      margin-left: 0
+    }
+
+    .production__quality-box .pos-top.pos-top_35, .production__best-box .pos-top.pos-top_35 {
+      top: -3.1rem;
+    }
+
+    .production__quality-box .pos-top.pos-top_35 p, .production__best-box .pos-top.pos-top_35 p {
+      margin-top: .9rem
+    }
+
+    .production__quality-box .padding-left_193, .production__best-box .padding-left_193 {
+      padding-left: 0
+    }
+
+    .production__quality-photo {
+      display: none
+    }
+
+    .production__best-box {
+      padding-bottom: 7rem
+    }
+
+    .production__best-photo {
+      width: 19.05rem;
+      height: 17rem;
+      right: -5.4rem;
+      bottom: -16.5em;
+      display: none
+    }
+
+    .production__natural-inner {
+      margin-top: 1.8rem;
+      max-width: 100%
+    }
+
+    .production__natural {
+      margin-top: 9rem;
+    }
+
+    .production__natural .production__icon {
+      margin-top: -4rem
+    }
+
+    .production__natural:before {
+      content: "";
+      position: absolute;
+      height: 8rem;
+      width: 9rem;
+      background: url("/assets/img/mobile/04_production_3_01.jpg") no-repeat center left/contain;
+      top: -8.1rem;
+      left: 0
+    }
+
+    .production__natural:after {
+      content: "";
+      position: absolute;
+      height: 8rem;
+      width: 9rem;
+      background: url("/assets/img/mobile/04_production_3_02.jpg") no-repeat center right/contain;
+      top: -8.1rem;
+      right: 0
+    }
+
+    .production__best {
+      margin-top: 8.8rem;
+    }
+
+    .production__best .m320_hidden {
+      display: none
+    }
+
+    .production__best .production__icon {
+      margin-top: -10rem
+    }
+
+    .production__best:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 19.75rem;
+      left: 0;
+      background: url("/assets/img/mobile/04_production_4.jpg") no-repeat center right/contain;
+      top: -14.7rem
+    }
+
+    .production__best p {
+      max-width: 100%;
+      margin-top: .6rem
+    }
+
+    .production__best .pos-top {
+      top: -3.4rem
+    }
+
+    .production__best .width-712 {
+      max-width: 27.3rem
+    }
+
+    .production__best-inner {
+      margin-top: .3rem;
+      max-width: 36rem
+    }
+
+    .production__last {
+      margin-top: 3.9rem
+    }
+
+    .production__last-inner {
+      margin-top: 0;
+      max-width: 27.9rem;
+    }
+
+    .production__last-inner p {
+      margin-top: .7rem
+    }
+
+    .wrapper__big {
+      margin: 0;
+      padding: 0;
+      width: auto;
+      position: relative;
+      left: auto;
+      top: auto;
+      z-index: 5;
+      height: 45rem
+    }
+
+    .geography-page__bg {
+      display: none
+    }
+
+    .geography-page {
+      height: auto;
+      padding: 0;
+      background: #f3f3f3;
+      position: relative;
+    }
+
+    .geography-page:after {
+      content: "";
+      display: block;
+      position: absolute;
+      background: url("/assets/img/mobile/06_geography.jpg") no-repeat center bottom/cover;
+      height: 72rem;
+      width: 100%;
+      top: 0;
+      left: 0
+    }
+
+    .geography__top {
+      display: block;
+      margin: 1.6rem 1.125rem 0;
+      padding: 0 .5rem;
+    }
+
+    .geography__top h1 br {
+      display: block
+    }
+
+    .geography__top-item {
+      width: 50%
+    }
+
+    .geography__right__item {
+      width: 16rem;
+      margin: auto;
+    }
+
+    .geography__right__item .box {
+      display: block;
+      width: 14.7rem;
+      margin: auto;
+      height: auto
+    }
+
+    .geography__right__item .width_195 {
+      max-width: 90%
+    }
+
+    .geography__right__item h2 {
+      font-size: 5.188rem;
+      font-weight: 400;
+      line-height: 1.75rem;
+      white-space: nowrap
+    }
+
+    .geography__right__item h3 {
+      font-size: 1.75rem;
+      font-weight: 400;
+      line-height: 1.75rem
+    }
+
+    .geography__right {
+      margin-right: -.8rem;
+      margin-top: 2rem;
+      width: 100%
+    }
+
+    .geography__top_margin {
+      margin-top: 1.4rem
+    }
+
+    .geography__left {
+      width: 100%
+    }
+
+    .geography__pin-item {
+      position: relative;
+      top: auto;
+      right: auto;
+      left: auto;
+      margin: 4.5rem 0 4rem;
+      padding: 0;
+    }
+
+    .geography__pin-item h3 {
+      display: none
+    }
+
+    .geography__pin-item .pin__wrapper {
+      transform: translate(0, 0);
+      top: auto;
+      margin: 0;
+      position: relative
+    }
+
+    .geography__pin-item .close {
+      display: none
+    }
+
+    .geography__pin-item .geography__popup {
+      opacity: 1;
+      pointer-events: all;
+      position: relative;
+      transform: translate(0, 0);
+      top: auto;
+      right: auto;
+      left: auto;
+      width: 100%;
+      bottom: auto;
+    }
+
+    .geography__pin-item .geography__popup br {
+      display: block
+    }
+
+    .geography__pin-item .box {
+      padding-bottom: 0
+    }
+
+    .geography__pin-item p {
+      margin-top: .6rem
+    }
+
+    .geography__pin-item h3 {
+      font-size: 1.25rem;
+      font-weight: 400;
+      line-height: 1.75rem
+    }
+
+    .geography__pin-one {
+      margin-top: 28rem
+    }
+
+    .pin-illustration {
+      position: relative;
+      left: 3.4rem;
+      top: auto;
+      margin-bottom: 2rem;
+      height: auto
+    }
+
+    .illustration__one {
+      width: 13.063rem;
+      margin-bottom: 1rem;
+      left: 2.25rem
+    }
+
+    .illustration__two {
+      width: 8rem;
+      height: auto
+    }
+
+    .illustration__three {
+      width: 6.3rem;
+      height: auto
+    }
+
+    .geography__pin {
+      margin-top: 17rem;
+      margin-left: 0;
+      padding-bottom: 5rem
+    }
+
+    .geography__pin-three p {
+      margin-top: 1.1rem;
+    }
+
+    .geography__pin-three p:last-child {
+      margin-top: .5rem
+    }
+
+    .pin {
+      margin-bottom: .8rem;
+      width: 1.788rem;
+      height: 2.425rem;
+      display: none
+    }
+
+    .geography__box {
+      width: 13.7rem;
+      height: 9.775rem;
+      margin-right: 0
+    }
+
+    .geography__photo {
+      width: 100%;
+      height: 25rem;
+      margin-top: -4rem;
+      margin-right: 0;
+      z-index: 0
+    }
+
+    .geography_content-one {
+      margin-top: 3.4rem
+    }
+
+    .geography__right__item-one .box {
+      padding-left: 1.525rem;
+      top: -4.1rem;
+      padding-top: 1.5rem
+    }
+
+    .geography__right__item-one article {
+      max-width: 90%;
+      padding-top: 2rem;
+      padding-bottom: 1rem
+    }
+
+    .geography__right__item-one h3 {
+      position: relative;
+      left: 0;
+      top: 2.8rem
+    }
+
+    .geography__right__item-one h2 {
+      text-align: center;
+      position: relative;
+      left: 0;
+      top: 1.6rem
+    }
+
+    .geography__right__item-two {
+      margin-top: -1.3rem;
+    }
+
+    .geography__right__item-two article {
+      padding-top: 1.1rem
+    }
+
+    .geography__right__item-two .box {
+      padding: 0 0 0 1.875rem !important
+    }
+
+    .geography__right__item-two .margin-left__minus_80 {
+      margin-left: -3.7rem;
+      margin-top: 1.3rem;
+      display: flex
+    }
+
+    .geography__right__item-two .width_195 {
+      margin-left: -.3rem;
+      padding-bottom: .4rem;
+      position: relative;
+      top: -.7rem
+    }
+
+    .geography__right__item-two h3 {
+      position: relative;
+      left: 1.1rem;
+      top: -.9rem
+    }
+
+    .geography__right__item-two h2 {
+      margin-top: -2.3rem;
+      margin-left: .5rem
+    }
+
+    .box__geography {
+      width: auto;
+      margin: 0 1.5625rem;
+      position: relative;
+      z-index: 3;
+      box-shadow: none
+    }
+
+    .tastes-page {
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      overflow: hidden;
+      margin: 0;
+      padding-top: 3.125rem;
+    }
+
+    .tastes-page .swiper-pagination {
+      bottom: 2rem
+    }
+
+    .tastes-page .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 0 7px
+    }
+
+    .tastes-page .btn__detail {
+      display: none
+    }
+
+    .tastes-page .swiper-button-next {
+      right: 3.725rem
+    }
+
+    .tastes-page .swiper-button-prev {
+      left: 3.725rem
+    }
+
+    .tastes-page .btn__detail {
+      top: -.9rem
+    }
+
+    .tastes-slider__left {
+      width: 100%;
+      max-height: 15rem;
+      position: relative;
+      top: 3rem
+    }
+
+    .tastes-slider__photo {
+      height: auto;
+      width: 100%;
+    }
+
+    .tastes-slider__photo img {
+      position: relative
+    }
+
+    .tastes-slider__text {
+      width: 100%;
+    }
+
+    .tastes-slider__text .line {
+      display: none
+    }
+
+    .tastes-slider__right {
+      width: 100%;
+      max-width: 100%;
+      padding: 0 .9rem;
+      left: 0;
+      margin-top: 0;
+      position: absolute;
+      top: 1.6rem
+    }
+
+    .tastes-br {
+      display: block
+    }
+
+    .tastes__top {
+      height: 100%;
+    }
+
+    .tastes__top .swiper-button-next, .tastes__top .swiper-button-prev {
+      display: none
+    }
+
+    .tastes__top .swiper-slide {
+      padding-top: 0;
+      align-items: center;
+    }
+
+    .tastes__top .swiper-slide:after {
+      left: -6.2rem
+    }
+
+    .tastes__top h3 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 2.25rem
+    }
+
+    .tastes__top p {
+      max-width: 90%
+    }
+
+    .tastes__bottom {
+      display: none;
+      height: 0
+    }
+
+    .tastes__bottom-photo {
+      width: 100%;
+      height: auto;
+    }
+
+    .tastes__bottom-photo:before {
+      width: 4.3rem;
+      height: 3.825rem;
+      left: -.6rem;
+      bottom: -.8rem
+    }
+
+    .news__wrapper {
+      padding: 0;
+      margin: 0;
+    }
+
+    .news__wrapper article {
+      padding: 0 .5rem;
+      margin: 0 1.125rem 0
+    }
+
+    .news__wrapper .news-item {
+      padding: 0 1.5625rem
+    }
+
+    .news__wrapper .swiper-slide article {
+      padding: 0;
+      margin: 1.15rem 0 0 0
+    }
+
+    .news-all-page {
+      padding-top: 3.5rem;
+    }
+
+    .news-all-page .wrapper {
+      padding: 0 .5rem !important
+    }
+
+    .news-all-page .news-item {
+      width: 100%;
+      margin-bottom: 3.3em;
+      display: block
+    }
+
+    .news-all-page .news-photo {
+      height: 11rem
+    }
+
+    .news-all-page .news-text {
+      padding-left: 0;
+      padding-right: 0;
+      margin-top: 1rem;
+    }
+
+    .news-all-page .news-text h4 {
+      max-width: 100%;
+      font-size: 1.375rem;
+      font-weight: 700;
+      line-height: 2rem;
+      margin-bottom: .7rem
+    }
+
+    .news-all-page .news-text p {
+      font-size: .875rem;
+      font-weight: 400;
+      line-height: 1.5rem
+    }
+
+    .news-all-page .news-text small {
+      margin-top: 1rem
+    }
+
+    .news-all-page .gutter-sizer {
+      display: none
+    }
+
+    .news-all__content {
+      margin-top: 3.8rem
+    }
+
+    .news-line__1 {
+      margin-top: 4.1rem
+    }
+
+    .news-line__2 .width_305 {
+      max-width: 90%
+    }
+
+    .news-line__2 .small-box__line {
+      border: none;
+      position: relative;
+    }
+
+    .news-line__2 .small-box__line:after {
+      content: "";
+      display: block;
+      position: absolute;
+      border-top: .188rem solid #303030;
+      width: 82%;
+      left: 0;
+      top: -.3rem;
+      right: 0
+    }
+
+    .news-line__1_margin {
+      margin-top: 0
+    }
+
+    .news-line__2 {
+      margin-top: 1.9rem
+    }
+
+    .news-photo_margin {
+      margin-top: 1.9rem
+    }
+
+    .news-title_margin {
+      margin-top: .7rem;
+      max-width: 96.1%
+    }
+
+    .news-line__2_margin {
+      margin-top: 5.8rem !important
+    }
+
+    .news-page .news-photo {
+      width: 100%;
+      height: 25rem
+    }
+
+    .news-page .news-title h3 {
+      font-size: 1.375rem;
+      line-height: 1.875rem
+    }
+
+    .news-page .news-title p {
+      font-size: .875rem;
+      line-height: 1.5rem
+    }
+
+    .news-content {
+      display: block
+    }
+
+    .news-content__photo {
+      width: 100%;
+      height: 25rem;
+      margin-bottom: 3.4rem
+    }
+
+    .news-line__3 {
+      margin-top: 5rem;
+    }
+
+    .news-line__3 h5 {
+      max-width: 87%
+    }
+
+    .news-line__3_second-text {
+      display: block;
+      margin-top: .7rem;
+    }
+
+    .news-line__3_second-text .width_640 {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .news-line__3_second-text .width_640:last-child {
+      margin-top: .5rem
+    }
+
+    .news-line__3_margin {
+      margin-top: .5rem;
+      max-width: 97%
+    }
+
+    .news-line__4 {
+      margin-top: 4.2rem
+    }
+
+    .news-slider {
+      height: 25rem;
+    }
+
+    .news-slider .swiper-pagination {
+      bottom: 1.5rem
+    }
+
+    .news-slider__wrapper {
+      display: none
+    }
+
+    .news-line__5 .width_580 {
+      max-width: 79.4%
+    }
+
+    .news-line__5 .news-line__3_margin {
+      margin-top: .9rem
+    }
+
+    .news__other {
+      margin-top: 6.7rem;
+      padding-bottom: 4rem;
+    }
+
+    .news__other .btn__detail {
+      width: 7.413rem;
+      height: 2.3rem;
+      font-size: .75rem;
+      margin-top: 6.5rem !important
+    }
+
+    .news__other .swiper-pagination {
+      bottom: 5.7rem
+    }
+
+    .news__other_content {
+      margin-top: 1.2rem;
+      overflow: hidden
+    }
+
+    article .line-height_2-2 {
+      line-height: 2.063rem
+    }
+  }
+
+  @media screen and (max-width: 344px) {
+    .recipes-1 {
+      padding-top: 10.6em
+    }
+
+    .recipes-2 {
+      margin-top: 35.6em
+    }
+
+    .recipes-3 {
+      margin-top: 26.6em
+    }
+
+    .recipes-4 {
+      margin-top: 26.8em
+    }
+  }
+
+  @media (min-width: 345px) and (max-width: 374px) {
+    .recipes-1 {
+      margin-top: 14.6em
+    }
+
+    .recipes-2 {
+      margin-top: 27.6em
+    }
+
+    .recipes-3 {
+      margin-top: 28.6em
+    }
+
+    .recipes-4 {
+      margin-top: 16.8em
+    }
+  }
+
+  @media (min-width: 375px) and (max-width: 411px) {
+    .recipes-1 {
+      padding-top: 10.6rem
+    }
+
+    .recipes-2 {
+      margin-top: 12rem
+    }
+
+    .recipes-3 {
+      margin-top: 19rem
+    }
+
+    .recipes-4 {
+      margin-top: 18rem
+    }
+  }
+
+  @media (min-width: 412px) and (max-width: 449px) {
+    .recipes-1 {
+      margin-top: 17.6em
+    }
+
+    .recipes-2 {
+      margin-top: 47.6em
+    }
+
+    .recipes-3 {
+      margin-top: 38.6em
+    }
+
+    .recipes-4 {
+      margin-top: 37.8em
+    }
+  }
+
+  @media (min-width: 450px) and (max-width: 499px) {
+    .recipes-1 {
+      margin-top: 18.6em
+    }
+
+    .recipes-2 {
+      margin-top: 54.6em
+    }
+
+    .recipes-3 {
+      margin-top: 49.6em
+    }
+
+    .recipes-4 {
+      margin-top: 44.8em
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 549px) {
+    .recipes-1 {
+      padding-top: 19.6em
+    }
+
+    .recipes-2 {
+      margin-top: 54.6em
+    }
+
+    .recipes-3 {
+      margin-top: 49.6em
+    }
+
+    .recipes-4 {
+      margin-top: 44.8em
+    }
+  }
+
+  @media (min-width: 600px) and (max-width: 1019px) {
+    .recipes-4 {
+      margin-top: 37em
+    }
+
+    .recipes-5 {
+      margin-top: 43em
+    }
+
+    .drag-start {
+      transform: scale(.7) !important
+    }
+
+    .tastes-item {
+      width: 11rem;
+      height: 11rem;
+    }
+
+    .tastes-item:before {
+      width: 5.188rem;
+      height: 5.188rem
+    }
+
+    .tastes-item:after {
+      width: 7.313rem;
+      height: 7.313rem
+    }
+
+    .index__tastes {
+      margin-top: 0;
+      height: 52.2rem
+    }
+
+    .index__tastes-content {
+      width: 29.813rem;
+      height: 29.75rem;
+      margin: 3.5em auto 0;
+      left: auto
+    }
+
+    .taste-milk__img {
+      margin-top: .3em;
+      margin-left: .4em
+    }
+
+    .taste-ogurec__img {
+      margin-top: .5em;
+      margin-left: .6em
+    }
+
+    .drag-info__wrapper {
+      display: none
+    }
+
+    .tastes-center {
+      width: 19rem;
+      height: 19rem
+    }
+
+    .tastes-center__wrapper {
+      width: 8.9375rem;
+      height: 12.6875rem;
+    }
+
+    .tastes-center__wrapper:after {
+      left: -1.8em;
+      bottom: -5.1em;
+      width: 10rem;
+      height: 14.75rem
+    }
+
+    .tastes__title {
+      background-color: #fff;
+    }
+
+    .tastes__title h3 {
+      font-size: 1.625rem;
+      line-height: 2.5rem;
+      margin-bottom: .8rem
+    }
+
+    .taste-ogurec {
+      top: 2.9em;
+      left: -4.6em
+    }
+
+    .taste-cheese {
+      top: -4.7em;
+      right: 2.7em
+    }
+
+    .taste-zelen {
+      top: -4.7em;
+      left: 3em
+    }
+
+    .taste-milk {
+      top: 14.5em;
+      left: -4.6em
+    }
+
+    .taste-garlic {
+      top: 3.3em;
+      right: -5.1em;
+    }
+
+    .taste-garlic img {
+      height: auto;
+      width: 7.125rem
+    }
+
+    .taste-tomato {
+      bottom: -4.9em;
+      left: 2.9em
+    }
+
+    .taste-mushroom {
+      top: 14.5em;
+      right: -5.1em
+    }
+
+    .tastes__title {
+      top: 25.2em;
+      right: -3.6em;
+      width: 20rem;
+      left: auto;
+      padding: 1em 0 0 3.063rem
+    }
+    .tastes-center__img {
+      width: 10.3rem;
+      height: 14.75rem;
+    }
+    .index__recipe-almete {
+      margin-top: 21rem;
+    }
+
+    .index__recipe-almete .box-short {
+      top: -9.2rem;
+    }
+
+    .index__recipe-almete .box-short p {
+      margin-top: 1.5rem
+    }
+
+    .index__recipe-almete .pos-top.pos-top_35 {
+      top: -2.9rem
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .about__tastes-product {
+      .swiper-wrapper {
+        justify-content: initial;
+      }
+    }
+  }
+}

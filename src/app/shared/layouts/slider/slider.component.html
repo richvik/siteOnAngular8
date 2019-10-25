@@ -1,0 +1,40 @@
+<swiper [config]="config" #usefulSwiper>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" *ngFor="let item of arrayToSLider">
+            <div class="tastes-slider__left">
+                <div class="tastes-slider__photo">
+                    <img [src]="item.imgUrl" alt="">
+                </div>
+            </div>
+            <div class="tastes-slider__right">
+                <div class="tastes-slider__content">
+                    <article>
+                        <h3 [innerHTML]="item.title">
+                        </h3>
+                        <div class="tastes-slider__text">
+                            <div class="line"></div>
+                            <p [innerHTML]="item.description"></p>
+                        </div>
+
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper-button-prev">
+        <div class="chevron">
+            <svg class="icon__svg">
+                <use xlink:href="/assets/img/svg-sprite/svg.svg#up-arrow"></use>
+            </svg>
+        </div>
+    </div>
+    <div class="swiper-button-next">
+        <div class="chevron">
+            <svg class="icon__svg">
+                <use xlink:href="/assets/img/svg-sprite/svg.svg#up-arrow"></use>
+            </svg>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+</swiper>

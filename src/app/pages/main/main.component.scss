@@ -1,0 +1,498 @@
+
+.index {
+  position: relative;
+  .btn__detail {
+    margin-top: 2.7rem
+  }
+  //overflow: hidden
+}
+
+.main-section {
+  display: flex;
+  position: relative
+}
+
+.index__top {
+  /*	padding-right: 0
+      margin-right: 0*/
+  .main-section {
+    /*	height: 100%
+        align-items: flex-end*/
+  }
+}
+
+.index__top-photo {
+  height: 53.125rem;
+  position: relative;
+  margin-bottom: 3.3rem;
+  article {
+    position: absolute;
+    left: 0;
+    bottom: 3.5em;
+  }
+}
+
+.photo_top {
+  height: 100%;
+  //width: 100%
+  background-color: #b4b4b4;
+  //position: absolute
+}
+
+//production
+.index__production {
+  margin-top: 29.3rem;
+  .btn__detail {
+    margin-top: 3.7rem;
+  }
+}
+
+.index__production-photo {
+  height: 50.625rem;
+  background-color: #b4b4b4;
+}
+
+.photo__lavender {
+  width: 79rem;
+  height: 67.125rem;
+  position: absolute;
+  right: -34em;
+  top: -7em;
+  z-index: 3
+}
+
+.photo__milk {
+  width: 91.188rem;
+  height: 82.875rem;
+  position: absolute;
+  right: -38.3rem;
+  top: -13.7rem;
+  z-index: 3;
+}
+
+.index__recipe {
+  margin-top: 24.4rem;
+}
+
+//regions
+.index__region {
+  margin-top: 27rem
+}
+
+.photo__cloud {
+  width: 100%;
+  height: 27.313rem;
+  position: relative;
+  z-index: 1
+}
+
+.photo__mountains {
+  width: 100%;
+  height: 36.438rem;
+  background: url(/assets/img/index/01_start_mountains.png) no-repeat center top/cover;
+}
+
+//tastes
+.index__tastes {
+  margin-top: 33.2rem;
+  height: 81.188rem;
+  background-color: white;
+}
+
+.index__tastes-content {
+  width: 50.938rem;
+  height: 50.875rem;
+  border: 0.063rem solid #b4b4b4;
+  border-radius: 50%;
+  position: relative;
+  margin: 9em auto 12.188rem
+}
+
+.tastes-item {
+  position: absolute;
+  width: 12.5rem;
+  height: 12.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8.875rem;
+    height: 8.875rem;
+    border: 0.063rem solid #b4b4b4;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1
+  }
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform :translate(-50%, -50%);
+    border-radius: 50%;
+    width: 12.5rem;
+    height: 12.5rem;
+  }
+  img {
+    position: relative;
+    z-index: 2;
+    transition: transform 400ms ease-in-out;
+  }
+}
+.taste-drag {
+  z-index: 10;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  padding: 2rem;
+}
+.drag__image {
+  //width: 8.6rem;
+  //transition: $transitionTransform;
+}
+
+.draggable {
+  cursor: pointer
+  //transition $transitionTransform;
+}
+
+.drag-start {
+  transform: scale(0.5) !important
+}
+
+
+
+.taste-cheese {
+  top: -3.7em;
+  right: 9em;
+  &:after {
+    background-color: #fdf9e9;
+  }
+}
+
+//.taste-cheese__img {
+//  width: 8.688rem;
+//  height: 9.5rem;
+//}
+
+.taste-garlic {
+  top: 10em;
+  right: -4.3em;
+  &:after {
+    background-color: #faf5fa;
+  }
+}
+
+//.taste-garlic__img {
+//  width: 13.125rem;
+//  height: 8.5rem;
+//}
+
+.taste-mushroom {
+  top: 29.1em;
+  right: -4.3em;
+  &:after {
+    background-color: #fdf5ed;
+  }
+}
+
+//.taste-mushroom__img {
+//  width: 7.125rem;
+//  height: 7.938rem;
+//}
+
+.taste-zelen {
+  top: -3.7em;
+  left: 9.3em;
+  &:after {
+    background-color: #f0f8ef;
+  }
+}
+
+//.taste-zelen__img {
+//  width: 11.688rem;
+//  height: 12rem;
+//}
+
+.taste-ogurec {
+  top: 9.4em;
+  left: -3.6em;
+  &:after {
+    background-color: #f2f8e9;
+  }
+}
+//
+//.taste-ogurec__img {
+//  width: 9.688rem;
+//  height: 8.313rem;
+//}
+
+.taste-milk {
+  top: 29.2em;
+  left: -3.6em;
+  &:after {
+    background-color: #f1f8fc;
+  }
+}
+
+//.taste-milk__img {
+//  width: 8.813rem;
+//  height: 9.188rem;
+//}
+
+.taste-tomato {
+  bottom: -3.7em;
+  left: 9.3em;
+  &:after {
+    background-color: #fff2f1;
+  }
+}
+
+//.taste-tomato__img {
+//  width: 11.25rem;
+//  height: 9.438rem;
+//}
+
+.tastes-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform :translate(-50%, -50%);
+  width: 27.625rem;
+  height: 27.625rem;
+  border: 0.063rem solid #b4b4b4;
+  background-color: #f1f8fc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    //transition :$transitionTransform;
+    transform: scale(0);
+  }
+  &.tomato {
+    &:before {
+      background-color: #fff2f1;
+      transform :scale(1)
+    }
+  }
+  &.mushroom {
+    &:before {
+      background-color: #fdf5ed;
+      transform :scale(1)
+    }
+  }
+  &.milk {
+    &:before {
+      background-color: #f1f8fc;
+      transform :scale(1)
+    }
+  }
+  &.ogurec {
+    &:before {
+      background-color: #f2f8e9;
+      transform :scale(1)
+    }
+  }
+  &.zelen {
+    &:before {
+      background-color: #f0f8ef;
+      transform :scale(1)
+    }
+  }
+  &.garlic {
+    &:before {
+      background-color: #faf5fa;
+      transform: scale(1)
+    }
+  }
+  &.cheese {
+    &:before {
+      background-color: #fdf9e9;
+      transform: scale(1)
+    }
+  }
+}
+
+
+.tastes-center[data-taste-set="cheese"]:before {
+  background-color: #fdf9e9
+}
+
+.tastes-center[data-taste-set="garlic"]:before {
+  background-color: #faf5fa
+}
+
+.tastes-center[data-taste-set="zelen"]:before {
+  background-color: #f0f8ef
+}
+
+.tastes-center[data-taste-set="ogurec"]:before {
+  background-color: #f2f8e9
+}
+
+.tastes-center[data-taste-set="milk"]:before {
+  background-color: #f1f8fc
+}
+
+.tastes-center[data-taste-set="mushroom"]:before {
+  background-color: #fdf5ed
+}
+
+.tastes-center[data-taste-set="tomato"]:before {
+  background-color: #fff2f1
+}
+
+.tastes-center.active[data-taste-set="cheese"]:before,.tastes-center.active[data-taste-set="garlic"]:before,.tastes-center.active[data-taste-set="zelen"]:before,.tastes-center.active[data-taste-set="ogurec"]:before,.tastes-center.active[data-taste-set="milk"]:before,.tastes-center.active[data-taste-set="mushroom"]:before,.tastes-center.active[data-taste-set="tomato"]:before {
+  transform: scale(1)
+}
+
+
+
+.tastes-center__img {
+  width: 13.3rem;
+  height: 18.75rem;
+  position: relative;
+  z-index: 2;
+  transition: transform 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    //background: url("../images/products/banki_shadow.png") no-repeat center / contain;
+    left: -2.75em;
+    bottom: -6.1em;
+    width: 15rem;
+    height: 18.75rem;
+  }
+}
+.bounce {
+  .tastes-center__img{
+    transform: scale(1.2)
+  }
+}
+.tastes__title {
+  top: 42.6em;
+  right: 1.8em;
+  width: 25rem;
+  position: absolute;
+  background-color: #fff;
+  padding: 2em 0 0 4.063rem;
+  h3 {
+    color: #010101;
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 2.75rem;
+    margin-bottom: 1.3rem
+  }
+}
+
+//almete
+
+.index__recipe-almete {
+  margin-top: 22.1rem;
+  .btn__detail {
+    margin-top: 0.2rem;
+  }
+  .wrapper {
+    position: relative
+  }
+  .box-short {
+    position: absolute;
+    top: -4.375rem;
+    left: 0
+  }
+}
+
+.index__recipe-almete-photo {
+  height: 58.375rem;
+  background-color: #ccc
+}
+
+.title__recipe-almete {
+  h1 {
+    font-size: 11.875rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -9px;
+    margin-left: -10px;
+    margin-top: -2.5rem;
+    margin-bottom: 0
+  }
+  p {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+    text-transform: uppercase;
+    font-family: 'Myriad Pro';
+    margin-top: 1.7rem
+  }
+  h6 {
+    color: black;
+    font-family: 'Myriad Pro';
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 0.9em;
+  }
+}
+
+//news
+.index__news {
+  margin-top: 13.7rem;
+  .btn__detail {
+    margin-top: 5.9rem
+  }
+}
+
+.news-tem {
+  width: 23.5rem;
+}
+
+.news-content {
+  display: flex;
+  justify-content: space-between
+}
+
+.index__news-content {
+  margin-top: 6.3rem
+}
+
+.news-photo {
+  width: 100%;
+  height: 25.688rem;
+  background-color: #555a61
+}
+
+.news-text {
+  margin-top: 1.75rem;
+  h4 {
+    width: 13.2rem;
+    margin-bottom: 0.8rem
+  }
+  p {
+    width: 17.5rem
+  }
+  small {
+    margin-top: 1.5rem
+  }
+}
+
+.main-footer_margin {
+  margin-top: 10rem;
+  margin-bottom: 6.7em;
+}

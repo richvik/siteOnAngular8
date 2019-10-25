@@ -1,0 +1,129 @@
+<div class="contacts">
+    <div class="wrapper">
+        <article>
+            <h1>
+                Контакты
+            </h1>
+        </article>
+        <div class="contacts-top">
+            <div class="contacts-top__left">
+                <p>
+                    телефон горячей линии
+                </p>
+                <h4>
+                    8 (800) 500 13 03
+                </h4>
+            </div>
+            <div class="contacts-top__right">
+                <p>
+                    e-mail
+                </p>
+                <h4>
+                    <a href="mailto:info@almette.ru" class="">
+                        info@almette.ru
+                    </a>
+                </h4>
+            </div>
+        </div>
+        <form class="form-contact" novalidate="novalidate" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+            <article>
+                <h1 class="">
+                    Связаться с&nbsp;нами
+                </h1>
+            </article>
+            <div class="block-feedback__subject">
+                <div class="select-style cs-select">
+                    <mat-form-field>
+                        <mat-label>Тема запроса</mat-label>
+                        <mat-select (selectionChange)="changeOnSelect($event)">
+                            <mat-option *ngFor="let food of foods" [value]="food.value">
+                                {{food.viewValue}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+
+            <div class="form__item">
+                <label class="form__group form__item_29">
+                    <input type="text" [ngClass]="{ 'error': submitted && f.lastName.errors }"
+                           formControlName="lastName" name="last_name" class="form-control"/>
+                    <span>Фамилия <sup>*</sup></span>
+                    <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
+                        <div *ngIf="f.lastName.errors.required">Поле не заполнено</div>
+                    </div>
+                </label>
+
+                <label class="form__group form__item_29">
+                    <input type="text" [ngClass]="{ 'error': submitted && f.firstName.errors }"
+                           formControlName="firstName" name="first_name" class="form-control"/>
+                    <span>Имя <sup>*</sup></span>
+                    <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
+                        <div *ngIf="f.firstName.errors.required">Поле не заполнено</div>
+                    </div>
+                </label>
+                <label class="form__group form__item_29">
+                    <input type="text" [ngClass]="{ 'error': submitted && f.fatherName.errors }"
+                           formControlName="fatherName" name="father_name" class="form-control"/>
+                    <span>Отчество <sup>*</sup></span>
+                    <div *ngIf="submitted && f.fatherName.errors" class="invalid-feedback">
+                        <div *ngIf="f.fatherName.errors.required">Поле не заполнено</div>
+                    </div>
+                </label>
+            </div>
+            <div class="form__item">
+                <label class="form__group form__item_46">
+                    <!--<input type="text" class="phone" name="phone">-->
+                    <!--<input id="tel" class="form-control" appPhoneMask [preValue]="registerForm.value.phone"  [phoneControl]="registerForm.controls['phone']" formControlName="phone" [ngClass]="(registerForm.controls['phone'].invalid)? 'errmsg' : 'validmsg'">-->
+                    <input type='text' mask="(000) 000-0000" formControlName="phone"
+                           [ngClass]="{ 'error': submitted && f.phone.errors }" name="email" class="form-control">
+                    <span>Телефон <sup>*</sup></span>
+                    <div *ngIf="submitted && f.phone.errors" class="invalid-feedback">
+                        <div *ngIf="f.phone.errors.required">Поле не заполнено</div>
+                    </div>
+                </label>
+                <label class="form__group form__item_46">
+                    <input type="text" [ngClass]="{ 'error': submitted && f.email.errors }" formControlName="email"
+                           name="email" class="form-control"/>
+                    <span>E-mail <sup>*</sup></span>
+                    <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                        <div *ngIf="f.email.errors.required">Поле не заполнено</div>
+                    </div>
+                </label>
+            </div>
+            <div class="textarea">
+                <textarea name="comment" [ngClass]="{ 'error': submitted && f.comment.errors }" formControlName="comment" class="form-control"></textarea>
+                <span class="placeholder">Ваш комментарий к запросу</span>
+            </div>
+            <div class="contacts-info animated">
+                <div class="checkbox">
+                    <input type="checkbox" name="rules" id="test1" (change)="checkBoxChange($event)">
+                    <label for="test1">
+                        <svg class="checkbox__svg">
+                            <use xlink:href="/assets/img/svg-sprite/svg.svg#checkbox"></use>
+                        </svg>
+                    </label>
+                </div>
+                <p>
+                    Предоставляя свои персональные данные для обработки этого запроса, я подтверждаю
+                    свое согласие с <a href="Agreement_Almette.pdf" target="_blank">условиями их хранения и
+                    обработки</a>, а также с принятой
+                    ООО «ХОХЛАНД РУССЛАНД» <a href="/political-new.pdf" target="_blank">политикой конфиденциальности в
+                    отношении
+                    обработки и защиты персональных данных третьих лиц (пользователей).</a>
+                </p>
+            </div>
+            <button class="btn btn_red btn__detail js__form-send"
+                    [class.disable]="(!stateShowBtn.selectState || !stateShowBtn.checkboxState)">
+                ОТПРАВИТЬ
+                <svg class="btn__svg">
+                    <use xlink:href="/assets/img/svg-sprite/svg.svg#arrow_big"></use>
+                </svg>
+                <svg class="btn-small__svg">
+                    <use xlink:href="/assets/img/svg-sprite/svg.svg#arrow_small"></use>
+                </svg>
+            </button>
+        </form>
+
+    </div>
+</div>

@@ -1,0 +1,204 @@
+<div class="geography-page overlay" [class.overlay_show]="currentName !== 0">
+    <div class="geography-page__bg">
+        <img src="/assets/img/geography/map_new.jpg" alt="">
+    </div>
+    <div class="wrapper__big">
+        <div class="geography__top">
+            <article class="geography__left geography__top-item">
+                <h1>
+                    География <br>
+                    производства
+                </h1>
+                <h5 class="geography__top_margin">
+                    Рецепт «Альметте» был рожден в&nbsp;местечке Шонгау, у&nbsp;подножья баварских Альп.
+                    В&nbsp;этом регионе столетиями поддерживается традиция фермерства и&nbsp;животноводства.
+                    Альпийские луга, чистый воздух и&nbsp;прозрачные воды горных рек&nbsp;— что еще нужно для
+                    производства молока высокого качества? Не&nbsp;удивительно, что именно здесь производство
+                    молодых сыров стало традиционным.
+                </h5>
+            </article>
+            <div class="geography__right geography__top-item">
+                <div class="geography__right__item geography__right__item-one">
+                    <h2 class="">
+                        500 000
+                    </h2>
+                    <h3 class="text_right">
+                        тонн
+                    </h3>
+                    <div class="b-flex_horizontal_end geography_content-one">
+                        <div class="box geography__box box_white b-flex_vertical padding-bottom_zero pos-top">
+                            <article class="width_205">
+                                <p>
+                                    За&nbsp;год в&nbsp;Белгородской области производят более 500&nbsp;тыс. тонн молока.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="geography__right__item geography__right__item-two">
+                    <div class="b-flex_horizontal_end">
+                        <div class="box geography__box box_white b-flex_vertical padding-bottom_zero">
+                            <section class="margin-left__minus_80">
+                                <h2 class="">
+                                    2,5
+                                </h2>
+                                <h3 class="">
+                                    стакана
+                                </h3>
+                            </section>
+                            <article class="width_195">
+                                <p>
+                                    Для приготовления <br>
+                                    1&nbsp;бочонка творожного<br>
+                                    сыра Almette необходимо<br>
+                                    2,5 стакана свежего <br>молока.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div [class.active]="currentName === 1" class="geography__pin-item geography__pin-one">
+        <div class="pin__wrapper">
+            <div class="pin-illustration illustration__one">
+                <svg class="icon__svg">
+                    <use xlink:href="/assets/img/svg-sprite/svg.svg#schongau"></use>
+                </svg>
+            </div>
+            <div class="pin" (click)="geographyOpenPopup(1)">
+                <svg class="icon__svg">
+                    <use xlink:href="/assets/img/svg-sprite/svg.svg#pin"></use>
+                </svg>
+            </div>
+            <h3>
+                Шонгау, <br>
+                Германия
+            </h3>
+        </div>
+
+        <div class="geography__popup">
+            <div class="box box_white box__geography">
+                <article class="pos-top pos-top_35">
+                    <h2 class="">
+                        Шонгау, <br>
+                        Германия
+                    </h2>
+                    <p>
+                        Чтобы сохранить оригинальными консистенцию и&nbsp;вкус «Альметте», места для
+                        строительства заводов в&nbsp;других странах выбирались с&nbsp;такими&nbsp;же требованиями,
+                        как и&nbsp;к&nbsp;первому предприятию в&nbsp;Шонгау: это должен быть экологически чистый
+                        район с&nbsp;развитым производством молока высокого качества.
+                    </p>
+                </article>
+                <div class="close" (click)="geographyPopupClose($event)">
+                    <svg class="close-svg">
+                        <use xlink:href="/assets/img/svg-sprite/svg.svg#ico_close_d"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="b-flex_horizontal_end">
+                <div class="geography__photo">
+                    <img src="https://almette.ru/images/geography/06_geography_schongau.jpg" class="image_cover mobile__hide" alt="">
+                    <img src="https://almette.ru/images/mobile/geography/06_geography_schongau_mob.jpg" class="image_cover desktop__hide" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div [class.active]="currentName === 2" class="geography__pin-item geography__pin-two">
+        <div class="pin__wrapper">
+            <div class="pin-illustration illustration__two">
+                <svg class="icon__svg">
+                    <use xlink:href="/assets/img/svg-sprite/svg.svg#wengrow"></use>
+                </svg>
+            </div>
+            <div class="pin" (click)="geographyOpenPopup(2)">
+                <svg class="icon__svg">
+                    <use xlink:href="/assets/img/svg-sprite/svg.svg#pin"></use>
+                </svg>
+            </div>
+            <h3>
+                Венгрув, <br>
+                Польша
+            </h3>
+        </div>
+        <div class="geography__popup">
+            <div class="box box_white box__geography">
+                <article class="pos-top pos-top_35">
+                    <h2 class="">
+                        Венгрув, <br>
+                        Польша
+                    </h2>
+                    <p>
+                        Так, второй завод по&nbsp;производству творожного сыра «Альметте» основали в&nbsp;городке
+                        Венгрув на&nbsp;востоке Польши. Венгрувская низменность расположена в&nbsp;регионе, который
+                        называют «Зелеными легкими Польши». Он&nbsp;объединяет самые экологически чистые
+                        районы страны и&nbsp;располагает всеми условиями для получения первоклассного молока.
+                    </p>
+                </article>
+                <div class="close" (click)="geographyPopupClose()">
+                    <svg class="close-svg">
+                        <use xlink:href="/assets/img/svg-sprite/svg.svg#ico_close_d"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="b-flex_horizontal_end">
+                <div class="geography__photo">
+                    <img src="https://almette.ru/images/geography/06_geography_wengrow.jpg" class="image_cover mobile__hide" alt="">
+                    <img src="https://almette.ru/images/mobile/geography/06_geography_wengrow_mob.jpg" class="image_cover desktop__hide" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div [class.active]="currentName === 3" class="geography__pin-item geography__pin-three">
+        <div class="pin__wrapper">
+            <div class="pin-illustration illustration__three">
+                <svg class="icon__svg">
+                    <use xlink:href="/assets/img/svg-sprite/svg.svg#prokhorovka"></use>
+                </svg>
+            </div>
+            <div class="pin" (click)="geographyOpenPopup(3)" >
+                <svg class="icon__svg">
+                    <use xlink:href="/assets/img/svg-sprite/svg.svg#pin"></use>
+                </svg>
+            </div>
+            <h3>
+                Прохоровка,
+            </h3>
+            <h3>
+                Россия
+            </h3>
+        </div>
+
+        <div class="geography__popup">
+            <div class="box box_white box__geography">
+                <article class="pos-top pos-top_35">
+                    <h2 class="">
+                        Прохоровка,<br>
+                        Белгородская<br>
+                        область, Россия
+                    </h2>
+                    <p>
+                        Для производства сыра «Альметте» в&nbsp;России был выбран север Белгородской
+                        области&nbsp;— одно из&nbsp;самых экологически чистых мест в&nbsp;стране, где каждый
+                        год производят более 500 тысяч тонн молока. Это сделало возможным осуществлять его прямые
+                        поставки: после дойки молоко охлаждают и&nbsp;привозят с&nbsp;ферм на&nbsp;завод, где после
+                        необходимой проверки оно поступает в&nbsp;производство.
+                    </p>
+                </article>
+                <div class="close" (click)="geographyPopupClose()">
+                    <svg class="close-svg">
+                        <use xlink:href="/assets/img/svg-sprite/svg.svg#ico_close_d"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="b-flex_horizontal_end">
+                <div class="geography__photo">
+                    <img src="https://almette.ru/images/geography/06_geography_prokhorovka.jpg" class="image_cover mobile__hide" alt="">
+                    <img src="https://almette.ru/images/mobile/geography/06_geography_prokhorovka_mob.jpg" class="image_cover desktop__hide" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

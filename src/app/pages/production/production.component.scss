@@ -1,0 +1,161 @@
+
+.production__wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 26rem;
+  overflow: hidden;
+}
+
+.production__wrapper:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 65rem;
+  background: url("https://almette.ru/images/production/04_production_big_1.jpg") no-repeat center bottom/cover;
+  left: -13em;
+  right: 0;
+  top: 0
+}
+
+.production__wrapper:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 43rem;
+  background: url("https://almette.ru/images/production/04_production_big_3.jpg") no-repeat center/contain;
+  left: -9em;
+  width: 114.688rem;
+  bottom: -8.3em
+}
+
+.production {
+  position: relative;
+}
+
+.production .wrapper {
+  z-index: 3;
+  padding-left: 0;
+  width: auto;
+}
+
+.production .production__icon {
+  margin-top: -23rem
+}
+
+.production__icon {
+  width: 46.875rem;
+  height: 44.188rem;
+  position: relative;
+  z-index: 5
+}
+
+.production__progress {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1
+}
+
+.production__progress-photo {
+  width: 42.938rem;
+  height: 52.2rem;
+  position: absolute;
+  z-index: 2;
+  left: 38.4em;
+  bottom: -22.6em
+}
+
+.production__progress-box {
+  width: 52.5rem;
+  margin-top: 4.9rem;
+  padding-right: 9rem;
+  padding-bottom: 1rem
+}
+
+.production__quality {
+  padding-top: 29rem;
+}
+
+.production__quality .pos-top {
+  top: -3.9rem
+}
+
+.production__quality-box {
+  height: 36.5rem;
+  width: 65.625rem
+}
+
+.production__quality-photo {
+  width: 57.313rem;
+  height: 77.688rem;
+  position: absolute;
+  left: -14em;
+  top: -9.1rem
+}
+
+.production__natural {
+  margin-top: 29rem;
+}
+
+.production__natural:before {
+  content: "";
+  display: block;
+  background: url("https://almette.ru/images/production/04_production_big_2.jpg") no-repeat center right/cover;
+  width: 120rem;
+  height: 163.25rem;
+  position: absolute;
+  right: 0;
+  top: -51.4em
+}
+
+.production__natural-inner {
+  margin-top: 5.3rem;
+  max-width: 47rem
+}
+
+.production__best {
+  margin-top: 20.3rem;
+}
+
+.production__best .pos-top {
+  top: -4.2rem
+}
+
+.production__best p {
+  margin-top: 1.4rem
+}
+
+.production__best-inner {
+  margin-top: 4.6rem
+}
+
+.production__best-box {
+  width: 65.625rem;
+  .title-90{
+    width: 80%;
+  }
+}
+
+.production__best-photo {
+  width: 35.25rem;
+  height: 29.5rem;
+  position: absolute;
+  right: -3.8rem;
+  bottom: -20.9em;
+  z-index: 2
+}
+
+.production__last {
+  margin-top: 17.4rem
+}
+
+.production__last-inner {
+  margin-top: 5.2rem;
+  max-width: 44.3rem;
+}
+
+.production__last-inner p {
+  margin-top: 1.5rem
+}

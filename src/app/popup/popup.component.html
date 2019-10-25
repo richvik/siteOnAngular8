@@ -1,0 +1,35 @@
+<mat-dialog-content [ngClass]="'content-'+data.typePopup">
+    <div class="b-popup__content">
+        <div class="video-content" *ngIf="data.typePopup === 'video'">
+            <video controls>
+                <source [src]="data.videoUrl.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+            </video>
+        </div>
+
+
+        <div class="content__inner" *ngIf="data.typePopup === 'info'">
+            <div class="icon-popup">
+                <svg class="dove-ok__svg">
+                    <use xlink:href="/assets/img/svg-sprite/svg.svg#dove_ok"></use>
+                </svg>
+            </div>
+            <article>
+                <h1>
+                    {{data.title}}
+                </h1>
+                <p [innerHtml]="data.description"></p>
+            </article>
+        </div>
+    </div>
+
+    <mat-dialog-actions>
+        <div class="close" (click)="close()">
+            <svg class="close-svg">
+                <use xlink:href="/assets/img/svg-sprite/svg.svg#ico_close_d"></use>
+            </svg>
+        </div>
+    </mat-dialog-actions>
+</mat-dialog-content>
+
+

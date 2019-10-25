@@ -1,0 +1,178 @@
+<menu class="menu-desktop">
+    <div class="menu__wrapper">
+        <a routerLink="" class="logo menu__logo">
+            <img src="/assets/img/logo/logo_desktop_320_2x.png" class="logo__desktop logo__320" alt="">
+            <img src="/assets/img/logo/logo_desktop_768_2x.png" class="logo__desktop logo__768" alt="">
+            <img src="/assets/img/logo/logo_desktop_big_2x.png" class="logo__desktop logo__desktop__hd" alt="">
+            <img src="/assets/img/logo/logo_desktop_mini_2x.png" class="logo__desktop logo__desktop_mini" alt="">
+        </a>
+        <section class="menu-content">
+            <header class="menu-header" *ngIf="false">
+                <div class="menu-header__item active">
+                    <svg class="menu__svg">
+                        <use xlink:href="/assets/img/svg-sprite/svg.svg#ico_menu"/>
+                    </svg>
+                    <p>
+                        Меню
+                    </p>
+                </div>
+                <a href="#" target="_blank" class="menu-header__item">
+                    <svg class="rec__svg">
+                        <use xlink:href="/assets/img/svg-sprite/svg.svg#ico_recipy"/>
+                    </svg>
+                    <p>
+                        рецепты
+                    </p>
+                </a>
+            </header>
+            <div class="menu-list">
+                <a routerLink="about" routerLinkActive="active">
+                    О компании
+                </a>
+                <a routerLink="brand" routerLinkActive="active">
+                    О бренде
+                </a>
+                <a routerLink="production" routerLinkActive="active">
+                    Производство
+                </a>
+                <a routerLink="recipe" routerLinkActive="active">
+                    Рецепт
+                </a>
+                <a routerLink="geography" routerLinkActive="active">
+                    География
+                </a>
+                <a routerLink="tastes" routerLinkActive="active">
+                    Вкусы
+                </a>
+                <a routerLink="contacts" routerLinkActive="active">
+                    Контакты
+                </a>
+            </div>
+        </section>
+        <footer class="menu-footer">
+            <div class="socials">
+                <a href="https://vk.com/almetteru" class="social__vk" target="_blank">
+                    <svg class="social__svg">
+                        <use xlink:href="/assets/img/svg-sprite/svg.svg#ico_vk"/>
+                    </svg>
+                </a>
+                <a href="https://www.facebook.com/almette.culinary/" class="social__fb" target="_blank">
+                    <svg class="social__svg">
+                        <use xlink:href="/assets/img/svg-sprite/svg.svg#ico_fb"/>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/almette.culinary/" class="social__inst" target="_blank">
+                    <svg class="social__svg">
+                        <use xlink:href="/assets/img/svg-sprite/svg.svg#ico_inst"/>
+                    </svg>
+                </a>
+                <a href="https://www.youtube.com/channel/UC74JhwEMw2yCpk9bQN4UvkQ/featured/" class="social__play"
+                   target="_blank">
+                    <svg class="social__svg">
+                        <use xlink:href="/assets/img/svg-sprite/svg.svg#ico_play"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer-title">
+                <p>
+                    © 2017
+                </p>
+                <p>
+                    ООО «Хохланд Руссланд»
+                </p>
+            </div>
+        </footer>
+    </div>
+</menu>
+<menu class="menu-mobile" [class.active]="stateMenuOpen">
+    <div class="menu-mobile__nav">
+        <div class="wrapper padding_zero">
+            <a routerLink="" class="logo menu__logo">
+                <img src="/assets/img/logo/logo_desktop_320_2x.png" class="logo__desktop logo__320" alt="">
+                <img src="/assets/img/logo/logo_desktop_768_2x.png" class="logo__desktop logo__768" alt="">
+            </a>
+            <header class="menu-header">
+                <div class="menu-header__right">
+                    <div class="menu-header__item" (click)="toggleMenu($event)">
+                        <svg class="menu__svg">
+                            <use xlink:href="/assets/img/svg-sprite/svg.svg#ico_menu"></use>
+                        </svg>
+                    </div>
+                </div>
+
+            </header>
+        </div>
+    </div>
+    <div class="menu-mobile__wrapper">
+        <div class="wrapper">
+            <section class="menu-content">
+                <div class="mobile-close" (click)="toggleMenu($event)">
+                    <svg class="icon__svg">
+                        <use xlink:href="/assets/img/svg-sprite/svg.svg#close_mob"></use>
+                    </svg>
+                </div>
+                <h2>
+                    <a routerLink="">
+                        Всё об Almette
+                    </a>
+                </h2>
+                <div class="menu-list">
+                    <a routerLink="about" routerLinkActive="active">
+                        О компании
+                    </a>
+                    <a routerLink="brand" routerLinkActive="active">
+                        О бренде
+                    </a>
+                    <a routerLink="production" routerLinkActive="active">
+                        Производство
+                    </a>
+                    <a routerLink="recipe" routerLinkActive="active">
+                        Рецепт
+                    </a>
+                    <a routerLink="geography" routerLinkActive="active">
+                        География
+                    </a>
+                    <a routerLink="tastes" routerLinkActive="active">
+                        Вкусы
+                    </a>
+                    <a routerLink="contacts" routerLinkActive="active">
+                        Контакты
+                    </a>
+                </div>
+            </section>
+            <footer class="menu-footer">
+                <div class="socials">
+                    <a href="https://vk.com/almetteru" class="social__vk" target="_blank">
+                        <svg class="social__svg">
+                            <use xlink:href="/assets/img/svg-sprite/svg.svg#ico_vk"></use>
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/almette.culinary/" class="social__fb" target="_blank">
+                        <svg class="social__svg">
+                            <use xlink:href="/assets/img/svg-sprite/svg.svg#ico_fb"></use>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/almette.culinary/" class="social__inst" target="_blank">
+                        <svg class="social__svg">
+                            <use xlink:href="/assets/img/svg-sprite/svg.svg#ico_inst"></use>
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UC74JhwEMw2yCpk9bQN4UvkQ/featured/" class="social__play" target="_blank">
+                        <svg class="social__svg">
+                            <use xlink:href="/assets/img/svg-sprite/svg.svg#ico_play"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-title">
+                    <p>
+                        ООО «Хохланд Руссланд»
+                    </p>
+                    <a href="http://zero.ru/" target="_blank" class="font_700 text_uppercase margin-top_11">
+                        сделано в zero
+                    </a>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+</menu>

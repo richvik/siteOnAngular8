@@ -1,0 +1,92 @@
+$color-primary: #3f51b5;
+$color-primary-50: rgba(63, 81, 181, 0.5);
+$base-font-size: 16;
+// Body
+$body-color-bg: #eee;
+$body-color-text: #444;
+
+// Toolbar
+$toolbar-height: 56px;
+
+// Sidebar
+$sidebar-width: 64px;
+
+// Footer
+$footer-height: 49px;
+
+$transition-all:  all 0.15s ease-out;
+
+$border-color: #424242;
+$grey: #e0e0e0;
+
+
+
+//site
+$footerHeight : 100px;
+
+$pageWidthMin : 200px;
+$pageWidthMax : 1282px;
+
+$sidebarWidth : 280px;
+
+$fontSizeXS : 13px;
+$fontSizeS : 14px;
+$fontSizeM : 16px;
+$fontSizeL : 19px;
+$fontSizeXL : 21px;
+$fontSizeXXL : 23px;
+$fontSizeXXXL : 27px;
+
+$colorText : #000;
+$colorLink : #000;
+
+$typeAnimationOut : ease;
+$speed : 500ms;
+
+$transitionBackground : background $speed $typeAnimationOut;
+$transitionColor : color $speed $typeAnimationOut;
+$transitionOpacity : opacity $speed $typeAnimationOut;
+$transitionTransform : transform $speed $typeAnimationOut;
+$transitionBoxShadow : box-shadow $speed $typeAnimationOut;
+$transitionTexDecor : text-decoration $speed $typeAnimationOut;
+$transitionFill : fill $speed $typeAnimationOut;
+$transitionFont : font-size $speed $typeAnimationOut;
+$transitionWidth : width $speed $typeAnimationOut;
+$transitionHeight : height $speed $typeAnimationOut;
+
+$number50 : 3.125rem;
+$number120 : 7.5rem;
+
+$number30 : 1.875rem;
+
+
+
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@mixin rem($property, $values...) {
+  $max: length($values);
+  $pxValues: "";
+  $remValues: "";
+  @for $i from 1 through $max {
+    $value: strip-unit(nth($values, $i));
+    $pxValues: #{$pxValues + $value * 10}px;
+    @if $i < $max {
+      $pxValues: #{$pxValues + " "};
+    }
+  }
+  @for $i from 1 through $max {
+    $value: strip-unit(nth($values, $i));
+    $remValues: #{$remValues + $value}rem;
+    @if $i < $max {
+      $remValues: #{$remValues + " "};
+    }
+  }
+  #{$property}: $pxValues;
+  #{$property}: $remValues;
+}
+
+@function em($pixels, $context: $base-font-size) {
+  @return #{$pixels/$context}em;
+}

@@ -1,0 +1,194 @@
+<div class="main-page">
+    <section animateOnScroll animationName="fadeIn" class="animate index index__top">
+        <div class="wrapper right_zero padding-left_zero-mobile">
+            <div class="index__top-photo">
+                <div class="photo photo_top margin-left_50">
+                    <img src="https://almette.ru/images/index/01_start_1.jpg" class="image_cover mobile__hide" alt="">
+                    <img src="https://almette.ru/images/mobile/index/01_start_1_mob.jpg" class="image_cover desktop__hide" alt="">
+                </div>
+                <article appAnimateTranslate="speed_slow">
+                    <h1 class="line-height_5">
+                        Рецепт, рождённый <br>
+                        в Альпах
+                    </h1>
+                </article>
+            </div>
+            <article class="width-750 margin-left_50" appAnimateTranslate="speed_slow">
+                <h5>
+                    В предгорье Баварских Альп расположился маленький городок Шонгау. Здесь в окружении зеленых лугов,
+                    омытых горной рекой Лех, уже много веков делают превосходный домашний сыр.
+                </h5>
+            </article>
+        </div>
+    </section>
+    <section animateOnScroll animationName="fadeIn" class="animate index index__production">
+        <div class="wrapper padding-left_zero-mobile index__production-wrapper">
+            <div class="box box-middle box_white box_pos box-bottom__minus_240" appAnimateTranslate="speed_slow">
+                <article class="pos-top pos-top_35">
+                    <h2 class="">
+                        Традиция <br>
+                        производства
+                    </h2>
+                    <h5 class="margin-top_24">
+                        Сочетание традиционного баварского рецепта <br>
+                        и&nbsp;возможностей современного производства <br>
+                        позволяет получить удивительно нежный <br>
+                        творожный сыр высокого качества.
+                    </h5>
+                </article>
+                <app-nav-link linkUrl="production" classNameCustom="btn__detail" currentName="Подробнее"></app-nav-link>
+            </div>
+        </div>
+        <div class="wrapper zero__mobile padding-right_zero">
+            <div class="index__photo margin-left_120" appAnimateTranslate="speed_middle">
+                <img src="https://almette.ru/images/index/01_start_2.jpg" class="image_cover mobile__hide" alt="">
+                <img src="https://almette.ru/images/mobile/index/01_start_2_mob.jpg" class="image_cover desktop__hide" alt="">
+            </div>
+        </div>
+    </section>
+    <section animateOnScroll animationName="fadeIn" class="animate index index__recipe">
+        <div class="wrapper">
+            <div class="box box-large box_blue" appAnimateTranslate="speed_slow">
+                <article class="pos-top pos-top_35">
+                    <h2 class="">
+                        Традиционный <br>
+                        рецепт
+                    </h2>
+                    <h5>
+                        Основу традиционного рецепта <br>
+                        Almette составляют нежные сливки <br>
+                        и натуральный творог, из которых <br>
+                        делают молодой сыр.
+                    </h5>
+                    <p>
+                        Для их изготовления, как и прежде, используется исключительно <br>
+                        свежее натуральное молоко. Ведь
+                        чтить традиции — значит не просто <br>
+                        следовать рецептуре и соблюдать технологию, но и следить за <br>
+                        качеством всех ингредиентов.
+                    </p>
+                </article>
+                <app-nav-link linkUrl="recipe" classNameCustom="btn__detail" currentName="Подробнее"></app-nav-link>
+            </div>
+        </div>
+        <div class="index__recipe-photo">
+
+            <div class="photo__lavender mobile__hide" appAnimateTranslate="speed_fast">
+                <img src="/assets/img/index/01_lavender.png" class="mobile__hide" alt="">
+
+            </div>
+            <div class="photo__milk" appAnimateTranslate="speed_fast">
+                <img src="/assets/img/index/01milk.png" class="mobile__hide" alt="">
+                <img src="/assets/img/mobile/01_start_milk_and_lavender.png" class="desktop__hide" alt="">
+            </div>
+        </div>
+    </section>
+    <section animateOnScroll animationName="fadeIn" class="animate index index__region">
+        <div class="index__region-photo">
+            <div class="photo__cloud"  appAnimateTranslate="speed_middle">
+                <img src="/assets/img/index/01_start_clouds.png" alt="">
+            </div>
+            <div class="photo__mountains margin-top__minus_210"  appAnimateTranslate="speed_slow">
+            </div>
+        </div>
+        <div class="wrapper b-flex_horizontal_end">
+            <div class="box box-middle__vertical box_white box_pos pos__bottom-200" appAnimateTranslate="speed_middle">
+                <article class="pos-top pos-top_35">
+                    <h2 class="">
+                        География <br>
+                        производства
+                    </h2>
+                    <h5>
+                        Традиционно Almette производится <br>
+                        в краях, где получают натуральное <br>
+                        молоко высокого качества.
+                    </h5>
+                    <p>
+                        С местных ферм его поставляют прямо на завод <br>
+                        как в альпийском Шонгау и польском городке <br>
+                        Венгрув, так и в селе Прохоровка в Белгородской <br> области России.
+                    </p>
+                </article>
+                <app-nav-link linkUrl="geography" classNameCustom="btn__detail" currentName="Подробнее"></app-nav-link>
+            </div>
+        </div>
+    </section>
+    <section animateOnScroll animationName="fadeIn" class="animate index index__tastes" appAnimateTranslate="speed_slow">
+        <div class="wrapper">
+            <article class="pos-top pos-top_35">
+                <h2 class="">
+                    Откройте для себя <br>
+                    все вкусы Almette
+                </h2>
+            </article>
+            <div class="index__tastes-content">
+                <div class="tastes-item " [ngClass]="'taste-'+item.name" *ngFor="let item of imagesToDrag">
+                    <div class="taste-drag draggable" cdkDrag cdkDragBoundary=".index__tastes"
+                         (mousedown)="clickOnElement($event)"
+                         (mouseup)="mouseUpOnElement($event)"
+                         (cdkDragEnded)="onDragEnded($event,item.name)">
+                        <img [src]="item.urlPath" [ngClass]="'taste-'+item.name+'__img'" alt="">
+                    </div>
+
+                </div>
+                <div class="tastes-center droppable" [class.active]="!isOpen" [ngClass]="currentDataAttrName" [attr.data-taste-set]="currentDataAttrName" #mainElementOnDrag>
+                    <div class="tastes-center__img" [@toggle]="isOpen" (@toggle.done)="animationDone($event)">
+                        <img [src]="objectRenderDragdedElement.currentImg" class="" alt="">
+                    </div>
+                </div>
+                <div class="tastes__title">
+                    <h3>
+                       {{objectRenderDragdedElement.title}}
+                    </h3>
+                    <article>
+                        <p>
+                            {{objectRenderDragdedElement.description}}
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section animateOnScroll animationName="fadeIn" class="animate index index__recipe-almete">
+        <div class="wrapper padding-right_zero z-index_5">
+            <div class="box box-short box_blue margin-left_50" appAnimateTranslate="speed_slow">
+                <div class="pos-top pos-top_35 title__recipe-almete">
+                    <h1 class="">
+                        103
+                    </h1>
+                    <p>
+                        Рецепта с Almette
+                    </p>
+                    <h6>
+                        СВЕЖИЕ ИДЕИ ПРОСТЫХ БЛЮД <br>
+                        НА КАЖДЫЙ ДЕНЬ <br>
+                        И НЕ ТОЛЬКО
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper zero__mobile padding-right_zero">
+            <div class="index__photo margin-left_120 js__animate" appAnimateTranslate="speed_middle">
+                <img src="https://almette.ru/uploads/recipe/0e7f0761bf601e25f7183361cbdc1618.jpeg" class="image_cover" alt="">
+            </div>
+
+        </div>
+    </section>
+    <footer animateOnScroll animationName="fadeIn" class="animate main-footer main-footer_margin" appAnimateTranslate="speed_slow">
+        <div class="wrapper">
+            <article>
+                <h1>
+                    Контакты
+                </h1>
+                <p>
+                    <a href="tel:88005001303">8-800-500-13-03</a>
+                    <a href="mailto:info@almette.ru">
+                        info@almette.ru
+                    </a>
+                </p>
+            </article>
+        </div>
+    </footer>
+</div>

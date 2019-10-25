@@ -1,0 +1,261 @@
+
+.geography-page {
+  position: relative
+}
+
+.geography-page__bg {
+  width: 100%;
+  overflow: hidden;
+}
+
+.geography-page__bg img {
+  width: 100%;
+  height: auto;
+  margin-bottom: -4px;
+  max-height: none
+}
+
+.wrapper__big {
+  padding: 0 3.125rem;
+  margin: 0 auto;
+  max-width: 90.625rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 12.3rem;
+  left: 0;
+  right: 0
+}
+
+.geography__box {
+  width: 22.5rem;
+  height: 10.875rem;
+  margin-right: .8rem
+}
+
+.geography__left h5 {
+  font-size: 1.125rem;
+  line-height: 2.063rem
+}
+
+.geography__right {
+  margin-top: -.8rem;
+  position: relative;
+  z-index: 20
+}
+
+.geography__right__item h2 {
+  color: #000;
+  font-size: 7.5rem;
+  font-weight: 400;
+  line-height: 6.2rem;
+  position: relative;
+  z-index: 3;
+  letter-spacing: -6px;
+  white-space: nowrap;
+}
+
+.geography__right__item h3 {
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 2.875rem;
+  position: relative;
+  z-index: 3;
+  letter-spacing: -2px
+}
+
+.geography__right__item p {
+  margin: 0
+}
+
+.geography_content-one {
+  margin-top: -.9rem
+}
+
+.geography__right__item-one h2 {
+  position: relative;
+  text-align: right
+}
+
+.geography__right__item-one .pos-top {
+  top: -3.7rem;
+  padding-top: 1.1rem
+}
+
+.geography__right__item-two {
+  margin-top: 2.5rem;
+}
+
+.geography__right__item-two .geography__box {
+  height: auto;
+  padding: 3rem 0 2rem 0 !important
+}
+
+.geography__right__item-two h2 {
+  margin-top: -2.4rem;
+  line-height: 1
+}
+
+.geography__right__item-two h3 {
+  line-height: 4.1rem
+}
+
+.geography__right__item-two .width_195 {
+  margin-left: 1.5rem
+}
+
+.geography__top {
+  display: flex;
+  justify-content: space-between;
+  position: relative
+}
+
+.geography__top-item {
+  width: 34%
+}
+
+.geography__top_margin {
+  margin-top: 2rem
+}
+
+.pin {
+  width: 2.688rem;
+  height: 3.625rem;
+  cursor: pointer;
+  margin-bottom: 1.9rem;
+  position: relative;
+  z-index: 1;
+}
+
+.pin svg {
+  fill: #fc2d5f
+}
+
+.box__geography {
+  width: 43.75rem;
+  padding-bottom: 8.7rem;
+  box-shadow: .094rem .163rem 6.125rem rgba(198,194,185,0.3);
+  padding-right: 1.875rem
+}
+
+.close {
+  position: absolute;
+  top: 1.875rem;
+  right: 1.875rem;
+  width: 2.938rem;
+  height: 2.938rem;
+  border: .063rem solid #d7d7d7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.close:hover .close-svg {
+  transform: rotate(90deg)
+}
+
+.close-svg {
+  width: .875rem;
+  height: .938rem;
+  fill: #000;
+  transition: transform 500ms ease
+}
+
+.geography__photo {
+  background-color: #ccc;
+  margin-right: 1.875rem;
+  margin-top: -130px;
+  position: relative;
+  z-index: 5;
+  width: 30.75rem;
+  height: 20.5rem
+}
+
+.geography__pin-item .pin__wrapper {
+  position: absolute;
+  transform: translate(-50%,0);
+  z-index: 10
+}
+
+.geography__pin-item.active .geography__popup {
+  opacity: 1;
+  pointer-events: all
+}
+
+.geography__pin-item h3 {
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3.375rem
+}
+
+.geography__pin-item .icon__svg {
+  pointer-events: none
+}
+
+.pin-illustration {
+  position: absolute
+}
+
+.illustration__one {
+  width: 13.063rem;
+  height: 8.188rem;
+  top: -6.3rem;
+  left: -5.15rem
+}
+
+.illustration__two {
+  width: 13.063rem;
+  height: 8.188rem;
+  top: -7.5rem;
+  left: -5.2rem
+}
+
+.illustration__three {
+  width: 13.063rem;
+  height: 10.188rem;
+  top: -9.5rem;
+  left: -5.2rem
+}
+
+.geography__pin-one .pin__wrapper {
+  top: 64.7%;
+  margin-left: 34.9%
+}
+
+.geography__pin-one .geography__popup {
+  left: 38%;
+  transform: translate(-50%,0)
+}
+
+.geography__pin-two .pin__wrapper {
+  top: 52.7%;
+  margin-left: 51.4%
+}
+
+.geography__pin-two .geography__popup {
+  left: 59%;
+  transform: translate(-50%,0)
+}
+
+.geography__pin-three .pin__wrapper {
+  top: 54.8%;
+  margin-left: 76%
+}
+
+.geography__pin-three .geography__popup {
+  right: 2rem
+}
+
+.geography__popup {
+  position: absolute;
+  bottom: 4rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 500ms ease;
+  z-index: 60
+}
